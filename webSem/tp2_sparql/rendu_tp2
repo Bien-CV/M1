@@ -1,0 +1,24 @@
+rendu tp2
+
+*****************1************************
+
+
+******Afficher toutes les instances de la classe Person. 
+SELECT ?x ?name
+WHERE { ?x  rdf:type  ex:Person. 
+		OPTIONAL {?x ex:name ?name}
+	  }
+	  
+******Donner le nom de l’auteur de livre « The Stand ». 
+SELECT  ?name
+WHERE { ?x  rdf:type  ex:Person;
+			ex:name ?name;
+			ex:wrote ?y.
+		?y rdf:type ex:Book;
+			ex:title "The Stand".
+	  }
+	  
+******Ajouter le livre « book42 » écrit par l’écrivant « auteur42 » et le livre « book22 » sans auteur. 
+In
+
+

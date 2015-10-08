@@ -1,0 +1,45 @@
+
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix ex: <http://example.org/> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Stand
+
+      rdf:type       ex:Book ;
+      ex:title "The Stand" ;
+      ex:year " 1978 " .
+
+ex:TourDuMonde
+
+      rdf:type       ex:Book;
+      ex:title "Le Tour Du Monde".
+
+ex:King
+
+      rdf:type ex:Person;
+      ex:name " Stephen King";
+      ex:wrote ex:Stand .
+
+ex:Verne
+
+      rdf:type       ex:Person ;
+      ex:name " Jules Verne" ;
+      ex:wrote ex:Stand .
+
+ex:Book
+
+      rdf:type       rdfs:Class ;
+      rdfs:subClassOf ex:Document .
+
+ex:Person
+
+      rdf:type       rdfs:Class .
+
+ex:Document
+
+      rdf:type       rdfs:Class .
+
+

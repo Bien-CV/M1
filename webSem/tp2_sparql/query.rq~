@@ -1,0 +1,12 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix ex: <http://example.org/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+INSERT{ ?s ?o ?a}
+WHERE { ?s  rdf:type  ex:Person;
+			ex:name "auteur42;
+			ex:wrote ?o.
+		?o rdf:type ex:Book;
+			ex:title "book42".
+		?a rdf:type ex:Book;
+			ex:title "book22".
+	  }

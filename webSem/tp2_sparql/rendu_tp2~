@@ -1,0 +1,17 @@
+rendu tp2
+
+******Afficher toutes les instances de la classe Person. 
+SELECT ?x ?name
+WHERE { ?x  rdf:type  ex:Person. 
+		OPTIONAL {?x ex:name ?name}
+	  }
+	  
+******Donner le nom de l’auteur de livre « The Stand ». 
+
+SELECT  ?name
+WHERE { ?x  rdf:type  ex:Person;
+			ex:name ?name;
+			ex:wrote ?y.
+		?y rdf:type ex:Book;
+			ex:title "The Stand".
+	  }
