@@ -1,0 +1,14 @@
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Controller ctrl= new Controller();
+		ctrl.loadDefaultGraph("graph_tp3.ttl");
+		Controller.showResults(ctrl.doSelect("q1.rq"));
+
+	}
+
+}

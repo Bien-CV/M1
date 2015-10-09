@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:ns0="http://example.org/">
+
+  <rdf:Property rdf:about="http://example.org/creates">
+    <rdfs:domain rdf:resource="http://example.org/Artist"/>
+    <rdfs:range rdf:resource="http://example.org/Artifact"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://example.org/sculpts">
+    <rdfs:domain>
+      <rdf:Description rdf:about="http://example.org/Sculptor">
+        <rdfs:subClassOf rdf:resource="http://example.org/Artist"/>
+      </rdf:Description>
+    </rdfs:domain>
+
+    <rdfs:range>
+      <rdf:Description rdf:about="http://example.org/Sculpture">
+        <rdfs:subClassOf rdf:resource="http://example.org/Artifact"/>
+        <rdfs:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Class"/>
+      </rdf:Description>
+    </rdfs:range>
+
+    <rdfs:subPropertyOf rdf:resource="http://example.org/creates"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://example.org/paints">
+    <rdfs:domain rdf:resource="http://example.org/Painter"/>
+    <rdfs:range rdf:resource="http://example.org/Painting"/>
+    <rdfs:subPropertyOf rdf:resource="http://example.org/creates"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://example.org/first_name">
+    <rdfs:domain rdf:resource="http://example.org/Artist"/>
+    <rdfs:range rdf:resource="http://example.org/Literal"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://example.org/last_name">
+    <rdfs:domain rdf:resource="http://example.org/Artist"/>
+    <rdfs:range rdf:resource="http://example.org/Literal"/>
+  </rdf:Property>
+
+  <rdf:Description rdf:about="http://example.org/Painter">
+    <rdfs:subClassOf rdf:resource="http://example.org/Artist"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Painting">
+    <rdfs:subClassOf rdf:resource="http://example.org/Artifact"/>
+    <rdfs:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Class"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Cubist">
+    <rdfs:subClassOf rdf:resource="http://example.org/Painter"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Flemish">
+    <rdfs:subClassOf rdf:resource="http://example.org/Painter"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/r1">
+    <ns0:first_name>Rembrandt</ns0:first_name>
+    <rdf:type rdf:resource="http://example.org/Flemish"/>
+    <ns0:last_name>Smith</ns0:last_name>
+    <ns0:paints>
+      <ns0:Painting rdf:about="http://example.org/r2">
+        <ns0:technique>oil on canevas</ns0:technique>
+        <ns0:file_size>17</ns0:file_size>
+        <ns0:title>Abraham and Isaac</ns0:title>
+      </ns0:Painting>
+    </ns0:paints>
+
+  </rdf:Description>
+
+</rdf:RDF>

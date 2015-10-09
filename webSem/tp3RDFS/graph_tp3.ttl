@@ -44,7 +44,7 @@
 :r1		:first_name		"Rembrandt";
 			rdf:type		:Flemish;
 			:last_name		"Smith";
-			:paints			:&r2.
+			:paints			:r2.
 			
 :r2 		rdf:type		 	:Painting;
     		:technique 			"oil on canevas";
