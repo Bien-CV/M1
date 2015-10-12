@@ -1,0 +1,21 @@
+import org.apache.jena.query.Dataset;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.sparql.core.DatasetImpl;
+
+public class ControllerBis {
+
+	private Dataset dataset;
+
+	/**
+	 * Constructeur
+	 */
+	public ControllerBis() {
+		// create an empty dataset
+		this.dataset = new DatasetImpl(ModelFactory.createDefaultModel());
+	}
+	
+	public ControllerBis(Model model){
+		this.dataset = new DatasetImpl(model)
+	}
+
+}

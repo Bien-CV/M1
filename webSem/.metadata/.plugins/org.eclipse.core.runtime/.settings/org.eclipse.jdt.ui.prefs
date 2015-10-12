@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Controller"><rhs name\="Controller"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Controller"><rhs name\="Controller"/></lhs><lhs name\="org.apache.jena.sparql.core.Transactional"><rhs name\="org.apache.jena.sparql.core.DatasetImpl"/></lhs><lhs name\="org.apache.jena.query.Dataset"><rhs name\="org.apache.jena.sparql.core.DatasetImpl"/></lhs><lhs name\="ControllerBis"><rhs name\="ControllerBis"/></lhs></history>
 content_assist_number_of_computers=13
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
