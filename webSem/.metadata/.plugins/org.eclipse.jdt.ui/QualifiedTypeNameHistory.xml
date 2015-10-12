@@ -9,4 +9,5 @@
 <fullyQualifiedTypeName name="org.apache.jena.rdf.model.ModelFactory"/>
 <fullyQualifiedTypeName name="org.apache.jena.rdf.model.Model"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="Controller"/>
 </qualifiedTypeNameHistroy>
