@@ -1,0 +1,41 @@
+package TimerPackage;
+
+import static org.junit.Assert.*;
+
+
+
+import java.util.Arrays;
+import java.util.Collection;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+import java.util.GregorianCalendar;
+
+import org.junit.Before;
+import org.junit.Test;
+import static org.mockito.Mockito.*;
+
+
+public class Test_tp4_Mockito {
+
+	protected Timer tim;
+	@Before
+	public void setUp() throws TimerException {
+		GregorianCalendar mockedCalendar = mock(GregorianCalendar.class);
+		tim = new Timer(1, 0, 0, mockedCalendar);
+		when(mockedCalendar.get(anyInt())).thenReturn(10, 11, 24,60);
+	}
+	
+	@Test
+	public void testSetActive(){
+		tim.setActive(true);
+	}
+
+	//org.junit.runner.JUnitCore.main("TimerPackage/Timer");
+}

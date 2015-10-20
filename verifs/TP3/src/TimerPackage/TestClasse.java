@@ -15,9 +15,9 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-/*@RunWith( Parameterized.class)*/public class TestClasse {
+@RunWith( Parameterized.class)public class TestClasse {
 
-	/*private Timer t;
+	private Timer t;
 	private int arg1;
 	private int arg2;
 	private int arg3;
@@ -28,7 +28,7 @@ import org.junit.runners.Parameterized.Parameters;
 		arg3 = a3;
 
 		
-	}*/
+	}
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
@@ -45,7 +45,7 @@ import org.junit.runners.Parameterized.Parameters;
 	public void tearDown() throws Exception {
 	}
 
-	/*@Parameters public static Collection data (){
+	@Parameters public static Collection data (){
 		Object[][] data = {
 				{0,0,0},
 				{11,0,0},
@@ -55,17 +55,17 @@ import org.junit.runners.Parameterized.Parameters;
 				{1,0,60}
 		};
 		return Arrays.asList(data);
-	}*/
+	}
 	
 	/**
 	 * test des valeurs invalides
 	 * @throws TimerException
 	 */
-	/*@Test(expected=TimerException.class)
+	@Test(expected=TimerException.class)
 	public void testTimer() throws TimerException {
 		t = new Timer(arg1, arg2, arg3);
 		
-	}*/
+	}
 	/**
 	 * test d'une valeur valide
 	 * @throws TimerException
@@ -79,6 +79,7 @@ import org.junit.runners.Parameterized.Parameters;
 	@Test (expected=TimerException.class)
 	public void testSelectRing0() throws TimerException {
 		Timer t3 = new Timer(1, 0, 0);
+		t3.ringing = true;
 		t3.selectRing(0);
 		
 	}

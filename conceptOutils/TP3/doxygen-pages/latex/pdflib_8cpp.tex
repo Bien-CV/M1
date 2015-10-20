@@ -1,0 +1,52 @@
+\hypertarget{pdflib_8cpp}{\section{pdflib.\+cpp File Reference}
+\label{pdflib_8cpp}\index{pdflib.\+cpp@{pdflib.\+cpp}}
+}
+{\ttfamily \#include \char`\"{}pdflib.\+hpp\char`\"{}}\\*
+Include dependency graph for pdflib.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{pdflib_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{pdflib_8cpp_ac0471e02698206df72c7505ebaefcc1d}{C\+H\+A\+R}(s)~(s).c\+\_\+str()
+\item 
+\#define \hyperlink{pdflib_8cpp_af6116628d7f61b29fef302c9f32cc52f}{L\+E\+N}(s)~((int) (s).size())
+\item 
+\#define \hyperlink{pdflib_8cpp_aaa02a18eb619b1668268bf650a5c9aae}{P\+D\+F\+C\+P\+P\+\_\+\+T\+R\+Y}~P\+D\+F\+\_\+\+T\+R\+Y(p)
+\item 
+\#define \hyperlink{pdflib_8cpp_a633710be0517e8b60a87a356df4720c9}{P\+D\+F\+C\+P\+P\+\_\+\+C\+A\+T\+C\+H}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{pdflib_8cpp_ac0471e02698206df72c7505ebaefcc1d}{\index{pdflib.\+cpp@{pdflib.\+cpp}!C\+H\+A\+R@{C\+H\+A\+R}}
+\index{C\+H\+A\+R@{C\+H\+A\+R}!pdflib.\+cpp@{pdflib.\+cpp}}
+\subsubsection[{C\+H\+A\+R}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+H\+A\+R(
+\begin{DoxyParamCaption}
+\item[{}]{s}
+\end{DoxyParamCaption}
+)~(s).c\+\_\+str()}}\label{pdflib_8cpp_ac0471e02698206df72c7505ebaefcc1d}
+\hypertarget{pdflib_8cpp_af6116628d7f61b29fef302c9f32cc52f}{\index{pdflib.\+cpp@{pdflib.\+cpp}!L\+E\+N@{L\+E\+N}}
+\index{L\+E\+N@{L\+E\+N}!pdflib.\+cpp@{pdflib.\+cpp}}
+\subsubsection[{L\+E\+N}]{\setlength{\rightskip}{0pt plus 5cm}\#define L\+E\+N(
+\begin{DoxyParamCaption}
+\item[{}]{s}
+\end{DoxyParamCaption}
+)~((int) (s).size())}}\label{pdflib_8cpp_af6116628d7f61b29fef302c9f32cc52f}
+\hypertarget{pdflib_8cpp_a633710be0517e8b60a87a356df4720c9}{\index{pdflib.\+cpp@{pdflib.\+cpp}!P\+D\+F\+C\+P\+P\+\_\+\+C\+A\+T\+C\+H@{P\+D\+F\+C\+P\+P\+\_\+\+C\+A\+T\+C\+H}}
+\index{P\+D\+F\+C\+P\+P\+\_\+\+C\+A\+T\+C\+H@{P\+D\+F\+C\+P\+P\+\_\+\+C\+A\+T\+C\+H}!pdflib.\+cpp@{pdflib.\+cpp}}
+\subsubsection[{P\+D\+F\+C\+P\+P\+\_\+\+C\+A\+T\+C\+H}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\+D\+F\+C\+P\+P\+\_\+\+C\+A\+T\+C\+H}}\label{pdflib_8cpp_a633710be0517e8b60a87a356df4720c9}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+PDF\_CATCH(p) \{\(\backslash\)
+    throw Exception(PDF\_get\_errmsg(p), PDF\_get\_errnum(p),\(\backslash\)
+                PDF\_get\_apiname(p), PDF\_get\_opaque(p));\(\backslash\)
+\}
+\end{DoxyCode}
+\hypertarget{pdflib_8cpp_aaa02a18eb619b1668268bf650a5c9aae}{\index{pdflib.\+cpp@{pdflib.\+cpp}!P\+D\+F\+C\+P\+P\+\_\+\+T\+R\+Y@{P\+D\+F\+C\+P\+P\+\_\+\+T\+R\+Y}}
+\index{P\+D\+F\+C\+P\+P\+\_\+\+T\+R\+Y@{P\+D\+F\+C\+P\+P\+\_\+\+T\+R\+Y}!pdflib.\+cpp@{pdflib.\+cpp}}
+\subsubsection[{P\+D\+F\+C\+P\+P\+\_\+\+T\+R\+Y}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\+D\+F\+C\+P\+P\+\_\+\+T\+R\+Y~P\+D\+F\+\_\+\+T\+R\+Y(p)}}\label{pdflib_8cpp_aaa02a18eb619b1668268bf650a5c9aae}

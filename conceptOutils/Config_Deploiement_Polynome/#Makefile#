@@ -1,0 +1,6 @@
+LOADLIBES = -lstdc++
+sources = Main.cpp
+ Polynome.cpp Polynome_List.cpp Polynome_Tab.cpp 
+Objects = $(sources : .cpp : .o)
+executable : $(Objects)
+	$(sources) : %.cpp %.h 

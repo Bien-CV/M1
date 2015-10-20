@@ -1,0 +1,141 @@
+\hypertarget{classFonctions}{\section{Fonctions Class Reference}
+\label{classFonctions}\index{Fonctions@{Fonctions}}
+}
+
+
+classe intanciant un pdflib nous permettant d'executer des manipulations sur le pdf.  
+
+
+
+
+{\ttfamily \#include $<$Fonctions.\+hpp$>$}
+
+
+
+Collaboration diagram for Fonctions\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{classFonctions__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classFonctions_a3def9621d78c611beb962e4a73829e8f}{Fonctions} ()
+\item 
+void \hyperlink{classFonctions_a5539501c7d6cb67f829e8f578197e23f}{make\+A4} ()
+\begin{DoxyCompactList}\small\item\em Génère une feuille A4 vierge au format P\+D\+F. \end{DoxyCompactList}\item 
+void \hyperlink{classFonctions_a56328671ad685e595b7d0c1a4d7ff233}{end\+Doc} ()
+\begin{DoxyCompactList}\small\item\em Cette fonction doit etre appelée obligatoirement. Elle sert a terminer le Document pdf. Sans celle-\/ci votre document ne fonctionnera pas. \end{DoxyCompactList}\item 
+void \hyperlink{classFonctions_aa8d950f493acc58fd3e48730559b4ac5}{essai\+Cercle} ()
+\begin{DoxyCompactList}\small\item\em fait un petit dessin test de cercle au centre du pdf. \end{DoxyCompactList}\item 
+void \hyperlink{classFonctions_ad4e849db3ce1595c7a8bb2eb746b09d5}{ask\+Filename} ()
+\begin{DoxyCompactList}\small\item\em Demande à l'utilisateur une chaine de caractère. Cette chaine doit représenter le nom du fichier à lire. Modifie l'attribut filename. \end{DoxyCompactList}\item 
+\hyperlink{classFonctions_a6d7062796a65e0e15f3b3aa3cfacd08f}{$\sim$\+Fonctions} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classPDFlib}{P\+D\+Flib} $\ast$ \hyperlink{classFonctions_a6ade569c9a4303f29d50f2ac4c771977}{p}
+\item 
+Text\+Manager $\ast$ \hyperlink{classFonctions_aa425e8c464cd5dda67be23a405b71135}{tm}
+\begin{DoxyCompactList}\small\item\em utilisé pour creer les pdfs \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classFonctions_a08652f255d6c1ddfc018c8796f38c606}{filename}
+\begin{DoxyCompactList}\small\item\em utilisé pour lire les fichiers de données \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+classe intanciant un pdflib nous permettant d'executer des manipulations sur le pdf. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classFonctions_a3def9621d78c611beb962e4a73829e8f}{\index{Fonctions@{Fonctions}!Fonctions@{Fonctions}}
+\index{Fonctions@{Fonctions}!Fonctions@{Fonctions}}
+\subsubsection[{Fonctions}]{\setlength{\rightskip}{0pt plus 5cm}Fonctions\+::\+Fonctions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classFonctions_a3def9621d78c611beb962e4a73829e8f}
+\hypertarget{classFonctions_a6d7062796a65e0e15f3b3aa3cfacd08f}{\index{Fonctions@{Fonctions}!````~Fonctions@{$\sim$\+Fonctions}}
+\index{````~Fonctions@{$\sim$\+Fonctions}!Fonctions@{Fonctions}}
+\subsubsection[{$\sim$\+Fonctions}]{\setlength{\rightskip}{0pt plus 5cm}Fonctions\+::$\sim$\+Fonctions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classFonctions_a6d7062796a65e0e15f3b3aa3cfacd08f}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classFonctions_ad4e849db3ce1595c7a8bb2eb746b09d5}{\index{Fonctions@{Fonctions}!ask\+Filename@{ask\+Filename}}
+\index{ask\+Filename@{ask\+Filename}!Fonctions@{Fonctions}}
+\subsubsection[{ask\+Filename}]{\setlength{\rightskip}{0pt plus 5cm}void Fonctions\+::ask\+Filename (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classFonctions_ad4e849db3ce1595c7a8bb2eb746b09d5}
+
+
+Demande à l'utilisateur une chaine de caractère. Cette chaine doit représenter le nom du fichier à lire. Modifie l'attribut filename. 
+
+\hypertarget{classFonctions_a56328671ad685e595b7d0c1a4d7ff233}{\index{Fonctions@{Fonctions}!end\+Doc@{end\+Doc}}
+\index{end\+Doc@{end\+Doc}!Fonctions@{Fonctions}}
+\subsubsection[{end\+Doc}]{\setlength{\rightskip}{0pt plus 5cm}void Fonctions\+::end\+Doc (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classFonctions_a56328671ad685e595b7d0c1a4d7ff233}
+
+
+Cette fonction doit etre appelée obligatoirement. Elle sert a terminer le Document pdf. Sans celle-\/ci votre document ne fonctionnera pas. 
+
+\hypertarget{classFonctions_aa8d950f493acc58fd3e48730559b4ac5}{\index{Fonctions@{Fonctions}!essai\+Cercle@{essai\+Cercle}}
+\index{essai\+Cercle@{essai\+Cercle}!Fonctions@{Fonctions}}
+\subsubsection[{essai\+Cercle}]{\setlength{\rightskip}{0pt plus 5cm}void Fonctions\+::essai\+Cercle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classFonctions_aa8d950f493acc58fd3e48730559b4ac5}
+
+
+fait un petit dessin test de cercle au centre du pdf. 
+
+\hypertarget{classFonctions_a5539501c7d6cb67f829e8f578197e23f}{\index{Fonctions@{Fonctions}!make\+A4@{make\+A4}}
+\index{make\+A4@{make\+A4}!Fonctions@{Fonctions}}
+\subsubsection[{make\+A4}]{\setlength{\rightskip}{0pt plus 5cm}void Fonctions\+::make\+A4 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classFonctions_a5539501c7d6cb67f829e8f578197e23f}
+
+
+Génère une feuille A4 vierge au format P\+D\+F. 
+
+\begin{DoxyWarning}{Warning}
+Attention \+: n'oubliez pas d'appeler \hyperlink{classFonctions_a56328671ad685e595b7d0c1a4d7ff233}{end\+Doc()} afin de terminer votre fichier. 
+\end{DoxyWarning}
+
+
+\subsection{Field Documentation}
+\hypertarget{classFonctions_a08652f255d6c1ddfc018c8796f38c606}{\index{Fonctions@{Fonctions}!filename@{filename}}
+\index{filename@{filename}!Fonctions@{Fonctions}}
+\subsubsection[{filename}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Fonctions\+::filename\hspace{0.3cm}{\ttfamily [private]}}}\label{classFonctions_a08652f255d6c1ddfc018c8796f38c606}
+
+
+utilisé pour lire les fichiers de données 
+
+\hypertarget{classFonctions_a6ade569c9a4303f29d50f2ac4c771977}{\index{Fonctions@{Fonctions}!p@{p}}
+\index{p@{p}!Fonctions@{Fonctions}}
+\subsubsection[{p}]{\setlength{\rightskip}{0pt plus 5cm}{\bf P\+D\+Flib}$\ast$ Fonctions\+::p\hspace{0.3cm}{\ttfamily [private]}}}\label{classFonctions_a6ade569c9a4303f29d50f2ac4c771977}
+\hypertarget{classFonctions_aa425e8c464cd5dda67be23a405b71135}{\index{Fonctions@{Fonctions}!tm@{tm}}
+\index{tm@{tm}!Fonctions@{Fonctions}}
+\subsubsection[{tm}]{\setlength{\rightskip}{0pt plus 5cm}Text\+Manager$\ast$ Fonctions\+::tm\hspace{0.3cm}{\ttfamily [private]}}}\label{classFonctions_aa425e8c464cd5dda67be23a405b71135}
+
+
+utilisé pour creer les pdfs 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Fonctions_8hpp}{Fonctions.\+hpp}\item 
+\hyperlink{Fonctions_8cpp}{Fonctions.\+cpp}\end{DoxyCompactItemize}

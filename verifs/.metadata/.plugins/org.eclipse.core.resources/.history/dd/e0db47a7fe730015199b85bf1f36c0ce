@@ -1,0 +1,23 @@
+package TimerPackage;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+import static org.mockito.Mockito.*;
+
+
+public class Test_tp4_Mockito {
+
+	@Before
+	public void setUp() throws Exception {
+		Timer t = new Timer(1, 0, 0, null)
+	}
+	
+	@Test
+	public void testSetActive() {
+		fail("Not yet implemented");
+	}
+
+	//org.junit.runner.JUnitCore.main("TimerPackage/Timer");
+}

@@ -36,6 +36,8 @@ public class Timer {
      * est-ce que le minuteur est en train de sonner ?
      */
     protected boolean ringing;
+    
+    protected GregorianCalendar calendar;
 
     /**
      * Le constructeur initialise le timer avec les valeurs passées en
@@ -64,6 +66,38 @@ public class Timer {
         }
         active = false;
         ringing = false;
+        calendar = new GregorianCalendar();
+    }
+    
+    /**
+     * Le constructeur initialise le timer avec les valeurs passées en
+     * paramètres. Le timer n'est pas actif et il ne sonne pas.
+     *
+     * @param ring choix de sonnerie entre 1 et 10
+     * @param hour choix d'heure entre 0 et 23
+     * @param min choix de minutes entre 0 et 59
+     * @param cal choix du calendar
+     * @throws TimerException un des parametres est hors-limite
+     */
+    public Timer(int ring, int hour, int min, GregorianCalendar cal) throws TimerException {
+        if (hour < 0) {
+            throw new TimerException("bad hour: inf value");
+        } else if (hour > 23) {
+            throw new TimerException("bad hour: sup value");
+        } else if (min < 0) {
+            throw new TimerException("bad min: inf value");
+        } else if (min > 59) {
+            throw new TimerException("bad min: sup value");
+        } else if ((ring < 1) || (ring > 10)) {
+            throw new TimerException("bad ring: out of limits");
+        } else {
+            this.ring = ring;
+            this.hour = hour;
+            this.min = min;
+        }
+        active = false;
+        ringing = false;
+        calendar = cal;
     }
 
     /**
@@ -125,7 +159,7 @@ public class Timer {
     protected void setActive(boolean active) {
         this.active = active;
         if (this.active) {
-            Calendar calendar = new GregorianCalendar();
+            //Calendar calendar = new GregorianCalendar();
             if (this.hour == calendar.get(Calendar.HOUR)) {
                 if (this.min == calendar.get(Calendar.MINUTE)) {
                     ringing = true;
