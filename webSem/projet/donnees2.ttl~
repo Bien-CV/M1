@@ -1,0 +1,822 @@
+@prefix projet-websem: <http://localhost:9091/project/projet-websem> .
+@prefix : <http://localhost:9091/projet-websem/donnees-csv#> .
+@prefix _:  <http://localhost:9091/projet-websem/donnees-csv/>
+@prefix db: <http://fr.dbpedia.org/page/>
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+ _:1 a :donnees-csv ;
+	:region db:Aquitaine ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "90.266" ;
+	:nombre-d-installations "145" ;
+	:longitude "44.3550340362" ;
+	:latitude "-0.228135418562" .
+
+ _:2 a :donnees-csv ;
+	:region db:Aquitaine ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "844.88869" ;
+	:nombre-d-installations "27294" ;
+	:longitude "44.3550340362" ;
+	:latitude "-0.228135418562" .
+
+ _:3 a :donnees-csv ;
+	:region "Basse-Normandie" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "268.06156" ;
+	:nombre-d-installations "63" ;
+	:longitude "48.9300235095" ;
+	:latitude "-0.524006659992" .
+
+ _:4 a :donnees-csv ;
+	:region "Basse-Normandie" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "59.85401" ;
+	:nombre-d-installations "6775" ;
+	:longitude "48.9300235095" ;
+	:latitude "-0.524006659992" .
+
+ _:5 a :donnees-csv ;
+	:region "Centre" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "631.538" ;
+	:nombre-d-installations "71" ;
+	:longitude "47.484763746" ;
+	:latitude "1.68434854978" .
+
+ _:6 a :donnees-csv ;
+	:region "Franche-Comté" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "63.6835" ;
+	:nombre-d-installations "142" ;
+	:longitude "47.2079121633" ;
+	:latitude "6.08798382416" .
+
+ _:7 a :donnees-csv ;
+	:region "Franche-Comté" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "41.88893" ;
+	:nombre-d-installations "8059" ;
+	:longitude "47.2079121633" ;
+	:latitude "6.08798382416" .
+
+ _:8 a :donnees-csv ;
+	:region "Haute-Normandie" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "18.666" ;
+	:nombre-d-installations "22" ;
+	:longitude "49.3919333893" ;
+	:latitude "1.01212319716" .
+
+ _:9 a :donnees-csv ;
+	:region "Languedoc-Roussillon" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "94.376" ;
+	:nombre-d-installations "122" ;
+	:longitude "43.593488643" ;
+	:latitude "3.22556138048" .
+
+ _:10 a :donnees-csv ;
+	:region "Lorraine" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "73.234" ;
+	:nombre-d-installations "157" ;
+	:longitude "48.7624077662" ;
+	:latitude "6.14174187254" .
+
+ _:11 a :donnees-csv ;
+	:region "Midi-Pyrénées" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "328.252" ;
+	:nombre-d-installations "444" ;
+	:longitude "43.7686346794" ;
+	:latitude "1.48750616415" .
+
+ _:12 a :donnees-csv ;
+	:region "Nord-Pas-de-Calais" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "0.434" ;
+	:nombre-d-installations "5" ;
+	:longitude "50.4730264056" ;
+	:latitude "2.71458378369" .
+
+ _:13 a :donnees-csv ;
+	:region "Pays de la Loire" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "9.543" ;
+	:nombre-d-installations "38" ;
+	:longitude "47.4773980378" ;
+	:latitude "-0.816398587614" .
+
+ _:14 a :donnees-csv ;
+	:region "Pays de la Loire" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "375.33834" ;
+	:nombre-d-installations "39442" ;
+	:longitude "47.4773980378" ;
+	:latitude "-0.816398587614" .
+
+ _:15 a :donnees-csv ;
+	:region "Picardie" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "1395.16215" ;
+	:nombre-d-installations "145" ;
+	:longitude "49.6427413884" ;
+	:latitude "2.80772147695" .
+
+ _:16 a :donnees-csv ;
+	:region "Poitou-Charentes" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "38.9225" ;
+	:nombre-d-installations "16" ;
+	:longitude "46.1628247648" ;
+	:latitude "-0.0816578770159" .
+
+ _:17 a :donnees-csv ;
+	:region "Poitou-Charentes" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "8.943" ;
+	:nombre-d-installations "25" ;
+	:longitude "46.1628247648" ;
+	:latitude "-0.0816578770159" .
+
+ _:18 a :donnees-csv ;
+	:region "Poitou-Charentes" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "160.52974" ;
+	:nombre-d-installations "10361" ;
+	:longitude "46.1628247648" ;
+	:latitude "-0.0816578770159" .
+
+ _:19 a :donnees-csv ;
+	:region "Rhône-Alpes" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "210.443" ;
+	:nombre-d-installations "64" ;
+	:longitude "45.4315419252" ;
+	:latitude "5.33447326661" .
+
+ _:20 a :donnees-csv ;
+	:region "Alsace" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "6.448" ;
+	:nombre-d-installations "32" ;
+	:longitude "48.3302121319" ;
+	:latitude "7.43522723147" .
+
+ _:21 a :donnees-csv ;
+	:region "Auvergne" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "89.099" ;
+	:nombre-d-installations "124" ;
+	:longitude "45.6561598984" ;
+	:latitude "3.1770179214" .
+
+ _:22 a :donnees-csv ;
+	:region "Basse-Normandie" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "13.419" ;
+	:nombre-d-installations "29" ;
+	:longitude "48.9300235095" ;
+	:latitude "-0.524006659992" .
+
+ _:23 a :donnees-csv ;
+	:region "Basse-Normandie" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "11.5185" ;
+	:nombre-d-installations "19" ;
+	:longitude "48.9300235095" ;
+	:latitude "-0.524006659992" .
+
+ _:24 a :donnees-csv ;
+	:region "Bretagne" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "52.613" ;
+	:nombre-d-installations "49" ;
+	:longitude "48.1774943505" ;
+	:latitude "-2.84240902913" .
+
+ _:25 a :donnees-csv ;
+	:region "Bretagne" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "175.01065" ;
+	:nombre-d-installations "18426" ;
+	:longitude "48.1774943505" ;
+	:latitude "-2.84240902913" .
+
+ _:26 a :donnees-csv ;
+	:region "Champagne-Ardenne" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "109.128" ;
+	:nombre-d-installations "23" ;
+	:longitude "48.7364132667" ;
+	:latitude "4.5412839417" .
+
+ _:27 a :donnees-csv ;
+	:region "Champagne-Ardenne" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "91.04099" ;
+	:nombre-d-installations "5754" ;
+	:longitude "48.7364132667" ;
+	:latitude "4.5412839417" .
+
+ _:28 a :donnees-csv ;
+	:region "Languedoc-Roussillon" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "473.9441" ;
+	:nombre-d-installations "87" ;
+	:longitude "43.593488643" ;
+	:latitude "3.22556138048" .
+
+ _:29 a :donnees-csv ;
+	:region "Lorraine" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "727.4213" ;
+	:nombre-d-installations "81" ;
+	:longitude "48.7624077662" ;
+	:latitude "6.14174187254" .
+
+ _:30 a :donnees-csv ;
+	:region "Midi-Pyrénées" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "114.074" ;
+	:nombre-d-installations "20" ;
+	:longitude "43.7686346794" ;
+	:latitude "1.48750616415" .
+
+ _:31 a :donnees-csv ;
+	:region "Midi-Pyrénées" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "271.382" ;
+	:nombre-d-installations "42" ;
+	:longitude "43.7686346794" ;
+	:latitude "1.48750616415" .
+
+ _:32 a :donnees-csv ;
+	:region "Nord-Pas-de-Calais" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "85.79634" ;
+	:nombre-d-installations "12500" ;
+	:longitude "50.4730264056" ;
+	:latitude "2.71458378369" .
+
+ _:33 a :donnees-csv ;
+	:region "Pays de la Loire" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "177.055" ;
+	:nombre-d-installations "56" ;
+	:longitude "47.4773980378" ;
+	:latitude "-0.816398587614" .
+
+ _:34 a :donnees-csv ;
+	:region "Picardie" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "3.345" ;
+	:nombre-d-installations "13" ;
+	:longitude "49.6427413884" ;
+	:latitude "2.80772147695" .
+
+ _:35 a :donnees-csv ;
+	:region "Provence-Alpes-Côte d'Azur" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "29.7654" ;
+	:nombre-d-installations "16" ;
+	:longitude "43.9562030158" ;
+	:latitude "6.05623185692" .
+
+ _:36 a :donnees-csv ;
+	:region "Provence-Alpes-Côte d'Azur" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "769.55912" ;
+	:nombre-d-installations "32475" ;
+	:longitude "43.9562030158" ;
+	:latitude "6.05623185692" .
+
+ _:37 a :donnees-csv ;
+	:region "Rhône-Alpes" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "343.01203" ;
+	:nombre-d-installations "43875" ;
+	:longitude "45.4315419252" ;
+	:latitude "5.33447326661" .
+
+ _:38 a :donnees-csv ;
+	:region "Alsace" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "65.74078" ;
+	:nombre-d-installations "4916" ;
+	:longitude "48.3302121319" ;
+	:latitude "7.43522723147" .
+
+ _:39 a :donnees-csv ;
+	:region db:Aquitaine ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "125.979" ;
+	:nombre-d-installations "33" ;
+	:longitude "44.3550340362" ;
+	:latitude "-0.228135418562" .
+
+ _:40 a :donnees-csv ;
+	:region db:Aquitaine ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "61.165" ;
+	:nombre-d-installations "24" ;
+	:longitude "44.3550340362" ;
+	:latitude "-0.228135418562" .
+
+ _:41 a :donnees-csv ;
+	:region "Bourgogne" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "18.936" ;
+	:nombre-d-installations "18" ;
+	:longitude "47.2478036264" ;
+	:latitude "4.1493301541" .
+
+ _:42 a :donnees-csv ;
+	:region "Bretagne" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "203.1275" ;
+	:nombre-d-installations "53" ;
+	:longitude "48.1774943505" ;
+	:latitude "-2.84240902913" .
+
+ _:43 a :donnees-csv ;
+	:region "Bretagne" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "8.5275" ;
+	:nombre-d-installations "32" ;
+	:longitude "48.1774943505" ;
+	:latitude "-2.84240902913" .
+
+ _:44 a :donnees-csv ;
+	:region "Franche-Comté" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "55.137" ;
+	:nombre-d-installations "12" ;
+	:longitude "47.2079121633" ;
+	:latitude "6.08798382416" .
+
+ _:45 a :donnees-csv ;
+	:region "Haute-Normandie" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "54.46902" ;
+	:nombre-d-installations "5630" ;
+	:longitude "49.3919333893" ;
+	:latitude "1.01212319716" .
+
+ _:46 a :donnees-csv ;
+	:region "Île-de-France" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "193.253" ;
+	:nombre-d-installations "31" ;
+	:longitude "48.7092897866" ;
+	:latitude "2.50334433081" .
+
+ _:47 a :donnees-csv ;
+	:region "Languedoc-Roussillon" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "89.997" ;
+	:nombre-d-installations "18" ;
+	:longitude "43.593488643" ;
+	:latitude "3.22556138048" .
+
+ _:48 a :donnees-csv ;
+	:region "Languedoc-Roussillon" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "36.805" ;
+	:nombre-d-installations "12" ;
+	:longitude "43.593488643" ;
+	:latitude "3.22556138048" .
+
+ _:49 a :donnees-csv ;
+	:region "Languedoc-Roussillon" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "600.30068" ;
+	:nombre-d-installations "26679" ;
+	:longitude "43.593488643" ;
+	:latitude "3.22556138048" .
+
+ _:50 a :donnees-csv ;
+	:region "Lorraine" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "127.8135" ;
+	:nombre-d-installations "36" ;
+	:longitude "48.7624077662" ;
+	:latitude "6.14174187254" .
+
+ _:51 a :donnees-csv ;
+	:region "Lorraine" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "93.10391" ;
+	:nombre-d-installations "12672" ;
+	:longitude "48.7624077662" ;
+	:latitude "6.14174187254" .
+
+ _:52 a :donnees-csv ;
+	:region "Nord-Pas-de-Calais" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "677.7187" ;
+	:nombre-d-installations "98" ;
+	:longitude "50.4730264056" ;
+	:latitude "2.71458378369" .
+
+ _:53 a :donnees-csv ;
+	:region "Picardie" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "86.605" ;
+	:nombre-d-installations "20" ;
+	:longitude "49.6427413884" ;
+	:latitude "2.80772147695" .
+
+ _:54 a :donnees-csv ;
+	:region "Poitou-Charentes" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "230.163" ;
+	:nombre-d-installations "34" ;
+	:longitude "46.1628247648" ;
+	:latitude "-0.0816578770159" .
+
+ _:55 a :donnees-csv ;
+	:region "Rhône-Alpes" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "168.7279" ;
+	:nombre-d-installations "59" ;
+	:longitude "45.4315419252" ;
+	:latitude "5.33447326661" .
+
+ _:56 a :donnees-csv ;
+	:region "Rhône-Alpes" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "346.3036" ;
+	:nombre-d-installations "307" ;
+	:longitude "45.4315419252" ;
+	:latitude "5.33447326661" .
+
+ _:57 a :donnees-csv ;
+	:region "Alsace" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "45.317" ;
+	:nombre-d-installations "8" ;
+	:longitude "48.3302121319" ;
+	:latitude "7.43522723147" .
+
+ _:58 a :donnees-csv ;
+	:region "Auvergne" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "27.5545" ;
+	:nombre-d-installations "15" ;
+	:longitude "45.6561598984" ;
+	:latitude "3.1770179214" .
+
+ _:59 a :donnees-csv ;
+	:region "Auvergne" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "197.5393" ;
+	:nombre-d-installations "35" ;
+	:longitude "45.6561598984" ;
+	:latitude "3.1770179214" .
+
+ _:60 a :donnees-csv ;
+	:region "Bretagne" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "836.1281" ;
+	:nombre-d-installations "150" ;
+	:longitude "48.1774943505" ;
+	:latitude "-2.84240902913" .
+
+ _:61 a :donnees-csv ;
+	:region "Centre" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "67.973" ;
+	:nombre-d-installations "34" ;
+	:longitude "47.484763746" ;
+	:latitude "1.68434854978" .
+
+ _:62 a :donnees-csv ;
+	:region "Champagne-Ardenne" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "26.79315" ;
+	:nombre-d-installations "25" ;
+	:longitude "48.7364132667" ;
+	:latitude "4.5412839417" .
+
+ _:63 a :donnees-csv ;
+	:region "Champagne-Ardenne" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "1636.4408" ;
+	:nombre-d-installations "172" ;
+	:longitude "48.7364132667" ;
+	:latitude "4.5412839417" .
+
+ _:64 a :donnees-csv ;
+	:region "Franche-Comté" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "43.922" ;
+	:nombre-d-installations "8" ;
+	:longitude "47.2079121633" ;
+	:latitude "6.08798382416" .
+
+ _:65 a :donnees-csv ;
+	:region "Haute-Normandie" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "136.93292" ;
+	:nombre-d-installations "33" ;
+	:longitude "49.3919333893" ;
+	:latitude "1.01212319716" .
+
+ _:66 a :donnees-csv ;
+	:region "Île-de-France" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "19.213" ;
+	:nombre-d-installations "5" ;
+	:longitude "48.7092897866" ;
+	:latitude "2.50334433081" .
+
+ _:67 a :donnees-csv ;
+	:region "Limousin" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "48.0423" ;
+	:nombre-d-installations "11" ;
+	:longitude "45.7741118679" ;
+	:latitude "1.71413021325" .
+
+ _:68 a :donnees-csv ;
+	:region "Limousin" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "95.1709" ;
+	:nombre-d-installations "96" ;
+	:longitude "45.7741118679" ;
+	:latitude "1.71413021325" .
+
+ _:69 a :donnees-csv ;
+	:region "Lorraine" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "36.995" ;
+	:nombre-d-installations "37" ;
+	:longitude "48.7624077662" ;
+	:latitude "6.14174187254" .
+
+ _:70 a :donnees-csv ;
+	:region "Picardie" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "15.337" ;
+	:nombre-d-installations "12" ;
+	:longitude "49.6427413884" ;
+	:latitude "2.80772147695" .
+
+ _:71 a :donnees-csv ;
+	:region "Picardie" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "30.18759" ;
+	:nombre-d-installations "4532" ;
+	:longitude "49.6427413884" ;
+	:latitude "2.80772147695" .
+
+ _:72 a :donnees-csv ;
+	:region "Provence-Alpes-Côte d'Azur" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "90.773" ;
+	:nombre-d-installations "21" ;
+	:longitude "43.9562030158" ;
+	:latitude "6.05623185692" .
+
+ _:73 a :donnees-csv ;
+	:region "Provence-Alpes-Côte d'Azur" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "108.4894" ;
+	:nombre-d-installations "104" ;
+	:longitude "43.9562030158" ;
+	:latitude "6.05623185692" .
+
+ _:74 a :donnees-csv ;
+	:region "Rhône-Alpes" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "106.4884" ;
+	:nombre-d-installations "38" ;
+	:longitude "45.4315419252" ;
+	:latitude "5.33447326661" .
+
+ _:75 a :donnees-csv ;
+	:region "Champagne-Ardenne" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "19.3695" ;
+	:nombre-d-installations "61" ;
+	:longitude "48.7364132667" ;
+	:latitude "4.5412839417" .
+
+ _:76 a :donnees-csv ;
+	:region "Franche-Comté" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "15.09" ;
+	:nombre-d-installations "17" ;
+	:longitude "47.2079121633" ;
+	:latitude "6.08798382416" .
+
+ _:77 a :donnees-csv ;
+	:region "Haute-Normandie" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "12.132" ;
+	:nombre-d-installations "14" ;
+	:longitude "49.3919333893" ;
+	:latitude "1.01212319716" .
+
+ _:78 a :donnees-csv ;
+	:region "Haute-Normandie" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "298.77265" ;
+	:nombre-d-installations "39" ;
+	:longitude "49.3919333893" ;
+	:latitude "1.01212319716" .
+
+ _:79 a :donnees-csv ;
+	:region "Île-de-France" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "316.735" ;
+	:nombre-d-installations "76" ;
+	:longitude "48.7092897866" ;
+	:latitude "2.50334433081" .
+
+ _:80 a :donnees-csv ;
+	:region "Île-de-France" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "30.5384" ;
+	:nombre-d-installations "5" ;
+	:longitude "48.7092897866" ;
+	:latitude "2.50334433081" .
+
+ _:81 a :donnees-csv ;
+	:region "Île-de-France" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "75.58144" ;
+	:nombre-d-installations "12766" ;
+	:longitude "48.7092897866" ;
+	:latitude "2.50334433081" .
+
+ _:82 a :donnees-csv ;
+	:region "Limousin" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "22.539" ;
+	:nombre-d-installations "4" ;
+	:longitude "45.7741118679" ;
+	:latitude "1.71413021325" .
+
+ _:83 a :donnees-csv ;
+	:region "Limousin" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "19.685" ;
+	:nombre-d-installations "11" ;
+	:longitude "45.7741118679" ;
+	:latitude "1.71413021325" .
+
+ _:84 a :donnees-csv ;
+	:region "Limousin" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "143.40763" ;
+	:nombre-d-installations "5295" ;
+	:longitude "45.7741118679" ;
+	:latitude "1.71413021325" .
+
+ _:85 a :donnees-csv ;
+	:region "Midi-Pyrénées" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "39.876" ;
+	:nombre-d-installations "20" ;
+	:longitude "43.7686346794" ;
+	:latitude "1.48750616415" .
+
+ _:86 a :donnees-csv ;
+	:region "Midi-Pyrénées" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "604.87814" ;
+	:nombre-d-installations "24475" ;
+	:longitude "43.7686346794" ;
+	:latitude "1.48750616415" .
+
+ _:87 a :donnees-csv ;
+	:region "Nord-Pas-de-Calais" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "176.63372" ;
+	:nombre-d-installations "53" ;
+	:longitude "50.4730264056" ;
+	:latitude "2.71458378369" .
+
+ _:88 a :donnees-csv ;
+	:region "Nord-Pas-de-Calais" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "72.0" ;
+	:nombre-d-installations "31" ;
+	:longitude "50.4730264056" ;
+	:latitude "2.71458378369" .
+
+ _:89 a :donnees-csv ;
+	:region "Pays de la Loire" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "65.308" ;
+	:nombre-d-installations "42" ;
+	:longitude "47.4773980378" ;
+	:latitude "-0.816398587614" .
+
+ _:90 a :donnees-csv ;
+	:region "Pays de la Loire" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "600.8184" ;
+	:nombre-d-installations "111" ;
+	:longitude "47.4773980378" ;
+	:latitude "-0.816398587614" .
+
+ _:91 a :donnees-csv ;
+	:region "Provence-Alpes-Côte d'Azur" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "151.434" ;
+	:nombre-d-installations "51" ;
+	:longitude "43.9562030158" ;
+	:latitude "6.05623185692" .
+
+ _:92 a :donnees-csv ;
+	:region "Alsace" ;
+	:type-de-production "Bio énergie" ;
+	:puissance-cumulee-mw "9.755" ;
+	:nombre-d-installations "7" ;
+	:longitude "48.3302121319" ;
+	:latitude "7.43522723147" .
+
+ _:93 a :donnees-csv ;
+	:region "Auvergne" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "19.782" ;
+	:nombre-d-installations "9" ;
+	:longitude "45.6561598984" ;
+	:latitude "3.1770179214" .
+
+ _:94 a :donnees-csv ;
+	:region "Auvergne" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "285.75733" ;
+	:nombre-d-installations "11722" ;
+	:longitude "45.6561598984" ;
+	:latitude "3.1770179214" .
+
+ _:95 a :donnees-csv ;
+	:region "Basse-Normandie" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "60.752" ;
+	:nombre-d-installations "15" ;
+	:longitude "48.9300235095" ;
+	:latitude "-0.524006659992" .
+
+ _:96 a :donnees-csv ;
+	:region "Bourgogne" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "66.206" ;
+	:nombre-d-installations "14" ;
+	:longitude "47.2478036264" ;
+	:latitude "4.1493301541" .
+
+ _:97 a :donnees-csv ;
+	:region "Bourgogne" ;
+	:type-de-production "Eolien" ;
+	:puissance-cumulee-mw "329.345" ;
+	:nombre-d-installations "37" ;
+	:longitude "47.2478036264" ;
+	:latitude "4.1493301541" .
+
+ _:98 a :donnees-csv ;
+	:region "Bourgogne" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "19.69037" ;
+	:nombre-d-installations "48" ;
+	:longitude "47.2478036264" ;
+	:latitude "4.1493301541" .
+
+ _:99 a :donnees-csv ;
+	:region "Bourgogne" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "94.45834" ;
+	:nombre-d-installations "8897" ;
+	:longitude "47.2478036264" ;
+	:latitude "4.1493301541" .
+
+ _:100 a :donnees-csv ;
+	:region "Centre" ;
+	:type-de-production "Autres" ;
+	:puissance-cumulee-mw "99.228" ;
+	:nombre-d-installations "28" ;
+	:longitude "47.484763746" ;
+	:latitude "1.68434854978" .
+
+ _:101 a :donnees-csv ;
+	:region "Centre" ;
+	:type-de-production "Hydraulique" ;
+	:puissance-cumulee-mw "20.868" ;
+	:nombre-d-installations "28" ;
+	:longitude "47.484763746" ;
+	:latitude "1.68434854978" .
+
+ _:102 a :donnees-csv ;
+	:region "Centre" ;
+	:type-de-production "Photovoltaïque" ;
+	:puissance-cumulee-mw "140.49669" ;
+	:nombre-d-installations "11387" ;
+	:longitude "47.484763746" ;
+	:latitude "1.68434854978" .
