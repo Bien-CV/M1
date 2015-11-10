@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-<entry loc="/usr/lib/jvm/java-7-openjdk-amd64" stamp="1431507341000"/>
+<entry loc="/usr/lib/jvm/java-8-oracle" stamp="1437466960000"/>
+<entry loc="/comptes/E129986P/arnaud/jdk1.7.0_79" stamp="1428692021000"/>
+<entry loc="/usr/lib/jvm/java-1.7.0-openjdk-amd64" stamp="1430750598000"/>
+<entry loc="/usr/lib/jvm/java-7-openjdk-amd64" stamp="1430750598000"/>
 </dirs>

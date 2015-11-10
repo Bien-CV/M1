@@ -1,0 +1,43 @@
+import java.io.InputStream;
+
+import org.apache.jena.ontology.OntModel;
+import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.util.FileManager;
+
+
+
+public class TpOntologyMain {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		//sans inférence
+		ControllerBis ctrl = new ControllerBis();
+		ctrl.readingRDF("../tp4owl/tpOntology.rdf");
+		
+		
+		//avec inférence
+		
+		Model m = ModelFactory.createOntologyModel();
+		InputStream in = FileManager.get().open("../tp4owl/tpOntology.rdf");
+		if (in == null) {
+		    throw new IllegalArgumentException("File not found");
+		}
+
+		// Load file content
+		m.read(in, null);
+		//model.write(System.out, "Turtle");
+		ControllerBis ctrlInf= new ControllerBis(ModelFactory.createOntologyModel());
+		
+		ctrlInf.readingRDF("../tp4owl/tpOntology.rdf");
+		ctrlInf.doSelect("src/requeteTestFausseInference.rq");
+		
+		
+
+	}
+
+}

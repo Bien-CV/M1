@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1446559085482" name="http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5" uri="antonrdfxml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1446559085482" name="http://www.semanticweb.org/e15a488l/ontologies/2015/10/untitled-ontology-8" uri="tpOntology.rdf"/>
+    </group>
+</catalog>

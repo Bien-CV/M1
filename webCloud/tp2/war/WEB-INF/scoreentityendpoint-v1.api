@@ -27,26 +27,17 @@
   "ownerName" : "mycompany.com",
   "packagePath" : "services",
   "methods" : {
-    "scoreentityendpoint.listScoreEntity" : {
+    "scoreentityendpoint.updateScoreEntity" : {
       "path" : "scoreentity",
-      "httpMethod" : "GET",
+      "httpMethod" : "PUT",
       "authLevel" : "NONE",
       "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
       "audiences" : [ ],
       "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "webCloud.ScoreEntityEndpoint.listScoreEntity",
+      "rosyMethod" : "webCloud.ScoreEntityEndpoint.updateScoreEntity",
       "request" : {
-        "parameters" : {
-          "cursor" : {
-            "type" : "string",
-            "required" : false
-          },
-          "limit" : {
-            "type" : "int32",
-            "required" : false
-          }
-        },
-        "body" : "empty"
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
       },
       "response" : {
         "body" : "autoTemplate(backendResponse)"
@@ -73,6 +64,31 @@
         "body" : "autoTemplate(backendResponse)"
       }
     },
+    "scoreentityendpoint.listScoreEntity" : {
+      "path" : "scoreentity",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "webCloud.ScoreEntityEndpoint.listScoreEntity",
+      "request" : {
+        "parameters" : {
+          "cursor" : {
+            "type" : "string",
+            "required" : false
+          },
+          "limit" : {
+            "type" : "int32",
+            "required" : false
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
     "scoreentityendpoint.insertScoreEntity" : {
       "path" : "scoreentity",
       "httpMethod" : "POST",
@@ -81,22 +97,6 @@
       "audiences" : [ ],
       "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
       "rosyMethod" : "webCloud.ScoreEntityEndpoint.insertScoreEntity",
-      "request" : {
-        "body" : "autoTemplate(backendRequest)",
-        "bodyName" : "resource"
-      },
-      "response" : {
-        "body" : "autoTemplate(backendResponse)"
-      }
-    },
-    "scoreentityendpoint.updateScoreEntity" : {
-      "path" : "scoreentity",
-      "httpMethod" : "PUT",
-      "authLevel" : "NONE",
-      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
-      "audiences" : [ ],
-      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "webCloud.ScoreEntityEndpoint.updateScoreEntity",
       "request" : {
         "body" : "autoTemplate(backendRequest)",
         "bodyName" : "resource"
@@ -129,21 +129,6 @@
   },
   "descriptor" : {
     "schemas" : {
-      "CollectionResponse_ScoreEntity" : {
-        "id" : "CollectionResponse_ScoreEntity",
-        "type" : "object",
-        "properties" : {
-          "items" : {
-            "type" : "array",
-            "items" : {
-              "$ref" : "ScoreEntity"
-            }
-          },
-          "nextPageToken" : {
-            "type" : "string"
-          }
-        }
-      },
       "ScoreEntity" : {
         "id" : "ScoreEntity",
         "type" : "object",
@@ -159,20 +144,25 @@
             "type" : "integer"
           }
         }
+      },
+      "CollectionResponse_ScoreEntity" : {
+        "id" : "CollectionResponse_ScoreEntity",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "ScoreEntity"
+            }
+          },
+          "nextPageToken" : {
+            "type" : "string"
+          }
+        }
       }
     },
     "methods" : {
-      "webCloud.ScoreEntityEndpoint.listScoreEntity" : {
-        "response" : {
-          "$ref" : "CollectionResponse_ScoreEntity"
-        }
-      },
-      "webCloud.ScoreEntityEndpoint.getScoreEntity" : {
-        "response" : {
-          "$ref" : "ScoreEntity"
-        }
-      },
-      "webCloud.ScoreEntityEndpoint.insertScoreEntity" : {
+      "webCloud.ScoreEntityEndpoint.updateScoreEntity" : {
         "request" : {
           "$ref" : "ScoreEntity"
         },
@@ -180,7 +170,17 @@
           "$ref" : "ScoreEntity"
         }
       },
-      "webCloud.ScoreEntityEndpoint.updateScoreEntity" : {
+      "webCloud.ScoreEntityEndpoint.getScoreEntity" : {
+        "response" : {
+          "$ref" : "ScoreEntity"
+        }
+      },
+      "webCloud.ScoreEntityEndpoint.listScoreEntity" : {
+        "response" : {
+          "$ref" : "CollectionResponse_ScoreEntity"
+        }
+      },
+      "webCloud.ScoreEntityEndpoint.insertScoreEntity" : {
         "request" : {
           "$ref" : "ScoreEntity"
         },

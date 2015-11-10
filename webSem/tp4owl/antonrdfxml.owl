@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-5 "http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:untitled-ontology-5="http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#likesToWorkWith -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-5;likesToWorkWith">
+        <rdfs:domain rdf:resource="&untitled-ontology-5;Person"/>
+        <rdfs:range rdf:resource="&untitled-ontology-5;Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#Class1 -->
+
+    <owl:Class rdf:about="&untitled-ontology-5;Class1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&untitled-ontology-5;likesToWorkWith"/>
+                <owl:someValuesFrom rdf:resource="&untitled-ontology-5;FemaleColleagues"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#Class2 -->
+
+    <owl:Class rdf:about="&untitled-ontology-5;Class2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&untitled-ontology-5;likesToWorkWith"/>
+                <owl:allValuesFrom rdf:resource="&untitled-ontology-5;FemaleColleagues"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#Class3 -->
+
+    <owl:Class rdf:about="&untitled-ontology-5;Class3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&untitled-ontology-5;likesToWorkWith"/>
+                <owl:hasValue rdf:resource="&untitled-ontology-5;doris"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#Class4 -->
+
+    <owl:Class rdf:about="&untitled-ontology-5;Class4">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&untitled-ontology-5;likesToWorkWith"/>
+                <owl:onClass rdf:resource="&untitled-ontology-5;Person"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">3</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#Class5 -->
+
+    <owl:Class rdf:about="&untitled-ontology-5;Class5">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&untitled-ontology-5;likesToWorkWith"/>
+                <owl:onClass rdf:resource="&untitled-ontology-5;Person"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#FemaleColleagues -->
+
+    <owl:Class rdf:about="&untitled-ontology-5;FemaleColleagues">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&untitled-ontology-5;desiree"/>
+                    <rdf:Description rdf:about="&untitled-ontology-5;doris"/>
+                    <rdf:Description rdf:about="&untitled-ontology-5;dagmar"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#Person -->
+
+    <owl:Class rdf:about="&untitled-ontology-5;Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#anton -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-5;anton">
+        <rdf:type rdf:resource="&untitled-ontology-5;Person"/>
+        <likesToWorkWith rdf:resource="&untitled-ontology-5;dagmar"/>
+        <likesToWorkWith rdf:resource="&untitled-ontology-5;doris"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#bernd -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-5;bernd">
+        <rdf:type rdf:resource="&untitled-ontology-5;Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#charles -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-5;charles">
+        <rdf:type rdf:resource="&untitled-ontology-5;Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#dagmar -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-5;dagmar">
+        <rdf:type rdf:resource="&untitled-ontology-5;Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#desiree -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-5;desiree">
+        <rdf:type rdf:resource="&untitled-ontology-5;Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#doris -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-5;doris">
+        <rdf:type rdf:resource="&untitled-ontology-5;Person"/>
+        <likesToWorkWith rdf:resource="&untitled-ontology-5;bernd"/>
+        <likesToWorkWith rdf:resource="&untitled-ontology-5;dagmar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#gustav -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-5;gustav">
+        <rdf:type rdf:resource="&untitled-ontology-5;Person"/>
+        <likesToWorkWith rdf:resource="&untitled-ontology-5;bernd"/>
+        <likesToWorkWith rdf:resource="&untitled-ontology-5;desiree"/>
+        <likesToWorkWith rdf:resource="&untitled-ontology-5;doris"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&untitled-ontology-5;anton"/>
+            <rdf:Description rdf:about="&untitled-ontology-5;bernd"/>
+            <rdf:Description rdf:about="&untitled-ontology-5;charles"/>
+            <rdf:Description rdf:about="&untitled-ontology-5;dagmar"/>
+            <rdf:Description rdf:about="&untitled-ontology-5;desiree"/>
+            <rdf:Description rdf:about="&untitled-ontology-5;doris"/>
+            <rdf:Description rdf:about="&untitled-ontology-5;gustav"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

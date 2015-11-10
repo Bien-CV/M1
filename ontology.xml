@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://purl.org/net/accessibility/levelness/PoweredLift">
+    <skos:prefLabel xml:lang="en">powered lift</skos:prefLabel>
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/Levelness"/>
+    <skos:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <skos:narrower rdf:resource="http://purl.org/net/accessibility/levelness/StairLift"/>
+    <skos:narrower rdf:resource="http://purl.org/net/accessibility/levelness/Elevator"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://purl.org/net/accessibility/levelness/PlatformLift"/>
+    <skos:definition xml:lang="en">any type of powered lift (e.g. platform, stair, elevator)</skos:definition>
+    <skos:inScheme rdf:resource="http://purl.org/net/accessibility/levelness/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/entranceOpeiningType">
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+    <rdfs:range rdf:resource="http://purl.org/net/accessiblity/doorEntryType/EntranceOpeningType"/>
+    <rdfs:label xml:lang="en">type of door entry</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessibility/levelness/PlatformLift">
+    <skos:prefLabel>platform lift</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/Levelness"/>
+    <skos:inScheme rdf:resource="http://purl.org/net/accessibility/levelness/"/>
+    <skos:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/numberOfFloors">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+    <rdfs:label xml:lang="en">number of floors</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessibility/levelness/NotLevel">
+    <skos:inScheme rdf:resource="http://purl.org/net/accessibility/levelness/"/>
+    <skos:narrower rdf:resource="http://purl.org/net/accessibility/levelness/PoweredLift"/>
+    <skos:narrower rdf:resource="http://purl.org/net/accessibility/levelness/Ramp"/>
+    <skos:narrower rdf:resource="http://purl.org/net/accessibility/levelness/Steps"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/Levelness"/>
+    <skos:prefLabel xml:lang="en">not level</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/doorEntryType/ManualDoor">
+    <skos:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/EntranceOpeningType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/net/accessiblity/doorEntryType/"/>
+    <skos:prefLabel xml:lang="en">manual</skos:prefLabel>
+    <skos:definition xml:lang="en">Door is not powered, and requires opening manually.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/numberOfDisabledParkingSpaces">
+    <rdfs:label xml:lang="en">number of disabled parking spaces</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessibility/levelness/Elevator">
+    <skos:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <skos:prefLabel xml:lang="en-gb">lift</skos:prefLabel>
+    <skos:prefLabel xml:lang="en-us">elevator</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/net/accessibility/levelness/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/Levelness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/liftToAllFloors">
+    <rdfs:label xml:lang="en">all floors accessible by lift</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessibility/levelness/">
+    <skos:hasTopConcept rdf:resource="http://purl.org/net/accessibility/levelness/Accessible"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/net/accessibility/levelness/NotLevel"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="en">entrance levelness</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://purl.org/net/accessiblity/Levelness"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/net/accessibility/levelness/NotAccessible"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/net/accessibility/levelness/Level"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/doorEntryType/AutomaticDoor">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/net/accessiblity/doorEntryType/"/>
+    <skos:prefLabel xml:lang="en">automatic</skos:prefLabel>
+    <skos:definition xml:lang="en">Door operated by a sensor.</skos:definition>
+    <skos:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/EntranceOpeningType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/doorEntryType/PoweredDoor">
+    <skos:inScheme rdf:resource="http://purl.org/net/accessiblity/doorEntryType/"/>
+    <skos:prefLabel xml:lang="en">powered</skos:prefLabel>
+    <skos:definition xml:lang="en">Door operated by pressing a pad or button.</skos:definition>
+    <skos:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/EntranceOpeningType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/EntranceOpeningType">
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="en">door entry type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessibility/levelness/StairLift">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/Levelness"/>
+    <skos:prefLabel>stairlift</skos:prefLabel>
+    <skos:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <skos:inScheme rdf:resource="http://purl.org/net/accessibility/levelness/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/nearbyParkingType">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+    <rdfs:label>type of nearby parking@en</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/net/accessiblity/parkingType/ParkingType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/ParkingType">
+    <rdfs:label xml:lang="en">parking type</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/parkingType/">
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="en">parking types</skos:prefLabel>
+    <skos:topConcept rdf:resource="http://purl.org/net/accessiblity/parkingType/BlueBadge"/>
+    <skos:topConcept rdf:resource="http://purl.org/net/accessiblity/parkingType/PayAndDisplay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/hasHearingSupportSystem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdfs:label xml:lang="en">has a hearing support system</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/parkingType/BlueBadge">
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/ParkingType"/>
+    <skos:prefLabel xml:lang="en">blue badge</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <skos:inScheme rdf:resource="http://purl.org/net/accessiblity/parkingType/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessibility/levelness/Level">
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/Levelness"/>
+    <skos:inScheme rdf:resource="http://purl.org/net/accessibility/levelness/"/>
+    <skos:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <skos:prefLabel xml:lang="en">level</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/parkingType/PayAndDisplay">
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/ParkingType"/>
+    <skos:inScheme rdf:resource="http://purl.org/net/accessiblity/parkingType/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <skos:prefLabel xml:lang="en">pay and display</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessibility/levelness/Accessible">
+    <skos:inScheme rdf:resource="http://purl.org/net/accessibility/levelness/"/>
+    <skos:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/Levelness"/>
+    <skos:prefLabel xml:lang="en">accessible</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessibility/levelness/NotAccessible">
+    <skos:inScheme rdf:resource="http://purl.org/net/accessibility/levelness/"/>
+    <rdf:type rdf:resource="http://purl.org/net/accessiblity/Levelness"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">not accessible</skos:prefLabel>
+    <skos:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label>Accessibility ontology</rdfs:label>
+    <dcterms:publisher rdf:resource="https://data.ox.ac.uk/id/open-data-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/doorEntryType/">
+    <skos:prefLabel xml:lang="en">types of door entry</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <skos:topConcept rdf:resource="http://purl.org/net/accessiblity/doorEntryType/ManualDoor"/>
+    <skos:topConcept rdf:resource="http://purl.org/net/accessiblity/doorEntryType/PoweredDoor"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:topConcept rdf:resource="http://purl.org/net/accessiblity/doorEntryType/AutomaticDoor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/numberOfAccessibleToilets">
+    <rdfs:label xml:lang="en">number of accessible toilets</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/net/accessiblity/Levelness">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="en">entrance levelness</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/net/accessiblity/"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

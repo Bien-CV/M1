@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=TP3/src&lt;TimerPackage{Timer.java[Timer" modifiers="1" timestamp="1444997201000"/>
+<typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{AirplaneImpl.java[AirplaneImpl" modifiers="1" timestamp="1352269398000"/>
+<typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{AirportImpl.java[AirportImpl" modifiers="1" timestamp="1352269430000"/>
+<typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{AirwayImpl.java[AirwayImpl" modifiers="1" timestamp="1352271600000"/>
+<typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{LatitudeImpl.java[LatitudeImpl" modifiers="1" timestamp="1352270728000"/>
+<typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{CoordinateImpl.java[CoordinateImpl" modifiers="1" timestamp="1352288368000"/>
 </typeInfoHistroy>

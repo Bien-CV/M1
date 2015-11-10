@@ -1,0 +1,29 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Coordinate_test {
+
+	@Test
+	public void testCoordinateImpl() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDirection() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testCos() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSin() {
+		fail("Not yet implemented");
+	}
+
+}

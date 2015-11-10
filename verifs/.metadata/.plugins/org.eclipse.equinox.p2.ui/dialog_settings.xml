@@ -9,23 +9,23 @@
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.InstallWizard.ResolutionResultsPage">
 		<item value="800" key="ListSashWeight"/>
-		<item value="360" key="NameColumnWidth"/>
-		<item value="240" key="IDColumnWidth"/>
+		<item value="400" key="NameColumnWidth"/>
+		<item value="200" key="IDColumnWidth"/>
 		<item value="200" key="DetailsSashWeight"/>
-		<item value="120" key="VersionColumnWidth"/>
+		<item value="200" key="VersionColumnWidth"/>
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationWizard.SelectableIUsPage">
 		<item value="800" key="ListSashWeight"/>
 		<item value="360" key="NameColumnWidth"/>
 		<item value="200" key="DetailsSashWeight"/>
-		<item value="389" key="IDColumnWidth"/>
+		<item value="397" key="IDColumnWidth"/>
 		<item value="120" key="VersionColumnWidth"/>
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationWizard.ResolutionResultsPage">
 		<item value="800" key="ListSashWeight"/>
 		<item value="400" key="NameColumnWidth"/>
 		<item value="200" key="DetailsSashWeight"/>
-		<item value="269" key="IDColumnWidth"/>
+		<item value="277" key="IDColumnWidth"/>
 		<item value="200" key="VersionColumnWidth"/>
 	</section>
 	<section name="AvailableIUsPage">
@@ -35,6 +35,7 @@
 		<item value="false" key="HideInstalledContent"/>
 		<item value="450" key="AvailableNameColumnWidth"/>
 		<item value="1" key="AvailableViewType"/>
+		<item value="false" key="FilterOnEnv"/>
 		<item value="200" key="AvailableDetailsSashWeight"/>
 		<item value="true" key="ShowLatestVersionsOnly"/>
 	</section>

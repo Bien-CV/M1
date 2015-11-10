@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;tests&apos; to &apos;cta/src/test/java&apos;&#x0A;- Original project: &apos;cta&apos;&#x0A;- Destination element: &apos;cta/src/test/java&apos;&#x0A;- Original element: &apos;cta/src/main/java/tests&apos;&#x0A;- Update references to refactored element" description="Move package" destination="/src\/test\/java" element1="/src\/main\/java&lt;tests" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1446817722746" version="1.0"/>
+</session>

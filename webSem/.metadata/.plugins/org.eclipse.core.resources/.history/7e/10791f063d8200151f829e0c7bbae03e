@@ -1,0 +1,29 @@
+import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.rdf.model.ModelFactory;
+
+
+
+public class TpOntologyMain {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		//sans inférence
+		ControllerBis ctrl = new ControllerBis();
+		ctrl.readingRDF("../tp4owl/tpOntology.rdf");
+		
+		
+		
+		OntModelSpec spec = new OntModelSpec( OntModelSpec.OWL_DL_MEM_RULE_INF );
+		ControllerBis ctrlInf= new ControllerBis(ModelFactory.createOntologyModel(spec));
+		
+		ctrlInf.readingRDF("../tp4owl/tpOntology.rdf");
+		ctrlInf.doSelect("src/requeteTestFausseInference.rq");
+		
+		
+
+	}
+
+}

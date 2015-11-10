@@ -1,0 +1,98 @@
+\documentclass{article}
+\parskip 0pt
+\parindent 0pt
+\oddsidemargin 0cm
+\textwidth 19cm
+\begin{document}
+
+\subsection*{Classes}
+
+\subsubsection*{Class1}
+
+Class1~\ensuremath{\equiv}~\ensuremath{\exists}~likesToWorkWith~FemaleColleagues
+
+\subsubsection*{Class2}
+
+Class2~\ensuremath{\equiv}~\ensuremath{\forall}~likesToWorkWith~FemaleColleagues
+
+\subsubsection*{Class3}
+
+Class3~\ensuremath{\equiv}~\ensuremath{\exists}~likesToWorkWith~\{doris\}
+
+\subsubsection*{Class4}
+
+Class4~\ensuremath{\equiv}~\ensuremath{\geq}~3~likesToWorkWith~Person
+
+\subsubsection*{Class5}
+
+Class5~\ensuremath{\equiv}~\ensuremath{=}~likesToWorkWith~Person
+
+\subsubsection*{FemaleColleagues}
+
+FemaleColleagues~\ensuremath{\equiv}~\{desiree\}~\ensuremath{\sqcup}~\{doris\}~\ensuremath{\sqcup}~\{dagmar\}
+
+\subsubsection*{Person}
+
+\section*{Object properties}\subsubsection*{likesToWorkWith}
+
+\ensuremath{\exists}~likesToWorkWith~Thing~\ensuremath{\sqsubseteq}~Person
+
+\ensuremath{\top}~\ensuremath{\sqsubseteq}~\ensuremath{\forall}~likesToWorkWith~Person
+
+\section*{Data properties}\section*{Individuals}\subsubsection*{anton}
+
+anton~:~Person
+
+\{anton\}~\ensuremath{\not\equiv}~\{bernd\}~\ensuremath{\not\equiv}~\{charles\}~\ensuremath{\not\equiv}~\{dagmar\}~\ensuremath{\not\equiv}~\{desiree\}~\ensuremath{\not\equiv}~\{doris\}~\ensuremath{\not\equiv}~\{gustav\}
+
+likesToWorkWith(anton, doris)
+
+likesToWorkWith(anton, dagmar)
+
+\subsubsection*{bernd}
+
+bernd~:~Person
+
+\{anton\}~\ensuremath{\not\equiv}~\{bernd\}~\ensuremath{\not\equiv}~\{charles\}~\ensuremath{\not\equiv}~\{dagmar\}~\ensuremath{\not\equiv}~\{desiree\}~\ensuremath{\not\equiv}~\{doris\}~\ensuremath{\not\equiv}~\{gustav\}
+
+\subsubsection*{charles}
+
+charles~:~Person
+
+\{anton\}~\ensuremath{\not\equiv}~\{bernd\}~\ensuremath{\not\equiv}~\{charles\}~\ensuremath{\not\equiv}~\{dagmar\}~\ensuremath{\not\equiv}~\{desiree\}~\ensuremath{\not\equiv}~\{doris\}~\ensuremath{\not\equiv}~\{gustav\}
+
+\subsubsection*{dagmar}
+
+dagmar~:~Person
+
+\{anton\}~\ensuremath{\not\equiv}~\{bernd\}~\ensuremath{\not\equiv}~\{charles\}~\ensuremath{\not\equiv}~\{dagmar\}~\ensuremath{\not\equiv}~\{desiree\}~\ensuremath{\not\equiv}~\{doris\}~\ensuremath{\not\equiv}~\{gustav\}
+
+\subsubsection*{desiree}
+
+desiree~:~Person
+
+\{anton\}~\ensuremath{\not\equiv}~\{bernd\}~\ensuremath{\not\equiv}~\{charles\}~\ensuremath{\not\equiv}~\{dagmar\}~\ensuremath{\not\equiv}~\{desiree\}~\ensuremath{\not\equiv}~\{doris\}~\ensuremath{\not\equiv}~\{gustav\}
+
+\subsubsection*{doris}
+
+doris~:~Person
+
+\{anton\}~\ensuremath{\not\equiv}~\{bernd\}~\ensuremath{\not\equiv}~\{charles\}~\ensuremath{\not\equiv}~\{dagmar\}~\ensuremath{\not\equiv}~\{desiree\}~\ensuremath{\not\equiv}~\{doris\}~\ensuremath{\not\equiv}~\{gustav\}
+
+likesToWorkWith(doris, dagmar)
+
+likesToWorkWith(doris, bernd)
+
+\subsubsection*{gustav}
+
+gustav~:~Person
+
+\{anton\}~\ensuremath{\not\equiv}~\{bernd\}~\ensuremath{\not\equiv}~\{charles\}~\ensuremath{\not\equiv}~\{dagmar\}~\ensuremath{\not\equiv}~\{desiree\}~\ensuremath{\not\equiv}~\{doris\}~\ensuremath{\not\equiv}~\{gustav\}
+
+likesToWorkWith(gustav, bernd)
+
+likesToWorkWith(gustav, desiree)
+
+likesToWorkWith(gustav, doris)
+
+\section*{Datatypes}\end{document}

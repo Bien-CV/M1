@@ -1,0 +1,34 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import fr.univnantes.cta.impl.AirplaneImpl;
+
+public class Airplane_Test {
+
+	@Test
+	public void testAirplaneImpl() {
+		AirplaneImpl airplane = new AirplaneImpl(0, 0, 0, 0);
+	}
+
+	@Test
+	public void testGetAutonomy() {
+		AirplaneImpl airplane = new AirplaneImpl(0, 0, 0, 0);
+		assertTrue(airplane.getAutonomy()==0);
+	}
+
+	@Test
+	public void testGetLoading() {
+		AirplaneImpl airplane = new AirplaneImpl(0, 0, 0, 0);
+		assertTrue(airplane.getLoading()==0);
+	}
+
+	@Test
+	public void testWeight() {
+		AirplaneImpl airplane = new AirplaneImpl(0, 0, 0, 0);
+		assertTrue(airplane.weight()==0);
+	}
+
+}

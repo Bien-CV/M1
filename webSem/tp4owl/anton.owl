@@ -1,0 +1,206 @@
+@prefix : <http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5> .
+
+<http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#likesToWorkWith
+
+:likesToWorkWith rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:domain :Person ;
+                 
+                 rdfs:range :Person .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#Class1
+
+:Class1 rdf:type owl:Class ;
+        
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :likesToWorkWith ;
+                              owl:someValuesFrom :FemaleColleagues
+                            ] .
+
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#Class2
+
+:Class2 rdf:type owl:Class ;
+        
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :likesToWorkWith ;
+                              owl:allValuesFrom :FemaleColleagues
+                            ] .
+
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#Class3
+
+:Class3 rdf:type owl:Class ;
+        
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :likesToWorkWith ;
+                              owl:hasValue :doris
+                            ] .
+
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#Class4
+
+:Class4 rdf:type owl:Class ;
+        
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :likesToWorkWith ;
+                              owl:onClass :Person ;
+                              owl:minQualifiedCardinality "3"^^xsd:nonNegativeInteger
+                            ] .
+
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#Class5
+
+:Class5 rdf:type owl:Class ;
+        
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :likesToWorkWith ;
+                              owl:onClass :Person ;
+                              owl:qualifiedCardinality "0"^^xsd:nonNegativeInteger
+                            ] .
+
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#FemaleColleagues
+
+:FemaleColleagues rdf:type owl:Class ;
+                  
+                  owl:equivalentClass [ rdf:type owl:Class ;
+                                        owl:oneOf ( :desiree
+                                                    :doris
+                                                    :dagmar
+                                                  )
+                                      ] .
+
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#Person
+
+:Person rdf:type owl:Class .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#anton
+
+:anton rdf:type :Person ,
+                owl:NamedIndividual ;
+       
+       :likesToWorkWith :dagmar ,
+                        :doris .
+
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#bernd
+
+:bernd rdf:type :Person ,
+                owl:NamedIndividual .
+
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#charles
+
+:charles rdf:type :Person ,
+                  owl:NamedIndividual .
+
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#dagmar
+
+:dagmar rdf:type :Person ,
+                 owl:NamedIndividual .
+
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#desiree
+
+:desiree rdf:type :Person ,
+                  owl:NamedIndividual .
+
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#doris
+
+:doris rdf:type :Person ,
+                owl:NamedIndividual ;
+       
+       :likesToWorkWith :bernd ,
+                        :dagmar .
+
+
+
+###  http://www.semanticweb.org/e129986p/ontologies/2015/9/untitled-ontology-5#gustav
+
+:gustav rdf:type :Person ,
+                 owl:NamedIndividual ;
+        
+        :likesToWorkWith :bernd ,
+                         :desiree ,
+                         :doris .
+
+
+
+
+
+#################################################################
+#
+#    General axioms
+#
+#################################################################
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :anton
+                        :bernd
+                        :charles
+                        :dagmar
+                        :desiree
+                        :doris
+                        :gustav
+                      )
+] .
+
+
+
+
+###  Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net
+

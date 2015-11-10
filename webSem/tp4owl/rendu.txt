@@ -1,0 +1,16 @@
+vegetarianPizza		C	Pizza				=> les vegetarianPizzas sont des Pizzas
+
+MargheritaPizza 	C	Pizza				=> les MargheritaPizzas sont des Pizzas
+
+TomatoTopping		C	VegetableTopping 	=> les tomates sont des legumes
+
+MozarellaTopping	C	CheeseTopping		=> la mozarella c'est du fromage
+
+vegetarianPizza		eq	hasTopping(vegetablestopping union cheeseTopping)		=>toutes les pizzas vegetariennes ont des legumes ou bien du fromage
+
+MargheritaPizza		C	il existe hasTopping MozarellaTopping  inter
+						il existe hasTopping  TomatoTopping inter
+								  hasTopping(MozarellaTopping union TomatoTopping)
+								  
+=> les margherita sont un sous ensemble des pizzas ayant de la mozarella ou des tomates, mais il y en a au moins une qui a de la mozarella et une avec des tomates
+

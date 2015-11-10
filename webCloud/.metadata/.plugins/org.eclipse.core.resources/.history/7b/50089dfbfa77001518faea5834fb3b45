@@ -1,0 +1,49 @@
+package webCloud;
+import java.io.IOException;
+import java.util.Date;
+
+import javax.servlet.http.*;
+
+import com.google.appengine.api.datastore.DatastoreService;
+import com.google.appengine.api.datastore.DatastoreServiceFactory;
+import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.Key;
+import com.google.appengine.api.datastore.KeyFactory;
+
+import javax.servlet.http.HttpServlet;
+
+@SuppressWarnings("serial")
+public class Tp2Servlet extends HttpServlet {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+		
+		DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+
+		Entity employee = new Entity("Employee");
+		Entity employee2 = new Entity("Employee");
+		employee.setProperty("firstName", "Antonio");
+		employee.setProperty("lastName", "Salieri");
+		Date hireDate = new Date();
+		employee.setProperty("hireDate", hireDate);
+		employee.setProperty("attendedHrTraining", true);
+		
+		employee2.setProperty("firstName", "Antonio");
+		employee2.setProperty("lastName", "Salieri");
+		Date hireDate2 = new Date();
+		employee.setProperty("hireDate", hireDate2);
+		employee2.setProperty("attendedHrTraining", true);
+		Key k= KeyFactory.createKey("Dennis", 13031993);
+		Entity dede = new Entity(k);
+		dede.setProperty("sportPrefere", "escalade");
+		dede.setProperty("livrePrefere", "Harry Potter");
+		dede.getProperties();
+		resp.setContentType("text/plain");
+		resp.getWriter().println("Hello, world");
+		resp.getWriter().println("kind " +employee.getKind());
+		datastore.put(dede);
+
+		
+		resp.getWriter().println("key " +employee.getKey());
+		resp.getWriter().println(dede.getProperties());
+		
+	}
+}

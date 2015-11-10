@@ -1,0 +1,16 @@
+
+
+public class TpOntologyMain {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ControllerBis ctrl = new ControllerBis();
+		ctrl.readingRDF("../tp4owl/tpOntology.rdf");
+		
+		
+
+	}
+
+}

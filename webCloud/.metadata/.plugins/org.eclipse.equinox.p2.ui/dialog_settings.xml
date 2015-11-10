@@ -14,6 +14,20 @@
 		<item value="294" key="IDColumnWidth"/>
 		<item value="200" key="VersionColumnWidth"/>
 	</section>
+	<section name="org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationWizard.SelectableIUsPage">
+		<item value="800" key="ListSashWeight"/>
+		<item value="360" key="NameColumnWidth"/>
+		<item value="397" key="IDColumnWidth"/>
+		<item value="200" key="DetailsSashWeight"/>
+		<item value="120" key="VersionColumnWidth"/>
+	</section>
+	<section name="org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationWizard.ResolutionResultsPage">
+		<item value="800" key="ListSashWeight"/>
+		<item value="400" key="NameColumnWidth"/>
+		<item value="277" key="IDColumnWidth"/>
+		<item value="200" key="DetailsSashWeight"/>
+		<item value="200" key="VersionColumnWidth"/>
+	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.InstallWizard.SelectableIUsPage">
 		<item value="800" key="ListSashWeight"/>
 		<item value="360" key="NameColumnWidth"/>
