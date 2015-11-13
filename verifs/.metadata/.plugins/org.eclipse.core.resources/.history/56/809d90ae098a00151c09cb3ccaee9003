@@ -1,0 +1,29 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Position_Test {
+
+	@Test
+	public void testPositionImpl() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetLatitude() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetLongitude() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDistanceTo() {
+		fail("Not yet implemented");
+	}
+
+}

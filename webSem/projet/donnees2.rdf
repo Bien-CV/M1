@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://localhost:9091/projet-websem/donnees-csv#">
+
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://localhost:9091/projet-websem/donnees-csv#donnees-csv"/>
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Aquitaine"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>90.266</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>145</ns0:nombre-d-installations>
+    <ns0:longitude>44.3550340362</ns0:longitude>
+    <ns0:latitude>-0.228135418562</ns0:latitude>
+  </rdf:Description>
+
+  <ns0:donnees-csv rdf:nodeID="genid2">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Aquitaine"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>844.88869</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>27294</ns0:nombre-d-installations>
+    <ns0:longitude>44.3550340362</ns0:longitude>
+    <ns0:latitude>-0.228135418562</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid3">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Basse-Normandie"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>268.06156</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>63</ns0:nombre-d-installations>
+    <ns0:longitude>48.9300235095</ns0:longitude>
+    <ns0:latitude>-0.524006659992</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid4">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Basse-Normandie"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>59.85401</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>6775</ns0:nombre-d-installations>
+    <ns0:longitude>48.9300235095</ns0:longitude>
+    <ns0:latitude>-0.524006659992</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid5">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Centre"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>631.538</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>71</ns0:nombre-d-installations>
+    <ns0:longitude>47.484763746</ns0:longitude>
+    <ns0:latitude>1.68434854978</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid6">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Franche-Comté"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>63.6835</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>142</ns0:nombre-d-installations>
+    <ns0:longitude>47.2079121633</ns0:longitude>
+    <ns0:latitude>6.08798382416</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid7">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Franche-Comté"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>41.88893</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>8059</ns0:nombre-d-installations>
+    <ns0:longitude>47.2079121633</ns0:longitude>
+    <ns0:latitude>6.08798382416</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid8">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Haute-Normandie"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>18.666</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>22</ns0:nombre-d-installations>
+    <ns0:longitude>49.3919333893</ns0:longitude>
+    <ns0:latitude>1.01212319716</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid9">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Languedoc-Roussillon"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>94.376</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>122</ns0:nombre-d-installations>
+    <ns0:longitude>43.593488643</ns0:longitude>
+    <ns0:latitude>3.22556138048</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid10">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Lorraine"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>73.234</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>157</ns0:nombre-d-installations>
+    <ns0:longitude>48.7624077662</ns0:longitude>
+    <ns0:latitude>6.14174187254</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid11">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Midi-Pyrénées"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>328.252</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>444</ns0:nombre-d-installations>
+    <ns0:longitude>43.7686346794</ns0:longitude>
+    <ns0:latitude>1.48750616415</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid12">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Nord-Pas-de-Calais"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>0.434</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>5</ns0:nombre-d-installations>
+    <ns0:longitude>50.4730264056</ns0:longitude>
+    <ns0:latitude>2.71458378369</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid13">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Pays_de_la_Loire"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>9.543</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>38</ns0:nombre-d-installations>
+    <ns0:longitude>47.4773980378</ns0:longitude>
+    <ns0:latitude>-0.816398587614</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid14">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Pays_de_la_Loire"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>375.33834</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>39442</ns0:nombre-d-installations>
+    <ns0:longitude>47.4773980378</ns0:longitude>
+    <ns0:latitude>-0.816398587614</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid15">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Picardie"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>1395.16215</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>145</ns0:nombre-d-installations>
+    <ns0:longitude>49.6427413884</ns0:longitude>
+    <ns0:latitude>2.80772147695</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid16">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Poitou-Charentes"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>38.9225</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>16</ns0:nombre-d-installations>
+    <ns0:longitude>46.1628247648</ns0:longitude>
+    <ns0:latitude>-0.0816578770159</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid17">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Poitou-Charentes"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>8.943</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>25</ns0:nombre-d-installations>
+    <ns0:longitude>46.1628247648</ns0:longitude>
+    <ns0:latitude>-0.0816578770159</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid18">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Poitou-Charentes"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>160.52974</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>10361</ns0:nombre-d-installations>
+    <ns0:longitude>46.1628247648</ns0:longitude>
+    <ns0:latitude>-0.0816578770159</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid19">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Rhône-Alpes"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>210.443</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>64</ns0:nombre-d-installations>
+    <ns0:longitude>45.4315419252</ns0:longitude>
+    <ns0:latitude>5.33447326661</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid20">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Alsace"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>6.448</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>32</ns0:nombre-d-installations>
+    <ns0:longitude>48.3302121319</ns0:longitude>
+    <ns0:latitude>7.43522723147</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid21">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Auvergne"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>89.099</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>124</ns0:nombre-d-installations>
+    <ns0:longitude>45.6561598984</ns0:longitude>
+    <ns0:latitude>3.1770179214</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid22">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Basse-Normandie"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>13.419</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>29</ns0:nombre-d-installations>
+    <ns0:longitude>48.9300235095</ns0:longitude>
+    <ns0:latitude>-0.524006659992</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid23">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Basse-Normandie"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>11.5185</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>19</ns0:nombre-d-installations>
+    <ns0:longitude>48.9300235095</ns0:longitude>
+    <ns0:latitude>-0.524006659992</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid24">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Bretagne"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>52.613</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>49</ns0:nombre-d-installations>
+    <ns0:longitude>48.1774943505</ns0:longitude>
+    <ns0:latitude>-2.84240902913</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid25">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Bretagne"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>175.01065</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>18426</ns0:nombre-d-installations>
+    <ns0:longitude>48.1774943505</ns0:longitude>
+    <ns0:latitude>-2.84240902913</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid26">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Champagne-Ardenne"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>109.128</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>23</ns0:nombre-d-installations>
+    <ns0:longitude>48.7364132667</ns0:longitude>
+    <ns0:latitude>4.5412839417</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid27">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Champagne-Ardenne"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>91.04099</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>5754</ns0:nombre-d-installations>
+    <ns0:longitude>48.7364132667</ns0:longitude>
+    <ns0:latitude>4.5412839417</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid28">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Languedoc-Roussillon"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>473.9441</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>87</ns0:nombre-d-installations>
+    <ns0:longitude>43.593488643</ns0:longitude>
+    <ns0:latitude>3.22556138048</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid29">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Lorraine"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>727.4213</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>81</ns0:nombre-d-installations>
+    <ns0:longitude>48.7624077662</ns0:longitude>
+    <ns0:latitude>6.14174187254</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid30">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Midi-Pyrénées"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>114.074</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>20</ns0:nombre-d-installations>
+    <ns0:longitude>43.7686346794</ns0:longitude>
+    <ns0:latitude>1.48750616415</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid31">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Midi-Pyrénées"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>271.382</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>42</ns0:nombre-d-installations>
+    <ns0:longitude>43.7686346794</ns0:longitude>
+    <ns0:latitude>1.48750616415</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid32">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Nord-Pas-de-Calais"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>85.79634</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>12500</ns0:nombre-d-installations>
+    <ns0:longitude>50.4730264056</ns0:longitude>
+    <ns0:latitude>2.71458378369</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid33">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Pays_de_la_Loire"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>177.055</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>56</ns0:nombre-d-installations>
+    <ns0:longitude>47.4773980378</ns0:longitude>
+    <ns0:latitude>-0.816398587614</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid34">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Picardie"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>3.345</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>13</ns0:nombre-d-installations>
+    <ns0:longitude>49.6427413884</ns0:longitude>
+    <ns0:latitude>2.80772147695</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid35">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Provence-Alpes-Côte_d'Azur"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>29.7654</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>16</ns0:nombre-d-installations>
+    <ns0:longitude>43.9562030158</ns0:longitude>
+    <ns0:latitude>6.05623185692</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid36">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Provence-Alpes-Côte_d'Azur"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>769.55912</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>32475</ns0:nombre-d-installations>
+    <ns0:longitude>43.9562030158</ns0:longitude>
+    <ns0:latitude>6.05623185692</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid37">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Rhône-Alpes"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>343.01203</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>43875</ns0:nombre-d-installations>
+    <ns0:longitude>45.4315419252</ns0:longitude>
+    <ns0:latitude>5.33447326661</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid38">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Alsace"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>65.74078</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>4916</ns0:nombre-d-installations>
+    <ns0:longitude>48.3302121319</ns0:longitude>
+    <ns0:latitude>7.43522723147</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid39">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Aquitaine"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>125.979</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>33</ns0:nombre-d-installations>
+    <ns0:longitude>44.3550340362</ns0:longitude>
+    <ns0:latitude>-0.228135418562</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid40">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Aquitaine"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>61.165</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>24</ns0:nombre-d-installations>
+    <ns0:longitude>44.3550340362</ns0:longitude>
+    <ns0:latitude>-0.228135418562</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid41">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Bourgogne"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>18.936</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>18</ns0:nombre-d-installations>
+    <ns0:longitude>47.2478036264</ns0:longitude>
+    <ns0:latitude>4.1493301541</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid42">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Bretagne"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>203.1275</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>53</ns0:nombre-d-installations>
+    <ns0:longitude>48.1774943505</ns0:longitude>
+    <ns0:latitude>-2.84240902913</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid43">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Bretagne"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>8.5275</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>32</ns0:nombre-d-installations>
+    <ns0:longitude>48.1774943505</ns0:longitude>
+    <ns0:latitude>-2.84240902913</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid44">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Franche-Comté"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>55.137</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>12</ns0:nombre-d-installations>
+    <ns0:longitude>47.2079121633</ns0:longitude>
+    <ns0:latitude>6.08798382416</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid45">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Haute-Normandie"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>54.46902</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>5630</ns0:nombre-d-installations>
+    <ns0:longitude>49.3919333893</ns0:longitude>
+    <ns0:latitude>1.01212319716</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid46">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Île-de-France"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>193.253</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>31</ns0:nombre-d-installations>
+    <ns0:longitude>48.7092897866</ns0:longitude>
+    <ns0:latitude>2.50334433081</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid47">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Languedoc-Roussillon"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>89.997</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>18</ns0:nombre-d-installations>
+    <ns0:longitude>43.593488643</ns0:longitude>
+    <ns0:latitude>3.22556138048</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid48">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Languedoc-Roussillon"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>36.805</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>12</ns0:nombre-d-installations>
+    <ns0:longitude>43.593488643</ns0:longitude>
+    <ns0:latitude>3.22556138048</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid49">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Languedoc-Roussillon"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>600.30068</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>26679</ns0:nombre-d-installations>
+    <ns0:longitude>43.593488643</ns0:longitude>
+    <ns0:latitude>3.22556138048</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid50">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Lorraine"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>127.8135</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>36</ns0:nombre-d-installations>
+    <ns0:longitude>48.7624077662</ns0:longitude>
+    <ns0:latitude>6.14174187254</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid51">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Lorraine"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>93.10391</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>12672</ns0:nombre-d-installations>
+    <ns0:longitude>48.7624077662</ns0:longitude>
+    <ns0:latitude>6.14174187254</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid52">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Nord-Pas-de-Calais"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>677.7187</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>98</ns0:nombre-d-installations>
+    <ns0:longitude>50.4730264056</ns0:longitude>
+    <ns0:latitude>2.71458378369</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid53">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Picardie"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>86.605</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>20</ns0:nombre-d-installations>
+    <ns0:longitude>49.6427413884</ns0:longitude>
+    <ns0:latitude>2.80772147695</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid54">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Poitou-Charentes"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>230.163</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>34</ns0:nombre-d-installations>
+    <ns0:longitude>46.1628247648</ns0:longitude>
+    <ns0:latitude>-0.0816578770159</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid55">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Rhône-Alpes"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>168.7279</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>59</ns0:nombre-d-installations>
+    <ns0:longitude>45.4315419252</ns0:longitude>
+    <ns0:latitude>5.33447326661</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid56">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Rhône-Alpes"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>346.3036</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>307</ns0:nombre-d-installations>
+    <ns0:longitude>45.4315419252</ns0:longitude>
+    <ns0:latitude>5.33447326661</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid57">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Alsace"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>45.317</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>8</ns0:nombre-d-installations>
+    <ns0:longitude>48.3302121319</ns0:longitude>
+    <ns0:latitude>7.43522723147</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid58">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Auvergne"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>27.5545</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>15</ns0:nombre-d-installations>
+    <ns0:longitude>45.6561598984</ns0:longitude>
+    <ns0:latitude>3.1770179214</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid59">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Auvergne"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>197.5393</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>35</ns0:nombre-d-installations>
+    <ns0:longitude>45.6561598984</ns0:longitude>
+    <ns0:latitude>3.1770179214</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid60">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Bretagne"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>836.1281</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>150</ns0:nombre-d-installations>
+    <ns0:longitude>48.1774943505</ns0:longitude>
+    <ns0:latitude>-2.84240902913</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid61">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Centre"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>67.973</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>34</ns0:nombre-d-installations>
+    <ns0:longitude>47.484763746</ns0:longitude>
+    <ns0:latitude>1.68434854978</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid62">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Champagne-Ardenne"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>26.79315</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>25</ns0:nombre-d-installations>
+    <ns0:longitude>48.7364132667</ns0:longitude>
+    <ns0:latitude>4.5412839417</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid63">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Champagne-Ardenne"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>1636.4408</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>172</ns0:nombre-d-installations>
+    <ns0:longitude>48.7364132667</ns0:longitude>
+    <ns0:latitude>4.5412839417</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid64">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Franche-Comté"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>43.922</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>8</ns0:nombre-d-installations>
+    <ns0:longitude>47.2079121633</ns0:longitude>
+    <ns0:latitude>6.08798382416</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid65">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Haute-Normandie"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>136.93292</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>33</ns0:nombre-d-installations>
+    <ns0:longitude>49.3919333893</ns0:longitude>
+    <ns0:latitude>1.01212319716</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid66">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Île-de-France"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>19.213</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>5</ns0:nombre-d-installations>
+    <ns0:longitude>48.7092897866</ns0:longitude>
+    <ns0:latitude>2.50334433081</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid67">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Limousin"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>48.0423</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>11</ns0:nombre-d-installations>
+    <ns0:longitude>45.7741118679</ns0:longitude>
+    <ns0:latitude>1.71413021325</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid68">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Limousin"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>95.1709</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>96</ns0:nombre-d-installations>
+    <ns0:longitude>45.7741118679</ns0:longitude>
+    <ns0:latitude>1.71413021325</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid69">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Lorraine"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>36.995</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>37</ns0:nombre-d-installations>
+    <ns0:longitude>48.7624077662</ns0:longitude>
+    <ns0:latitude>6.14174187254</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid70">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Picardie"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>15.337</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>12</ns0:nombre-d-installations>
+    <ns0:longitude>49.6427413884</ns0:longitude>
+    <ns0:latitude>2.80772147695</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid71">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Picardie"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>30.18759</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>4532</ns0:nombre-d-installations>
+    <ns0:longitude>49.6427413884</ns0:longitude>
+    <ns0:latitude>2.80772147695</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid72">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Provence-Alpes-Côte_d'Azur"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>90.773</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>21</ns0:nombre-d-installations>
+    <ns0:longitude>43.9562030158</ns0:longitude>
+    <ns0:latitude>6.05623185692</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid73">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Provence-Alpes-Côte_d'Azur"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>108.4894</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>104</ns0:nombre-d-installations>
+    <ns0:longitude>43.9562030158</ns0:longitude>
+    <ns0:latitude>6.05623185692</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid74">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Rhône-Alpes"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>106.4884</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>38</ns0:nombre-d-installations>
+    <ns0:longitude>45.4315419252</ns0:longitude>
+    <ns0:latitude>5.33447326661</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid75">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Champagne-Ardenne"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>19.3695</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>61</ns0:nombre-d-installations>
+    <ns0:longitude>48.7364132667</ns0:longitude>
+    <ns0:latitude>4.5412839417</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid76">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Franche-Comté"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>15.09</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>17</ns0:nombre-d-installations>
+    <ns0:longitude>47.2079121633</ns0:longitude>
+    <ns0:latitude>6.08798382416</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid77">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Haute-Normandie"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>12.132</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>14</ns0:nombre-d-installations>
+    <ns0:longitude>49.3919333893</ns0:longitude>
+    <ns0:latitude>1.01212319716</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid78">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Haute-Normandie"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>298.77265</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>39</ns0:nombre-d-installations>
+    <ns0:longitude>49.3919333893</ns0:longitude>
+    <ns0:latitude>1.01212319716</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid79">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Île-de-France"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>316.735</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>76</ns0:nombre-d-installations>
+    <ns0:longitude>48.7092897866</ns0:longitude>
+    <ns0:latitude>2.50334433081</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid80">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Île-de-France"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>30.5384</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>5</ns0:nombre-d-installations>
+    <ns0:longitude>48.7092897866</ns0:longitude>
+    <ns0:latitude>2.50334433081</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid81">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Île-de-France"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>75.58144</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>12766</ns0:nombre-d-installations>
+    <ns0:longitude>48.7092897866</ns0:longitude>
+    <ns0:latitude>2.50334433081</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid82">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Limousin"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>22.539</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>4</ns0:nombre-d-installations>
+    <ns0:longitude>45.7741118679</ns0:longitude>
+    <ns0:latitude>1.71413021325</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid83">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Limousin"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>19.685</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>11</ns0:nombre-d-installations>
+    <ns0:longitude>45.7741118679</ns0:longitude>
+    <ns0:latitude>1.71413021325</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid84">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Limousin"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>143.40763</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>5295</ns0:nombre-d-installations>
+    <ns0:longitude>45.7741118679</ns0:longitude>
+    <ns0:latitude>1.71413021325</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid85">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Midi-Pyrénées"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>39.876</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>20</ns0:nombre-d-installations>
+    <ns0:longitude>43.7686346794</ns0:longitude>
+    <ns0:latitude>1.48750616415</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid86">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Midi-Pyrénées"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>604.87814</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>24475</ns0:nombre-d-installations>
+    <ns0:longitude>43.7686346794</ns0:longitude>
+    <ns0:latitude>1.48750616415</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid87">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Nord-Pas-de-Calais"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>176.63372</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>53</ns0:nombre-d-installations>
+    <ns0:longitude>50.4730264056</ns0:longitude>
+    <ns0:latitude>2.71458378369</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid88">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Nord-Pas-de-Calais"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>72.0</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>31</ns0:nombre-d-installations>
+    <ns0:longitude>50.4730264056</ns0:longitude>
+    <ns0:latitude>2.71458378369</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid89">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Pays_de_la_Loire"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>65.308</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>42</ns0:nombre-d-installations>
+    <ns0:longitude>47.4773980378</ns0:longitude>
+    <ns0:latitude>-0.816398587614</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid90">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Pays_de_la_Loire"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>600.8184</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>111</ns0:nombre-d-installations>
+    <ns0:longitude>47.4773980378</ns0:longitude>
+    <ns0:latitude>-0.816398587614</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid91">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Provence-Alpes-Côte_d'Azur"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>151.434</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>51</ns0:nombre-d-installations>
+    <ns0:longitude>43.9562030158</ns0:longitude>
+    <ns0:latitude>6.05623185692</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid92">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Alsace"/>
+    <ns0:type-de-production>Bio énergie</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>9.755</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>7</ns0:nombre-d-installations>
+    <ns0:longitude>48.3302121319</ns0:longitude>
+    <ns0:latitude>7.43522723147</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid93">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Auvergne"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>19.782</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>9</ns0:nombre-d-installations>
+    <ns0:longitude>45.6561598984</ns0:longitude>
+    <ns0:latitude>3.1770179214</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid94">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Auvergne"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>285.75733</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>11722</ns0:nombre-d-installations>
+    <ns0:longitude>45.6561598984</ns0:longitude>
+    <ns0:latitude>3.1770179214</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid95">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Basse-Normandie"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>60.752</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>15</ns0:nombre-d-installations>
+    <ns0:longitude>48.9300235095</ns0:longitude>
+    <ns0:latitude>-0.524006659992</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid96">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Bourgogne"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>66.206</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>14</ns0:nombre-d-installations>
+    <ns0:longitude>47.2478036264</ns0:longitude>
+    <ns0:latitude>4.1493301541</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid97">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Bourgogne"/>
+    <ns0:type-de-production>Eolien</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>329.345</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>37</ns0:nombre-d-installations>
+    <ns0:longitude>47.2478036264</ns0:longitude>
+    <ns0:latitude>4.1493301541</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid98">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Bourgogne"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>19.69037</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>48</ns0:nombre-d-installations>
+    <ns0:longitude>47.2478036264</ns0:longitude>
+    <ns0:latitude>4.1493301541</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid99">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Bourgogne"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>94.45834</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>8897</ns0:nombre-d-installations>
+    <ns0:longitude>47.2478036264</ns0:longitude>
+    <ns0:latitude>4.1493301541</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid100">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Centre"/>
+    <ns0:type-de-production>Autres</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>99.228</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>28</ns0:nombre-d-installations>
+    <ns0:longitude>47.484763746</ns0:longitude>
+    <ns0:latitude>1.68434854978</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid101">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Centre"/>
+    <ns0:type-de-production>Hydraulique</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>20.868</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>28</ns0:nombre-d-installations>
+    <ns0:longitude>47.484763746</ns0:longitude>
+    <ns0:latitude>1.68434854978</ns0:latitude>
+  </ns0:donnees-csv>
+
+  <ns0:donnees-csv rdf:nodeID="genid102">
+    <ns0:region rdf:resource="http://fr.dbpedia.org/page/Centre"/>
+    <ns0:type-de-production>Photovoltaïque</ns0:type-de-production>
+    <ns0:puissance-cumulee-mw>140.49669</ns0:puissance-cumulee-mw>
+    <ns0:nombre-d-installations>11387</ns0:nombre-d-installations>
+    <ns0:longitude>47.484763746</ns0:longitude>
+    <ns0:latitude>1.68434854978</ns0:latitude>
+  </ns0:donnees-csv>
+
+</rdf:RDF>

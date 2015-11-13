@@ -1,7 +1,7 @@
 @prefix projet-websem: <http://localhost:9091/project/projet-websem> .
 @prefix : <http://localhost:9091/projet-websem/donnees-csv#> .
-@prefix _:  <http://localhost:9091/projet-websem/donnees-csv/>
-@prefix db: <http://fr.dbpedia.org/page/>
+@prefix _:  <http://localhost:9091/projet-websem/donnees-csv/>.
+@prefix db: <http://fr.dbpedia.org/page/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 
@@ -278,7 +278,7 @@
 	:latitude "2.80772147695" .
 
  _:35 a :donnees-csv ;
-	:region db:Provence-Alpes-Côte_d'Azur ;
+	:region db:Provence-Alpes-Côte_d\'Azur ;
 	:type-de-production "Eolien" ;
 	:puissance-cumulee-mw "29.7654" ;
 	:nombre-d-installations "16" ;
@@ -286,7 +286,7 @@
 	:latitude "6.05623185692" .
 
  _:36 a :donnees-csv ;
-	:region db:Provence-Alpes-Côte_d'Azur ;
+	:region db:Provence-Alpes-Côte_d\'Azur ;
 	:type-de-production "Photovoltaïque" ;
 	:puissance-cumulee-mw "769.55912" ;
 	:nombre-d-installations "32475" ;
@@ -574,7 +574,7 @@
 	:latitude "2.80772147695" .
 
  _:72 a :donnees-csv ;
-	:region db:Provence-Alpes-Côte_d'Azur ;
+	:region db:Provence-Alpes-Côte_d\'Azur ;
 	:type-de-production "Bio énergie" ;
 	:puissance-cumulee-mw "90.773" ;
 	:nombre-d-installations "21" ;
@@ -582,7 +582,7 @@
 	:latitude "6.05623185692" .
 
  _:73 a :donnees-csv ;
-	:region db:Provence-Alpes-Côte_d'Azur ;
+	:region db:Provence-Alpes-Côte_d\'Azur ;
 	:type-de-production "Hydraulique" ;
 	:puissance-cumulee-mw "108.4894" ;
 	:nombre-d-installations "104" ;
@@ -726,7 +726,7 @@
 	:latitude "-0.816398587614" .
 
  _:91 a :donnees-csv ;
-	:region db:Provence-Alpes-Côte_d'Azur ;
+	:region db:Provence-Alpes-Côte_d\'Azur ;
 	:type-de-production "Autres" ;
 	:puissance-cumulee-mw "151.434" ;
 	:nombre-d-installations "51" ;

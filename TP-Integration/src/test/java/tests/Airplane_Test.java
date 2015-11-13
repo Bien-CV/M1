@@ -16,20 +16,20 @@ public class Airplane_Test {
 
 	@Test
 	public void testGetAutonomy() {
-		AirplaneImpl airplane = new AirplaneImpl(0, 0, 0, 0);
-		assertTrue(airplane.getAutonomy()==0);
+		AirplaneImpl airplane = new AirplaneImpl(0, 0, 3, 2);
+		assertTrue(airplane.getAutonomy()==6);
 	}
 
 	@Test
 	public void testGetLoading() {
-		AirplaneImpl airplane = new AirplaneImpl(0, 0, 0, 0);
-		assertTrue(airplane.getLoading()==0);
+		AirplaneImpl airplane = new AirplaneImpl(0, 1, 0, 0);
+		assertTrue(airplane.getLoading()==1);
 	}
 
 	@Test
 	public void testWeight() {
-		AirplaneImpl airplane = new AirplaneImpl(0, 0, 0, 0);
-		assertTrue(airplane.weight()==0);
+		AirplaneImpl airplane = new AirplaneImpl(1, 0, 0, 0);
+		assertTrue(airplane.weight()==1);
 	}
 
 }

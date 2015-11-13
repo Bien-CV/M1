@@ -1,0 +1,7 @@
+package stubs;
+
+import fr.univnantes.cta.impl.LatitudeImpl;
+
+public class Latitude_stub extends LatitudeImpl {
+
+}

@@ -4,13 +4,22 @@
 <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
 <fullyQualifiedTypeName name="fr.univnantes.cta.impl.AngleImpl"/>
 <fullyQualifiedTypeName name="junit.framework.TestCase"/>
-<fullyQualifiedTypeName name="fr.univnantes.cta.impl.AirplaneImpl"/>
 <fullyQualifiedTypeName name="fr.univnantes.cta.impl.AirportImpl"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
-<fullyQualifiedTypeName name="fr.univnantes.cta.impl.AirwayImpl"/>
-<fullyQualifiedTypeName name="fr.univnantes.cta.impl.VORImpl"/>
 <fullyQualifiedTypeName name="fr.univnantes.cta.Airway"/>
 <fullyQualifiedTypeName name="fr.univnantes.cta.impl.CoordinateImpl"/>
 <fullyQualifiedTypeName name="org.junit.Ignore"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.impl.LatitudeImpl"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.impl.LongitudeImpl"/>
 <fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.impl.PositionImpl"/>
+<fullyQualifiedTypeName name="org.mockito.Mockito"/>
+<fullyQualifiedTypeName name="org.mockito.Mock"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.impl.VORImpl"/>
+<fullyQualifiedTypeName name="org.mockito.BDDMockito.Then"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.impl.AirplaneImpl"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.impl.AirwayImpl"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.impl.TakenAirwayImpl"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.CompassDirection"/>
 </qualifiedTypeNameHistroy>

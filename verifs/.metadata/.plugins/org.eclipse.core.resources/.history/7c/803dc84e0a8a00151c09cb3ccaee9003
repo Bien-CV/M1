@@ -1,0 +1,48 @@
+package tests;
+import static org.mockito.Mockito.*;
+import static org.junit.Assert.*;
+import static org.mockito.Matchers.anyInt;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+import java.util.GregorianCalendar;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import fr.univnantes.cta.impl.LatitudeImpl;
+import fr.univnantes.cta.impl.PositionImpl;
+import TimerPackage.Timer;
+import TimerPackage.TimerException;
+
+public class Position_Test {
+	protected  PositionImpl pos;
+
+	@Before
+	public void setUp(){
+		LatitudeImpl mockedLat = mock(LatitudeImpl.class);
+		pos = new PositionImpl(1, 0, 0, mockedLat);
+		when(mockedLat.get(anyInt())).thenReturn(0,0,1);
+	}
+	
+	@Test
+	public void testPositionImpl() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetLatitude() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetLongitude() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDistanceTo() {
+		fail("Not yet implemented");
+	}
+
+}

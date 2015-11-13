@@ -1,50 +1,55 @@
 package tests;
 
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import fr.univnantes.cta.Airway;
+
+
 import fr.univnantes.cta.impl.AirwayImpl;
 import fr.univnantes.cta.impl.VORImpl;
 
 public class Airway_Test {
-
+	protected AirwayImpl airway;
+	protected VORImpl sta;
+	protected VORImpl sto;
+	
 	@Before
 	public void setUp() throws Exception {
-		VORImpl s = new VORImpl("s", null);
-		VORImpl st = new VORImpl("st", null);
-		AirwayImpl airway = new AirwayImpl(s, st);
+		sta = mock(VORImpl.class);
+		sto = mock(VORImpl.class);
+		airway = new AirwayImpl(sto,sta);
+		when(sta.distanceTo(sto)).thenReturn(42.);
+		when(sta.getName()).thenReturn("sta");
+		when(sto.getName()).thenReturn("sto");
 	}
 
-	@Test
-	public void testAirwayImpl() {
-		fail("Not yet implemented");
-	}
 
 	@Test
 	public void testGetDistance() {
+		assertTrue(airway.getDistance()==42.);
 	}
 
 	@Test
 	public void testDeparture() {
-		fail("Not yet implemented");
+		assertTrue(airway.departure().equals(sta));
 	}
 
 	@Test
 	public void testArrival() {
-		fail("Not yet implemented");
+		assertTrue(airway.arrival().equals(sto));
 	}
 
 	@Test
 	public void testGetVORDepart() {
-		fail("Not yet implemented");
+		assertTrue(airway.GetVORDepart().equals("sta"));
 	}
 
 	@Test
 	public void testGetVORArrive() {
-		fail("Not yet implemented");
+		assertTrue(airway.GetVORArrive().equals("sto"));
 	}
 
 }

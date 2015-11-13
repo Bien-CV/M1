@@ -1,0 +1,44 @@
+package tests;
+
+import static org.junit.Assert.*;
+import static org.mockito.Mockito.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import fr.univnantes.cta.CompassDirection;
+import fr.univnantes.cta.impl.AirwayImpl;
+import fr.univnantes.cta.impl.TakenAirwayImpl;
+
+public class TakenAirway_Test {
+	protected TakenAirwayImpl takena;
+	protected AirwayImpl airw;
+
+	@Before
+	public void setUp() throws Exception {
+		airw = mock(AirwayImpl.class);
+		takena = new TakenAirwayImpl(airw, 42, CompassDirection.EAST);
+		when(airw.getDistance()).thenReturn(21.);
+	}
+
+	@Test
+	public void testDistance() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetAirway() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetAltitude() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetSense() {
+		fail("Not yet implemented");
+	}
+
+}

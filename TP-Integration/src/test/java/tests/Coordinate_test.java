@@ -5,7 +5,6 @@ import static org.junit.Assert.*;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import TimerPackage.TimerException;
 import fr.univnantes.cta.impl.CoordinateImpl;
 
 public class Coordinate_test {
@@ -18,19 +17,20 @@ public class Coordinate_test {
 
 	@Test(expected=UnsupportedOperationException.class)
 	public void testDirection() {
-		
-		CoordinateImpl coord = new CoordinateImpl(0, 0, 0, n);
+		CoordinateImpl coord = new CoordinateImpl(0, 0, 0, null);
 		coord.direction();
 	}
 
-	@Test
+	@Test(expected=UnsupportedOperationException.class)
 	public void testCos() {
-		fail("Not yet implemented");
+		CoordinateImpl coord = new CoordinateImpl(0, 0, 0, null);
+		coord.Cos();
 	}
 
-	@Test
+	@Test(expected=UnsupportedOperationException.class)
 	public void testSin() {
-		fail("Not yet implemented");
+		CoordinateImpl coord = new CoordinateImpl(0, 0, 0, null);
+		coord.Sin();
 	}
 
 }
