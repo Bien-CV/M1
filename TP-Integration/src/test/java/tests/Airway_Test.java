@@ -20,7 +20,7 @@ public class Airway_Test {
 	public void setUp() throws Exception {
 		sta = mock(VORImpl.class);
 		sto = mock(VORImpl.class);
-		airway = new AirwayImpl(sto,sta);
+		airway = new AirwayImpl(sta,sto);
 		when(sta.distanceTo(sto)).thenReturn(42.);
 		when(sta.getName()).thenReturn("sta");
 		when(sto.getName()).thenReturn("sto");
@@ -34,12 +34,12 @@ public class Airway_Test {
 
 	@Test
 	public void testDeparture() {
-		assertTrue(airway.departure().equals(sta));
+		assertTrue(airway.GetVORDepart().equals(sta.getName()));
 	}
 
 	@Test
 	public void testArrival() {
-		assertTrue(airway.arrival().equals(sto));
+		assertTrue(airway.GetVORArrive().equals(sto.getName()));
 	}
 
 	@Test

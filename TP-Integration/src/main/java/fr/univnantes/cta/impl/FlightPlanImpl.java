@@ -7,41 +7,49 @@ import java.util.Vector;
 
 import fr.univnantes.cta.FlightPlan;
 import fr.univnantes.cta.TakenAirway;
-import java.util.LinkedList;
 
 public class FlightPlanImpl implements FlightPlan {
 
-    private List<TakenAirway> path = new LinkedList<TakenAirway>();
-    private List<TakenAirway> airwayListNonModifiable;
+	private List<TakenAirway> airwayListModifiable;
+	private List<TakenAirway> airwayListNonModifiable;
 
-    public FlightPlanImpl() {
-        airwayListNonModifiable = Collections.unmodifiableList(path);
-    }
+	public FlightPlanImpl() {
+		airwayListModifiable = new Vector<TakenAirway>();
+		airwayListNonModifiable = Collections
+				.unmodifiableList(airwayListModifiable);
+	}
 
-    public void addAirway(TakenAirway a) {
+	public void addAirway(TakenAirway a) {
+		if (airwayListModifiable.isEmpty()) {
+			airwayListModifiable.add(a);
+		} else {
+			int dernier = (airwayListModifiable.size() - 1);
+			if (((AirwayImpl) (airwayListModifiable.get(dernier).getAirway()))
+					.GetVORArrive() != ((AirwayImpl) (a.getAirway()))
+					.GetVORDepart()) {
+				throw new IllegalArgumentException(
+						"Erreur dans le plan de vol : \nun Aeroport de depart ne correspond pas a un aeroport d'arriver precedent");
+			}
 
-        if (path.isEmpty()) {
-            path.add(a);
-        } else {
-            int dernier = (path.size() - 1);
-            if (((AirwayImpl) (path.get(dernier).getAirway())).GetVORArrive()
-                    != ((AirwayImpl) (a.getAirway())).GetVORDepart()) {
+			// verifi si le depart du vol ajouter correspond bien a l'arriver du
+			// vol precedent
+			// pour verifier la correspondence des vols
 
-                throw new IllegalArgumentException("Wrong Flight Plan");
-            }
-            path.add(a);
-        }
-    }
+			airwayListModifiable.add(a);
+		}
 
-    public double distance() {
-        double total = 0;
-        for (TakenAirway ta : path) {
-            total = total + ta.distance();
-        }
-        return total;
-    }
+	}
 
-    public List<TakenAirway> getPath() {
-        return airwayListNonModifiable;
-    }
+	public double distance() {
+		double total = 0;
+		for (TakenAirway ta : airwayListModifiable) {
+			total = total + ta.distance(); // calcul la distance du plan de vol
+		}
+		return total;
+	}
+
+	public List<TakenAirway> getPath() {
+		return airwayListNonModifiable; // retourne la liste des plan de vols
+	}
+
 }

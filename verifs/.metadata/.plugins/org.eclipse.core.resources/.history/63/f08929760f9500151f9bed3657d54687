@@ -1,0 +1,104 @@
+package tests;
+
+import static org.junit.Assert.*;
+import static org.mockito.Mockito.*;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.Vector;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import fr.univnantes.cta.CompassDirection;
+import fr.univnantes.cta.TakenAirway;
+import fr.univnantes.cta.impl.AirwayImpl;
+import fr.univnantes.cta.impl.FlightPlanImpl;
+import fr.univnantes.cta.impl.LatitudeImpl;
+import fr.univnantes.cta.impl.LongitudeImpl;
+import fr.univnantes.cta.impl.PositionImpl;
+import fr.univnantes.cta.impl.TakenAirwayImpl;
+import fr.univnantes.cta.impl.VORImpl;
+
+public class FlightPlan_Test {
+	protected FlightPlanImpl fp;
+	protected TakenAirwayImpl a;
+	protected TakenAirwayImpl a2;
+	protected TakenAirwayImpl a3;
+
+	@Before
+	public void setUp() throws Exception {
+		fp = new FlightPlanImpl();
+		LatitudeImpl lat1 = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LatitudeImpl lat2 = new LatitudeImpl(2, 0, 0, CompassDirection.NORTH);
+		LatitudeImpl lat3 = new LatitudeImpl(3, 0, 0, CompassDirection.NORTH);
+		LatitudeImpl lat4 = new LatitudeImpl(4, 0, 0, CompassDirection.NORTH);
+
+		LongitudeImpl long1 = new LongitudeImpl(0, 0, 1, CompassDirection.EAST);
+		LongitudeImpl long2 = new LongitudeImpl(0, 0, 2, CompassDirection.EAST);
+		LongitudeImpl long3 = new LongitudeImpl(0, 0, 3, CompassDirection.EAST);
+		LongitudeImpl long4 = new LongitudeImpl(0, 0, 4, CompassDirection.EAST);
+
+		PositionImpl pos1 = new PositionImpl(lat1, long1);
+		PositionImpl pos2 = new PositionImpl(lat2, long2);
+		PositionImpl pos3 = new PositionImpl(lat3, long4);
+		PositionImpl pos4 = new PositionImpl(lat3, long4);
+
+		VORImpl vor1 = new VORImpl("vor1", pos1);
+		VORImpl vor2 = new VORImpl("vor2", pos2);
+		VORImpl vor3 = new VORImpl("vor3", pos3);
+		VORImpl vor4 = new VORImpl("vor4", pos4);
+		AirwayImpl airway1 = new AirwayImpl(vor1, vor2);
+		AirwayImpl airway2 = new AirwayImpl(vor3, vor4);
+		AirwayImpl airway3 = new AirwayImpl(vor2, vor3);
+		a = new TakenAirwayImpl(airway1, 0, CompassDirection.EAST);
+		a2 = new TakenAirwayImpl(airway2, 0, CompassDirection.EAST);
+		a3 = new TakenAirwayImpl(airway3, 0, CompassDirection.EAST);
+
+	}
+
+	@Test
+	public void testFlightPlanImpl() {
+		FlightPlanImpl fp2 = new FlightPlanImpl();
+		assertNotNull(fp2);
+	}
+
+	@Test
+	public void testAddAirwayEmptyPath() {
+		fp.addAirway(a);
+		assertTrue(fp.getPath().contains(a));
+
+	}
+
+	@Test(expected = IllegalArgumentException.class)
+	public void testAddAirwayErPlanVol() {
+		fp.addAirway(a);
+		fp.addAirway(a2);
+		assertTrue(fp.getPath().contains(a) && fp.getPath().contains(a2));
+
+	}
+
+	@Test
+	public void testAddAirway2() {
+		fp.addAirway(a);
+		fp.addAirway(a2);
+		assertTrue(fp.getPath().contains(a) && fp.getPath().contains(a3));
+
+	}
+
+	@Test
+	public void testDistance() {
+		assertTrue(fp.distance() == 1);
+
+	}
+
+	@Test
+	public void testGetPath() {
+		/*
+		 * List<TakenAirway> x = new Vector<TakenAirway>(); x.add(a); x =
+		 * Collections.unmodifiableList(x);
+		 */
+		assertTrue(fp.getPath().equals(new Vector<TakenAirway>()));
+	}
+
+}

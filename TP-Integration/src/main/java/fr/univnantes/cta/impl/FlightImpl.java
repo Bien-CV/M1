@@ -7,41 +7,41 @@ import fr.univnantes.cta.Flight;
 import fr.univnantes.cta.FlightPlan;
 import fr.univnantes.cta.IncompatibleAirway;
 
-abstract class FlightImpl implements Flight {
 
-    private Airport departure, arrival;
-    private Airplane airplane;
-    private FlightPlan flightPlane;
-    protected int passengers;
 
-    public FlightImpl(Airport departure, Airport arrival,
-            Airplane plane, FlightPlan fp, int passengers)
-            throws IncompatibleAirway, AirplaneOverload {
+abstract  class FlightImpl implements Flight{
+	private Airport _depart, _arrive;
+	private Airplane _avion;
+	private FlightPlan _flightplane;
+	protected int _nbpassagers;
+	
+	public FlightImpl(Airport departure, Airport arrival,
+			Airplane plane, FlightPlan fp, int passengers)
+			throws IncompatibleAirway, AirplaneOverload {
+		_depart = departure;
+		_arrive = arrival;
+		_avion = plane;
+		_flightplane = fp;
+		_nbpassagers = passengers;
+	}
 
-        this.departure = departure;
-        this.arrival = arrival;
-        this.airplane = plane;
-        this.flightPlane = fp;
-        this.passengers = passengers;
-    }
+	public Airplane getAirplane() {
+		return _avion;
+	}
 
-    public Airplane getAirplane() {
-        return airplane;
-    }
+	public Airport getArrival() {
+		return _arrive;
+	}
 
-    public Airport getArrival() {
-        return arrival;
-    }
+	public Airport getDeparture() {
+		return _depart;
+	}
 
-    public Airport getDeparture() {
-        return departure;
-    }
-
-    public FlightPlan getFlightPlan() {
-        return flightPlane;
-    }
-
-    public abstract double loadingWeight();
-
-    public abstract double totalWeight();
+	public FlightPlan getFlightPlan() {
+		return _flightplane;
+	}
+	
+	public abstract double loadingWeight();
+	
+	public abstract double totalWeight();
 }

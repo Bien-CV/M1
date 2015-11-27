@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TakenAirway_Test" project="cta" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.TakenAirway_Test" time="0.257">
+    <testcase name="testGetSense" classname="tests.TakenAirway_Test" time="0.253"/>
+    <testcase name="testGetAltitude" classname="tests.TakenAirway_Test" time="0.001"/>
+    <testcase name="testGetAirway" classname="tests.TakenAirway_Test" time="0.0"/>
+    <testcase name="testDistance" classname="tests.TakenAirway_Test" time="0.003"/>
+  </testsuite>
+</testrun>

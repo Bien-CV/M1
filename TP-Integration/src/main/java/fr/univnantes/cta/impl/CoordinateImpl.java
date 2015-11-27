@@ -3,21 +3,64 @@ package fr.univnantes.cta.impl;
 import fr.univnantes.cta.CompassDirection;
 import fr.univnantes.cta.Coordinate;
 
+
+
 public class CoordinateImpl extends AngleImpl implements Coordinate {
+	private int _angle;
+	private int _minute;
+	private int _seconde;
+	private CompassDirection dir;
 
-    public CoordinateImpl(int a, int m, int s, CompassDirection cd) {
-        super(a, m, s);
-    }
+	public CoordinateImpl (int angle, int minute, int seconde, CompassDirection cd){
+		super (angle, minute, seconde);
+		_angle = angle;
+		_minute = minute;
+		_seconde = seconde;
+		dir = cd;
+	}
+	public CompassDirection direction() {
+		return dir;
+	}
+	
+	/**
+	 * retourne le cosinus d'un angle donn�e en degre, minute, seconde
+	 * @return
+	 */
 
-    public CompassDirection direction() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+	public double Cos() {
+		if (dir==CompassDirection.SOUTH || dir == CompassDirection.WEST){
+		//recalcul du cos	
+			return Math.cos(this.Radians());
+		}else{
+			return cos();
+		}
+	}
+	
+	/**
+	 * retourne le un angle donn�e en degre, minute, seconde en Degre
+	 * @return
+	 */
 
-    public double Cos() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+	public double Degrees() {
+		int sign = 1;
+		if (dir==CompassDirection.SOUTH || dir == CompassDirection.WEST){
+			sign = -1;
+			}
+		return sign* (_angle+(_minute+_seconde/60.)/60.);
+		}
 
-    public double Sin() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+	public double Radians() {
+		return Math.toRadians(this.Degrees());
+	}
+
+	public double Sin() {
+		if (dir==CompassDirection.SOUTH || dir == CompassDirection.WEST){
+		// recalcul su sin	
+			return Math.sin(this.Radians());
+		}else{
+			return sin();
+		}
+		
+	}
+	
 }

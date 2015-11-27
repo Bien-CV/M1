@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FlightPlan_Test" project="cta" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.FlightPlan_Test" time="0.04">
+    <testcase name="testGetPath" classname="tests.FlightPlan_Test" time="0.035"/>
+    <testcase name="testAddAirwayEmptyPath" classname="tests.FlightPlan_Test" time="0.0"/>
+    <testcase name="testAddAirway2" classname="tests.FlightPlan_Test" time="0.001"/>
+    <testcase name="testDistance" classname="tests.FlightPlan_Test" time="0.001"/>
+    <testcase name="testFlightPlanImpl" classname="tests.FlightPlan_Test" time="0.001"/>
+    <testcase name="testAddAirwayErPlanVol" classname="tests.FlightPlan_Test" time="0.002"/>
+  </testsuite>
+</testrun>

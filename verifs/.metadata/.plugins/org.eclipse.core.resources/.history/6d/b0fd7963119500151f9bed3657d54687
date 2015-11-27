@@ -1,0 +1,74 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class CTAFactory_Test {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public final void testCreateAirplane() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testCreateAirport() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testCreateAirway() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testCreateCivilFlight() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testCreateFlightPlan() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testCreateLatitude() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testCreateLongitude() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testCreateMilitarFlight() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testCreatePosition() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testCreateTakenAirway() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testCreateVOR() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testSetAirplanes() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

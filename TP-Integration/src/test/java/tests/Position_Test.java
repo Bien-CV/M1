@@ -38,10 +38,11 @@ public class Position_Test {
 		assertTrue(pos.getLongitude()==lon);
 	}
 
-	@Test(expected=UnsupportedOperationException.class)
+	@Test
 	public void testDistanceTo() {
 		PositionImpl pos2 = new PositionImpl(lat, lon);
 		pos.distanceTo(pos2);
+		assertTrue(pos.distanceTo(pos2)==0);
 	}
 
 }

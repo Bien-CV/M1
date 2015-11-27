@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Coordinate_test" project="cta" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.Coordinate_test" time="0.017">
+    <testcase name="testCos" classname="tests.Coordinate_test" time="0.011"/>
+    <testcase name="testSin" classname="tests.Coordinate_test" time="0.001"/>
+    <testcase name="testCoordinateImpl" classname="tests.Coordinate_test" time="0.002"/>
+    <testcase name="testDirection" classname="tests.Coordinate_test" time="0.003"/>
+  </testsuite>
+</testrun>

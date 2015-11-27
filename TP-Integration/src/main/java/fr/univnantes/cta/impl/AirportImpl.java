@@ -2,15 +2,17 @@ package fr.univnantes.cta.impl;
 
 import fr.univnantes.cta.Airport;
 
-public class AirportImpl implements Airport {
 
-    private String name;
 
-    public AirportImpl(String str) {
-        name = str;
-    }
+public class AirportImpl implements Airport{
+	private String Name;
+	
+	public AirportImpl(String nom){
+		Name = nom;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public String getName() {
+		return Name;
+	}
+
 }

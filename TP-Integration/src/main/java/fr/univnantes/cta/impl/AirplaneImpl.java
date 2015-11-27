@@ -2,28 +2,31 @@ package fr.univnantes.cta.impl;
 
 import fr.univnantes.cta.Airplane;
 
+
+
+
 public class AirplaneImpl implements Airplane {
+	private double _poids;
+	private int _capacite, _consomation, _capareservoir;
+		
+	public AirplaneImpl(double weight, int loading, int consumption, int tank){
+		_poids = weight;
+		_capacite = loading;
+		_consomation = consumption;
+		_capareservoir = tank;
+		
+	}
 
-    private double weight;
-    private int loading, consumption, tank;
+	public int getAutonomy() {
+		return (_capareservoir*_consomation);
+	}
 
-    public AirplaneImpl(double weight, int loading, int c, int t) {
-        this.weight = weight;
-        this.loading = loading;
-        this.consumption = t;
-        this.tank = c;
+	public int getLoading() {
+		return _capacite;
+	}
 
-    }
+	public double weight() {
+		return _poids;
+	}
 
-    public int getAutonomy() {
-        return (tank * consumption);
-    }
-
-    public int getLoading() {
-        return loading;
-    }
-
-    public double weight() {
-        return weight;
-    }
 }

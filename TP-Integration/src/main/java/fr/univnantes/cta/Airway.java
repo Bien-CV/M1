@@ -12,7 +12,7 @@ public interface Airway {
      */
     public double getDistance();
     
-    public VOR departure();
+    public String GetVORDepart();
     
-    public VOR arrival();
+    public String GetVORArrive();
 }
