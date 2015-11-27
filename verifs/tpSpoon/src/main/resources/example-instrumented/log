@@ -1,0 +1,11 @@
+INFO: A.main(String[] args)
+INFO: A.mth1(int count)
+INFO: B.mth1(int i)
+INFO: C.C(int i)
+INFO: C.mth1()
+ERROR: error in A.mth1(int count)
+INFO: B.mth1(int i)
+INFO: C.C(int i)
+INFO: C.mth1()
+INFO: result = 100
+INFO: B.mth2()

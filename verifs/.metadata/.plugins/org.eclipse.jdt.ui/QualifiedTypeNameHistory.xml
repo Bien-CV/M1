@@ -22,4 +22,6 @@
 <fullyQualifiedTypeName name="fr.univnantes.cta.impl.AirwayImpl"/>
 <fullyQualifiedTypeName name="fr.univnantes.cta.impl.TakenAirwayImpl"/>
 <fullyQualifiedTypeName name="fr.univnantes.cta.CompassDirection"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 </qualifiedTypeNameHistroy>

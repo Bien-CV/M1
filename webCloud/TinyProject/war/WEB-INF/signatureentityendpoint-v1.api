@@ -1,0 +1,195 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://tinypet-1133.appspot.com/_ah/api",
+  "name" : "signatureentityendpoint",
+  "version" : "v1",
+  "defaultVersion" : false,
+  "adapter" : {
+    "bns" : "https://tinypet-1133.appspot.com/_ah/spi",
+    "deadline" : 65.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "ownerDomain" : "mycompany.com",
+  "ownerName" : "mycompany.com",
+  "packagePath" : "services",
+  "methods" : {
+    "signatureentityendpoint.getSignatureEntity" : {
+      "path" : "signatureentity/{id}",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "myproject.SignatureEntityEndpoint.getSignatureEntity",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "int64",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "signatureentityendpoint.insertSignatureEntity" : {
+      "path" : "signatureentity",
+      "httpMethod" : "POST",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "myproject.SignatureEntityEndpoint.insertSignatureEntity",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "signatureentityendpoint.listSignatureEntity" : {
+      "path" : "signatureentity",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "myproject.SignatureEntityEndpoint.listSignatureEntity",
+      "request" : {
+        "parameters" : {
+          "cursor" : {
+            "type" : "string",
+            "required" : false
+          },
+          "limit" : {
+            "type" : "int32",
+            "required" : false
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "signatureentityendpoint.updateSignatureEntity" : {
+      "path" : "signatureentity",
+      "httpMethod" : "PUT",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "myproject.SignatureEntityEndpoint.updateSignatureEntity",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "signatureentityendpoint.removeSignatureEntity" : {
+      "path" : "signatureentity/{id}",
+      "httpMethod" : "DELETE",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "myproject.SignatureEntityEndpoint.removeSignatureEntity",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "int64",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "empty"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "SignatureEntity" : {
+        "id" : "SignatureEntity",
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "name" : {
+            "type" : "string"
+          },
+          "petition" : {
+            "type" : "string"
+          }
+        }
+      },
+      "CollectionResponse_SignatureEntity" : {
+        "id" : "CollectionResponse_SignatureEntity",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "SignatureEntity"
+            }
+          },
+          "nextPageToken" : {
+            "type" : "string"
+          }
+        }
+      }
+    },
+    "methods" : {
+      "myproject.SignatureEntityEndpoint.getSignatureEntity" : {
+        "response" : {
+          "$ref" : "SignatureEntity"
+        }
+      },
+      "myproject.SignatureEntityEndpoint.insertSignatureEntity" : {
+        "request" : {
+          "$ref" : "SignatureEntity"
+        },
+        "response" : {
+          "$ref" : "SignatureEntity"
+        }
+      },
+      "myproject.SignatureEntityEndpoint.listSignatureEntity" : {
+        "response" : {
+          "$ref" : "CollectionResponse_SignatureEntity"
+        }
+      },
+      "myproject.SignatureEntityEndpoint.updateSignatureEntity" : {
+        "request" : {
+          "$ref" : "SignatureEntity"
+        },
+        "response" : {
+          "$ref" : "SignatureEntity"
+        }
+      },
+      "myproject.SignatureEntityEndpoint.removeSignatureEntity" : {
+      }
+    }
+  }
+}

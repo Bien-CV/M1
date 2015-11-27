@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="PetitonStore">
+
+<head>
+  <title>Soumettre une petition</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css" />
+  <script type="text/javascript" src="https://code.angularjs.org/1.3.15/angular.min.js"></script>
+  <script type="text/javascript" src="soumettre.js"></script>
+  <!-- 
+  <script src="https://apis.google.com/js/client.js?onload=init"></script>-->
+</head>
+
+<body>
+  
+   <div class="container" ng-controller="CreateController">
+            <form id="name-form" ng-submit="addName()">
+                <input id="new-name" placeholder="Nom?" ng-model="newName" />
+            </form>
+            <form id="petition-form" ng-submit="addPetition()">
+                <input id="new-petition" placeholder="Ecrivez la petition ici" ng-model="newPetition" />
+            </form>
+
+  </div>
+  
+  
+<a href="index.html">Retour</a>
+  
+</body>

@@ -10,4 +10,5 @@
 <typeInfo handle="=cta/\/usr\/lib\/jvm\/java-8-oracle\/jre\/lib\/rt.jar&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1437466960000"/>
 <typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{VORImpl.java[VORImpl" modifiers="1" timestamp="1352271176000"/>
 <typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{TakenAirwayImpl.java[TakenAirwayImpl" modifiers="1" timestamp="1352271146000"/>
+<typeInfo handle="=processors/\/usr\/lib\/jvm\/java-8-oracle\/jre\/lib\/rt.jar&lt;javax.annotation.processing(AbstractProcessor.class[AbstractProcessor" modifiers="1057" timestamp="1437466960000"/>
 </typeInfoHistroy>
