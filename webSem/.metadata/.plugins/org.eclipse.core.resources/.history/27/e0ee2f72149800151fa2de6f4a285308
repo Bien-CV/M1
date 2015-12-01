@@ -1,0 +1,26 @@
+package erdf;
+
+import controller_package.Controller;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Controller ctrl = new Controller();
+		ctrl.readingRDF("../projet/erdf.rdf");
+		
+		
+		//ctrl.getModel().write(System.out, "N-TRIPLE");
+		
+		
+		System.out.println("Requete nbInstallations et puissance de centrale utilisant la biomass en 2011\n");
+		ctrl.doSelect("../projet/sparql/biomass2011.rq");
+		
+		
+		
+		
+	}
+
+}

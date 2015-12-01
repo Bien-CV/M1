@@ -1,0 +1,20 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX erdf: <https://erdf.opendatasoft.com/erdf/>
+PREFIX prod: <https://erdf.opendatasoft.com/typeProductionAnnee/>
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dbpedia-owl: <http://fr.dbpedia.org/ontology/>
+PREFIX dbpedia-fr: <http://fr.dbpedia.org/page/>
+PREFIX dbpedia: <http://dbpedia.org/page/>
+PREFIX semanco-eu: <http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#>
+
+
+Select  ?annee ?nbIns ?puiss
+Where
+{
+    ?x rdf:type semanco-eu:Solar_Energy;
+        erdf:NbInstallation ?nbIns;
+        dbpedia-owl:year ?annee;
+        dbpedia:Megawatt ?puiss
+}
+Order by ?annee

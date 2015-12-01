@@ -1,0 +1,39 @@
+--couple annee type d'energie
+    -- installations
+    -- megawatts
+    
+exemple :
+
+Pour:
+
+@prefix lala :<https://erdf.opendatasoft.com/project/lala> .
+@prefix erdf :<https://erdf.opendatasoft.com/project/erdf> .
+@prefix :<https://erdf.opendatasoft.com/lala/historique-parc-racc-csv#> .
+@prefix _ :<https://erdf.opendatasoft.com/projet-websem/donnees-csv/>.
+@prefix dbpedia-fr: <http://fr.dbpedia.org/page/>
+@prefix dbpedia: <http://dbpedia.org/page/>
+@prefix semanco-eu: <http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#>
+
+_:1 a :historique-parc-racc-csv ;
+	dbpedia-owl:year dbpedia-fr:2010_en_France ;
+	rdf:type "Disptchable et Thermique Fossile" ;
+	erdf:NbInstallation "78" ;
+	dbpedia:Megawatt "535" .
+	
+	
+On a:
+
+@prefix :<https://erdf.opendatasoft.com/lala/>
+@prefix prod: <https://erdf.opendatasoft.com/typeProductionAnnee>
+
+@prefix dbpedia-fr: <http://fr.dbpedia.org/page/>
+@prefix dbpedia: <http://dbpedia.org/page/>
+@prefix semanco-eu: <http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#>
+
+
+erdf:Dis2010    rdf:type "Disptchable et Thermique Fossile" ;
+                bpedia-owl:year dbpedia-fr:2010_en_France ;
+                erdf:NbInstallation "78" ;
+	            dbpedia:Megawatt "535" .
+
+

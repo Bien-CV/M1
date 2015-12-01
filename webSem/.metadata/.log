@@ -59,3 +59,168 @@ Java Model Exception: Java Model Status [Build path contains duplicate entry: 'o
 	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5204)
 	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:106)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2015-12-01 10:42:58.665 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-12-01 10:43:51.558
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:36:46.452
+!MESSAGE System property http.proxyHost is not set but should be univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:36:46.458
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:36:46.460
+!MESSAGE System property http.proxyHost is not set but should be univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:36:46.461
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:41:21.922
+!MESSAGE System property http.proxyHost is not set but should be univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:41:21.923
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:41:33.066
+!MESSAGE System property http.proxyHost is not set but should be univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:41:33.067
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:41:33.070
+!MESSAGE System property http.proxyHost is not set but should be univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:41:33.071
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:41:33.730
+!MESSAGE System property http.proxyHost is not set but should be cache.wifi.univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:41:33.731
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:41:33.734
+!MESSAGE System property http.proxyHost is not set but should be cache.wifi.univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:41:33.735
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:42:10.793
+!MESSAGE System property http.proxyHost is not set but should be cache.wifi.univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:42:10.794
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:42:21.754
+!MESSAGE System property http.proxyHost is not set but should be cache.wifi.univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:42:21.756
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:42:21.758
+!MESSAGE System property http.proxyHost is not set but should be cache.wifi.univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:42:21.759
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:42:22.427
+!MESSAGE System property http.proxyHost is not set but should be univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:42:22.428
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:42:22.430
+!MESSAGE System property http.proxyHost is not set but should be univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:42:22.431
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:42:34.259
+!MESSAGE System property http.proxyHost is not set but should be univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:42:34.260
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:43:26.969
+!MESSAGE System property http.proxyHost is not set but should be univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:43:26.969
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:43:26.971
+!MESSAGE System property http.proxyHost is not set but should be univ-nantes.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:43:26.972
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:43:27.498
+!MESSAGE System property http.proxyHost is not set but should be proxy.ensinfo.sciences.univ-nantes.prive.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:43:27.499
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:43:27.501
+!MESSAGE System property http.proxyHost is not set but should be proxy.ensinfo.sciences.univ-nantes.prive.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:43:27.502
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:43:56.693
+!MESSAGE System property http.proxyHost is not set but should be proxy.ensinfo.sciences.univ-nantes.prive.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:43:56.694
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:44:22.666
+!MESSAGE System property http.proxyHost is not set but should be proxy.ensinfo.sciences.univ-nantes.prive.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:44:22.668
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:44:22.670
+!MESSAGE System property http.proxyHost is not set but should be proxy.ensinfo.sciences.univ-nantes.prive.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:44:22.671
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:45:43.014
+!MESSAGE System property http.proxyHost is not set but should be proxy.ensinfo.sciences.univ-nantes.prive.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:45:43.015
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:45:58.647
+!MESSAGE System property http.proxyHost is not set but should be proxy.ensinfo.sciences.univ-nantes.prive.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:45:58.648
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:45:58.649
+!MESSAGE System property http.proxyHost is not set but should be proxy.ensinfo.sciences.univ-nantes.prive.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:45:58.650
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:45:58.658
+!MESSAGE System property http.proxyHost is not set but should be proxy.ensinfo.sciences.univ-nantes.prive.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:45:58.659
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:45:59.255
+!MESSAGE System property http.proxyHost is not set but should be proxy.ensinfo.sciences.univ-nantes.prive.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:45:59.256
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:45:59.258
+!MESSAGE System property http.proxyHost is not set but should be proxy.ensinfo.sciences.univ-nantes.prive.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 12:45:59.259
+!MESSAGE System property http.proxyPort is not set but should be 3128.

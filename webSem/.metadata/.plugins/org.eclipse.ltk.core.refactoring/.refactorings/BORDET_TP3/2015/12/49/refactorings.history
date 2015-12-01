@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;controller_package&apos; to &apos;erdf/src&apos;&#x0A;- Original project: &apos;BORDET_TP3&apos;&#x0A;- Destination element: &apos;erdf/src&apos;&#x0A;- Original element: &apos;BORDET_TP3/src/controller_package&apos;" description="Copy package" destination="=erdf/src" element1="/src&lt;controller_package" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1448963104917" version="1.0"/>
+</session>
