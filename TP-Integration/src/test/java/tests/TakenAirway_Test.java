@@ -8,7 +8,11 @@ import org.junit.Test;
 
 import fr.univnantes.cta.CompassDirection;
 import fr.univnantes.cta.impl.AirwayImpl;
+import fr.univnantes.cta.impl.LatitudeImpl;
+import fr.univnantes.cta.impl.LongitudeImpl;
+import fr.univnantes.cta.impl.PositionImpl;
 import fr.univnantes.cta.impl.TakenAirwayImpl;
+import fr.univnantes.cta.impl.VORImpl;
 
 public class TakenAirway_Test {
 	protected TakenAirwayImpl takena;
@@ -16,19 +20,26 @@ public class TakenAirway_Test {
 
 	@Before
 	public void setUp() throws Exception {
-		airw = mock(AirwayImpl.class);
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(1, 0, 0, CompassDirection.EAST);
+		LongitudeImpl longitude2 = new LongitudeImpl(2, 0, 0, CompassDirection.EAST);
+		PositionImpl pos1 = new PositionImpl(latitude, longitude);
+		PositionImpl pos2 = new PositionImpl(latitude, longitude2);
+		VORImpl start = new VORImpl("str", pos1);
+		VORImpl stop = new VORImpl("other", pos2);
+		
+		airw = new AirwayImpl(start, stop);
 		takena = new TakenAirwayImpl(airw, 42, CompassDirection.SOUTH);
-		when(airw.getDistance()).thenReturn(21.);
 	}
 
 	@Test
 	public void testDistance() {
-		assertTrue(takena.distance()==21.);
+		assertTrue(takena.distance()== airw.getDistance());
 	}
 
 	@Test
 	public void testGetAirway() {
-		assertTrue(takena.getAirway().equals(airw));
+		assertEquals(takena.getAirway(),airw);
 	}
 
 	@Test
@@ -38,7 +49,7 @@ public class TakenAirway_Test {
 
 	@Test
 	public void testGetSense() {
-		assertTrue(takena.getSense().equals(CompassDirection.SOUTH));
+		assertEquals(takena.getSense(),CompassDirection.SOUTH);
 	}
 
 }

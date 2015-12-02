@@ -1,6 +1,5 @@
 package tests;
-import static org.mockito.Matchers.anyInt;
-import static org.mockito.Mockito.*;
+
 import static org.junit.Assert.*;
 
 import org.junit.Before;
@@ -20,27 +19,29 @@ public class VOR_Test {
 	
 	@Before
 	public void setUp() throws Exception {
-		pos1 = mock(PositionImpl.class);
-		pos2 = mock(PositionImpl.class);
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(1, 0, 0, CompassDirection.EAST);
+		LongitudeImpl longitude2 = new LongitudeImpl(2, 0, 0, CompassDirection.EAST);
+		pos1 = new PositionImpl(latitude, longitude);
+		pos2 = new PositionImpl(latitude, longitude2);
 		vor = new VORImpl("str", pos1);
 		other = new VORImpl("other", pos2);
-		when(pos1.distanceTo(pos2)).thenReturn(0.);
 	}
 
 
 	@Test
-	public void testDistanceTo() {
-		assertTrue(vor.distanceTo(other)==0.);
+	public void testDistanceTo() {		
+		assertTrue(vor.distanceTo(other)==pos1.distanceTo(pos2));
 	}
 
 	@Test
 	public void testGetName() {
-		assertTrue(vor.getName().equals("str"));
+		assertEquals(vor.getName(),"str");
 	}
 
 	@Test
 	public void testGetPosition() {
-		assertTrue(vor.getPosition()==pos1);
+		assertSame(vor.getPosition(),pos1);
 	}
 
 }

@@ -15,7 +15,10 @@ public class Main {
 		ctrl= new Controller(ModelFactory.createRDFSModel(ctrl.getDatas().getDefaultModel()));
 		//ctrl.getModel().write(System.out, "N-TRIPLE");
 		
-		//System.setProperty("socksProxyHost", "socks.univ-nantes.fr");
+		System.out.println("******************************************************************************");
+		System.out.println("******************************************************************************");
+		System.out.println("******************************************************************************");
+		
 
 		System.out.println("******************************************************************************");
 		System.out.println("Requete nbInstallations et puissance de centrale utilisant la biomass en 2011");
@@ -33,6 +36,10 @@ public class Main {
 		System.out.println("Nombre d'installations, puissance générées en 2010 et 2014 par type de production");
 		ctrl.doSelect("../projet/sparql/nbinstall10_14_2.rq");
 		
+		System.out.println("*************************************************************************************");
+		System.out.println("Nombre d'installations, puissance générées en 2010 et 2014 par type de production");
+		ctrl.doSelect("../projet/sparql/nbinstall10_14_2.rq");
+	
 	}
 
 }

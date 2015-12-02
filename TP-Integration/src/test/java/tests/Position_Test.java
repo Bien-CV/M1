@@ -16,33 +16,46 @@ import fr.univnantes.cta.impl.PositionImpl;
 
 public class Position_Test {
 	protected  PositionImpl pos;
-	protected LatitudeImpl lat;
-	protected LongitudeImpl lon;
+	protected LatitudeImpl lati;
+	protected LongitudeImpl longi;
 
 	@Before
 	public void setUp(){
 		// on recreer lat et lon car elles ont déja été testées et elles ,ne sont pas trop lourdes
-		lat = new LatitudeImpl(0, 0, 0, CompassDirection.NORTH);
-		lon = new LongitudeImpl(0, 0, 0, CompassDirection.EAST);
-		pos = new PositionImpl(lat, lon);
+		lati = new LatitudeImpl(0, 0, 0, CompassDirection.NORTH);
+		longi = new LongitudeImpl(0, 0, 0, CompassDirection.EAST);
+		pos = new PositionImpl(lati, longi);
 	}
 	
 
 	@Test
 	public void testGetLatitude() {
-		assertTrue(pos.getLatitude()==lat);
+		assertEquals(pos.getLatitude(),lati);
 	}
 
 	@Test
 	public void testGetLongitude() {
-		assertTrue(pos.getLongitude()==lon);
+		assertEquals(pos.getLongitude(),longi);
 	}
 
 	@Test
 	public void testDistanceTo() {
-		PositionImpl pos2 = new PositionImpl(lat, lon);
-		pos.distanceTo(pos2);
-		assertTrue(pos.distanceTo(pos2)==0);
+		LatitudeImpl other_lati = new LatitudeImpl(0, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl other_longi = new LongitudeImpl(45, 0, 0, CompassDirection.EAST);
+		PositionImpl other = new PositionImpl(other_lati, other_longi);
+		
+		// la formule semble juste
+		double distance = Math.acos(
+                lati.Cos() * longi.Cos() *
+                other_lati.Cos() *
+                other_longi.Cos() +
+                lati.Cos() * longi.Sin() *
+                other_lati.Cos() *
+                        other_longi.Sin() +
+                lati.Sin() * other_lati.Sin()
+            ) * 6378.14;   
+		//valeur de rayon au moment du test,=> getteur de rayon, constante?
+		assertTrue(pos.distanceTo(other)== distance);
 	}
 
 }
