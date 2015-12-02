@@ -15,7 +15,7 @@ public class Airplane_Test {
 	}
 
 	@Test
-	public void testGetAutonomy() {
+	public void testGetAutonomy() {//TODO verifier que c'est bien ce que l'on veut calculer
 		AirplaneImpl airplane = new AirplaneImpl(0, 0, 3, 2);
 		assertTrue(airplane.getAutonomy()==6);
 	}

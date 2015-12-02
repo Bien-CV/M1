@@ -19,7 +19,7 @@ public class Airport_Test {
 	@Test
 	public void testGetName() {
 		AirportImpl airport = new AirportImpl("str");
-		assertTrue(airport.getName().equals("str"));
+		assertEquals(airport.getName(),("str"));
 	}
 
 }

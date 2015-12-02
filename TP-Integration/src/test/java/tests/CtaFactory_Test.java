@@ -5,8 +5,24 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import fr.univnantes.cta.Airplane;
+import fr.univnantes.cta.Airport;
+import fr.univnantes.cta.Airway;
+import fr.univnantes.cta.CompassDirection;
+import fr.univnantes.cta.Coordinate;
+import fr.univnantes.cta.FlightPlan;
+import fr.univnantes.cta.Position;
+import fr.univnantes.cta.TakenAirway;
+import fr.univnantes.cta.VOR;
 import fr.univnantes.cta.impl.AirplaneImpl;
+import fr.univnantes.cta.impl.AirportImpl;
+import fr.univnantes.cta.impl.AirwayImpl;
 import fr.univnantes.cta.impl.CTAFactoryImpl;
+import fr.univnantes.cta.impl.CoordinateImpl;
+import fr.univnantes.cta.impl.LatitudeImpl;
+import fr.univnantes.cta.impl.LongitudeImpl;
+import fr.univnantes.cta.impl.PositionImpl;
+import fr.univnantes.cta.impl.VORImpl;
 
 public class CtaFactory_Test {
 	private CTAFactoryImpl cta;
@@ -18,17 +34,29 @@ public class CtaFactory_Test {
 
 	@Test
 	public void testCreateAirplane() {
-		assertTrue(cta.createAirplane(1., 2, 3, 4).equals(new AirplaneImpl(1., 2, 3, 4)));
+		Airplane tmp= cta.createAirplane(1., 2, 3, 4);
+		assertTrue(tmp.weight()==1. && tmp.getLoading()==2 && tmp.getAutonomy()==3*4);
 	}
 
 	@Test
 	public void testCreateAirport() {
-		fail("Not yet implemented");
+		Airport tmp = cta.createAirport("air");
+		assertEquals(tmp.getName(), "air");
+		
 	}
 
 	@Test
 	public void testCreateAirway() {
-		fail("Not yet implemented");
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(1, 0, 0, CompassDirection.EAST);
+		LongitudeImpl longitude2 = new LongitudeImpl(2, 0, 0, CompassDirection.EAST);
+		PositionImpl pos1 = new PositionImpl(latitude, longitude);
+		PositionImpl pos2 = new PositionImpl(latitude, longitude2);
+		VORImpl sta = new VORImpl("sta", pos1);
+		VORImpl sto = new VORImpl("sto", pos2);
+		Airway tmp = cta.createAirway(sta, sto);
+		
+		assertTrue(tmp.GetVORArrive().equals("sto")&&tmp.GetVORDepart().equals("sta"));
 	}
 
 	@Test
@@ -38,17 +66,21 @@ public class CtaFactory_Test {
 
 	@Test
 	public void testCreateFlightPlan() {
-		fail("Not yet implemented");
+		FlightPlan tmp = cta.createFlightPlan();
+		assertNotNull(tmp);
 	}
 
 	@Test
 	public void testCreateLatitude() {
-		fail("Not yet implemented");
+		Coordinate tmp = cta.createLatitude(1, 2, 3, CompassDirection.NORTH);
+		assertTrue(tmp.direction()==CompassDirection.NORTH && tmp.degrees()==1+(2+3/60.)/60.);
+				
 	}
 
 	@Test
 	public void testCreateLongitude() {
-		fail("Not yet implemented");
+		Coordinate tmp = cta.createLongitude(1, 2, 3, CompassDirection.EAST);
+		assertTrue(tmp.direction()==CompassDirection.EAST && tmp.degrees()==1+(2+3/60.)/60.);
 	}
 
 	@Test
@@ -58,22 +90,41 @@ public class CtaFactory_Test {
 
 	@Test
 	public void testCreatePosition() {
-		fail("Not yet implemented");
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(1, 0, 0, CompassDirection.EAST);
+		Position tmp = cta.createPosition(latitude, longitude);
+		assertEquals(tmp.getLatitude(), latitude);
+		assertEquals(tmp.getLongitude(), longitude);
 	}
 
 	@Test
 	public void testCreateTakenAirway() {
-		fail("Not yet implemented");
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(1, 0, 0, CompassDirection.EAST);
+		LongitudeImpl longitude2 = new LongitudeImpl(2, 0, 0, CompassDirection.EAST);
+		PositionImpl pos1 = new PositionImpl(latitude, longitude);
+		PositionImpl pos2 = new PositionImpl(latitude, longitude2);
+		VORImpl sta = new VORImpl("sta", pos1);
+		VORImpl sto = new VORImpl("sto", pos2);
+		Airway airway = new AirwayImpl(sta, sto);
+		TakenAirway tmp = cta.createTakenAirway(airway, 42, CompassDirection.NORTH);
+		assertTrue(tmp.getAltitude()==42 && tmp.getSense()==CompassDirection.NORTH && tmp.distance()==airway.getDistance());
+		
 	}
 
 	@Test
 	public void testCreateVOR() {
-		fail("Not yet implemented");
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(1, 0, 0, CompassDirection.EAST);
+		PositionImpl position = new PositionImpl(latitude, longitude);
+		VOR tmp = cta.createVOR("name", position);
+		assertEquals(tmp.getName(),"name");
+		assertEquals(tmp.getPosition(),position);
 	}
 
 	@Test
 	public void testSetAirplanes() {
-		fail("Not yet implemented");
+
 	}
 
 }

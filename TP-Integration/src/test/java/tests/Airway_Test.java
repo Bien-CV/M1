@@ -8,7 +8,12 @@ import org.junit.Test;
 
 
 
+
+import fr.univnantes.cta.CompassDirection;
 import fr.univnantes.cta.impl.AirwayImpl;
+import fr.univnantes.cta.impl.LatitudeImpl;
+import fr.univnantes.cta.impl.LongitudeImpl;
+import fr.univnantes.cta.impl.PositionImpl;
 import fr.univnantes.cta.impl.VORImpl;
 
 public class Airway_Test {
@@ -18,38 +23,40 @@ public class Airway_Test {
 	
 	@Before
 	public void setUp() throws Exception {
-		sta = mock(VORImpl.class);
-		sto = mock(VORImpl.class);
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(1, 0, 0, CompassDirection.EAST);
+		LongitudeImpl longitude2 = new LongitudeImpl(2, 0, 0, CompassDirection.EAST);
+		PositionImpl pos1 = new PositionImpl(latitude, longitude);
+		PositionImpl pos2 = new PositionImpl(latitude, longitude2);
+		sta = new VORImpl("sta", pos1);
+		sto = new VORImpl("sto", pos2);
 		airway = new AirwayImpl(sta,sto);
-		when(sta.distanceTo(sto)).thenReturn(42.);
-		when(sta.getName()).thenReturn("sta");
-		when(sto.getName()).thenReturn("sto");
 	}
 
 
 	@Test
 	public void testGetDistance() {
-		assertTrue(airway.getDistance()==42.);
+		assertTrue(airway.getDistance()==sta.distanceTo(sto));
 	}
 
 	@Test
 	public void testDeparture() {
-		assertTrue(airway.GetVORDepart().equals(sta.getName()));
+		assertEquals(airway.GetVORDepart(),(sta.getName()));
 	}
 
 	@Test
 	public void testArrival() {
-		assertTrue(airway.GetVORArrive().equals(sto.getName()));
+		assertEquals(airway.GetVORArrive(),(sto.getName()));
 	}
 
 	@Test
 	public void testGetVORDepart() {
-		assertTrue(airway.GetVORDepart().equals("sta"));
+		assertEquals(airway.GetVORDepart(),("sta"));
 	}
 
 	@Test
 	public void testGetVORArrive() {
-		assertTrue(airway.GetVORArrive().equals("sto"));
+		assertEquals(airway.GetVORArrive(),("sto"));
 	}
 
 }
