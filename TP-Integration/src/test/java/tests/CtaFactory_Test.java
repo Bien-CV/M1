@@ -2,15 +2,22 @@ package tests;
 
 import static org.junit.Assert.*;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Vector;
+
 import org.junit.Before;
 import org.junit.Test;
 
 import fr.univnantes.cta.Airplane;
+import fr.univnantes.cta.AirplaneOverload;
 import fr.univnantes.cta.Airport;
 import fr.univnantes.cta.Airway;
 import fr.univnantes.cta.CompassDirection;
 import fr.univnantes.cta.Coordinate;
+import fr.univnantes.cta.Flight;
 import fr.univnantes.cta.FlightPlan;
+import fr.univnantes.cta.IncompatibleAirway;
 import fr.univnantes.cta.Position;
 import fr.univnantes.cta.TakenAirway;
 import fr.univnantes.cta.VOR;
@@ -19,6 +26,7 @@ import fr.univnantes.cta.impl.AirportImpl;
 import fr.univnantes.cta.impl.AirwayImpl;
 import fr.univnantes.cta.impl.CTAFactoryImpl;
 import fr.univnantes.cta.impl.CoordinateImpl;
+import fr.univnantes.cta.impl.FlightPlanImpl;
 import fr.univnantes.cta.impl.LatitudeImpl;
 import fr.univnantes.cta.impl.LongitudeImpl;
 import fr.univnantes.cta.impl.PositionImpl;
@@ -60,8 +68,21 @@ public class CtaFactory_Test {
 	}
 
 	@Test
-	public void testCreateCivilFlight() {
-		fail("Not yet implemented");
+	public void testCreateCivilFlight() throws IncompatibleAirway, AirplaneOverload {
+		int _poidspassager = 70;
+		int _poidsbagages= 60;
+		Airport _depart = new AirportImpl("Depart");
+		Airport _arrive = new AirportImpl("Arrivée");
+        Airplane _avion = new AirplaneImpl(1.,20000000,3,4);
+        FlightPlan _flightplane = new FlightPlanImpl();
+		Flight tmp = cta.createCivilFlight(_depart, _arrive, _avion, _flightplane, 42);
+		double test = 42*(_poidspassager+_poidsbagages);
+		assertTrue( tmp.loadingWeight()== test );
+		assertEquals(tmp.getAirplane(), _avion);
+		assertEquals(tmp.getArrival(),_arrive);
+		assertEquals(tmp.getDeparture(), _depart);	
+		assertEquals(tmp.getFlightPlan(),_flightplane);
+
 	}
 
 	@Test
@@ -84,8 +105,20 @@ public class CtaFactory_Test {
 	}
 
 	@Test
-	public void testCreateMilitarFlight() {
-		fail("Not yet implemented");
+	public void testCreateMilitarFlight() throws IncompatibleAirway, AirplaneOverload {
+		int _poidspassager = 70;
+		int _poidsbagages= 100;
+		Airport _depart = new AirportImpl("Depart");
+		Airport _arrive = new AirportImpl("Arrivée");
+        Airplane _avion = new AirplaneImpl(1.,20000000,3,4);
+        FlightPlan _flightplane = new FlightPlanImpl();
+		Flight tmp = cta.createMilitarFlight(_depart, _arrive, _avion, _flightplane, 42);
+		double test = 42*(_poidspassager+_poidsbagages);
+		assertTrue( tmp.loadingWeight()== test );
+		assertEquals(tmp.getAirplane(), _avion);
+		assertEquals(tmp.getArrival(),_arrive);
+		assertEquals(tmp.getDeparture(), _depart);	
+		assertEquals(tmp.getFlightPlan(),_flightplane);
 	}
 
 	@Test
@@ -124,7 +157,10 @@ public class CtaFactory_Test {
 
 	@Test
 	public void testSetAirplanes() {
-
+		Airplane[] a ={ cta.createAirplane(0., 0, 0, 0)};
+		
+		
+		cta.setAirplanes(a);
 	}
 
 }

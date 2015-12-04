@@ -10,6 +10,7 @@
 <typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{TakenAirwayImpl.java[TakenAirwayImpl" modifiers="1" timestamp="1448630218000"/>
 <typeInfo handle="=cta/\/usr\/lib\/jvm\/java-8-oracle\/jre\/lib\/rt.jar&lt;java.lang(Object.class[Object" modifiers="1" timestamp="1448271061000"/>
 <typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{FlightPlanImpl.java[FlightPlanImpl" modifiers="1" timestamp="1448631697000"/>
-<typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{FlightImpl.java[FlightImpl" modifiers="1024" timestamp="1448630242000"/>
+<typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{FlightImpl.java[FlightImpl" modifiers="1024" timestamp="1449075736000"/>
 <typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{CTAFactoryImpl.java[CTAFactoryImpl" modifiers="1" timestamp="1448630335000"/>
+<typeInfo handle="=cta/src\/main\/java&lt;fr.univnantes.cta.impl{CreateCivilFlight.java[CreateCivilFlight" modifiers="1" timestamp="1448630263000"/>
 </typeInfoHistroy>

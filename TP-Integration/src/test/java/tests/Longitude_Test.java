@@ -11,7 +11,7 @@ public class Longitude_Test {
 
 	@Test
 	public void testLongitudeImpl() {
-		LongitudeImpl lat = new LongitudeImpl(0, 0, 0, CompassDirection.EAST);
+		LongitudeImpl lat = new LongitudeImpl(0, 0, 0, fr.univnantes.cta.CompassDirection.EAST);
 		assertNotNull(lat);
 		
 	}

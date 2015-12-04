@@ -25,8 +25,15 @@
 <fullyQualifiedTypeName name="fr.univnantes.cta.TakenAirway"/>
 <fullyQualifiedTypeName name="fr.univnantes.cta.impl.TakenAirwayImpl"/>
 <fullyQualifiedTypeName name="fr.univnantes.cta.impl.AirwayImpl"/>
-<fullyQualifiedTypeName name="fr.univnantes.cta.Flight"/>
 <fullyQualifiedTypeName name="fr.univnantes.cta.impl.FlightPlanImpl"/>
 <fullyQualifiedTypeName name="fr.univnantes.cta.impl.CTAFactoryImpl"/>
 <fullyQualifiedTypeName name="fr.univnantes.cta.impl.AirplaneImpl"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.impl.CreateMilitarFlight"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.Flight"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.Airport"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.FlightPlan"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="fr.univnantes.cta.Airplane"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 </qualifiedTypeNameHistroy>
