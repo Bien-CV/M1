@@ -10162,3 +10162,9 @@ Java Model Exception: Java Model Status [is(CtInvocation) [in LogProcessor [in [
 	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:717)
 !SUBENTRY 1 org.eclipse.jdt.core 4 969 2015-12-04 14:58:46.338
 !MESSAGE is(CtInvocation) [in LogProcessor [in [Working copy] LogProcessor.java [in vv.spoon.processor [in src/main/java [in tpSpoon]]]]] does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-04 15:14:37.599
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-04 15:14:37.637
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

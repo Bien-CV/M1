@@ -14,21 +14,7 @@ import spoon.reflect.reference.CtExecutableReference;
 public class myProcessor extends AbstractProcessor<CtInvocation>  {
 
 
-    @Override
-    public boolean isToBeProcessed(CtInvocation candidate) {
-        try {
-        	
-            Class type = candidate.getTarget().getType().getActualClass();
-            CtExecutableReference executable = candidate.getExecutable();
-
-            if(type.equals(Method.class)) {
-                return true;
-            }
-            return false;
-        } catch (Exception e) {
-            return false;
-        }
-    }
+// on proccess tout
 
     @Override
     public void process(CtInvocation element) {

@@ -1138,3 +1138,7 @@ org.eclipse.core.runtime.CoreException: Launch configuration Main references clo
 2015-12-04 14:57:30,195 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 29 resources
 2015-12-04 14:57:30,259 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-12-04 14:57:30,260 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /comptes/E129986P/M1/verifs/tpSpoon/src/test/resources
+2015-12-04 15:14:37,598 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-04 15:14:37,624 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 29 resources
+2015-12-04 15:14:37,636 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-04 15:14:37,638 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /comptes/E129986P/M1/verifs/tpSpoon/src/test/resources
