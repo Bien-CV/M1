@@ -1,0 +1,101 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import fr.univnantes.cta.Airplane;
+import fr.univnantes.cta.AirplaneOverload;
+import fr.univnantes.cta.Airport;
+import fr.univnantes.cta.Airway;
+import fr.univnantes.cta.CompassDirection;
+import fr.univnantes.cta.FlightPlan;
+import fr.univnantes.cta.IncompatibleAirway;
+import fr.univnantes.cta.TakenAirway;
+import fr.univnantes.cta.VOR;
+import fr.univnantes.cta.impl.AirplaneImpl;
+import fr.univnantes.cta.impl.AirportImpl;
+import fr.univnantes.cta.impl.AirwayImpl;
+import fr.univnantes.cta.impl.CreateCivilFlight;
+import fr.univnantes.cta.impl.FlightPlanImpl;
+import fr.univnantes.cta.impl.LatitudeImpl;
+import fr.univnantes.cta.impl.LongitudeImpl;
+import fr.univnantes.cta.impl.PositionImpl;
+import fr.univnantes.cta.impl.TakenAirwayImpl;
+import fr.univnantes.cta.impl.VORImpl;
+
+public class CreateCivilFlight_test {
+
+	private Airport _depart, _arrive;
+	private Airplane _avion;
+	private FlightPlan _flightplane;
+	private CreateCivilFlight f;
+	private static final int _poidspassager = 70;
+	private static final int _poidsbagages= 60;
+	
+	@Before
+	public void setUp() throws IncompatibleAirway, AirplaneOverload {
+		_depart = new AirportImpl("Depart");
+        _arrive = new AirportImpl("Arrivée");
+        _avion = new AirplaneImpl(1.,20000000,3,4);
+        _flightplane = new FlightPlanImpl();
+        f = new CreateCivilFlight(_depart, _arrive, _avion, _flightplane, 42);
+	}
+
+	@Test
+	public void testLoadingWeight() {
+		double test = 42*(_poidspassager+_poidsbagages);
+		assertTrue( f.loadingWeight()== test );
+	}
+
+	@Test
+	public void testTotalWeight() {
+		assertTrue(f.totalWeight()==_avion.weight()+f.loadingWeight());
+	}
+
+	@Test(expected=AirplaneOverload.class)
+	public void testCreateCivilFlightOverload() throws IncompatibleAirway, AirplaneOverload {
+		AirplaneImpl a = new AirplaneImpl(1.,2,3,4);
+		CreateCivilFlight f2 = new CreateCivilFlight(_depart, _arrive, a, _flightplane, 42);
+		
+	}
+	@Test(expected=IncompatibleAirway.class)
+	public void testCreateCivilFlightIcompatibleAirway() throws IncompatibleAirway, AirplaneOverload{
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(0, 0, 0, CompassDirection.EAST);
+		LongitudeImpl longitude2 = new LongitudeImpl(45, 0, 0, CompassDirection.EAST);
+		PositionImpl pos1 = new PositionImpl(latitude, longitude);
+		PositionImpl pos2 = new PositionImpl(latitude, longitude2);
+		VOR sta = new VORImpl("sta", pos1);
+		VOR sto = new VORImpl("sto", pos2);
+		Airway airway = new AirwayImpl(sta,sto);
+		FlightPlan fp = new FlightPlanImpl();
+		TakenAirway t = new TakenAirwayImpl(airway, 42000, CompassDirection.SOUTH);
+		fp.addAirway(t);
+        CreateCivilFlight f2 = new CreateCivilFlight(_depart, _arrive, _avion, fp, 42);
+	}
+
+
+	@Test
+	public final void testGetAirplane() {
+		assertEquals(f.getAirplane(), _avion);
+	}
+
+	@Test
+	public final void testGetArrival() {
+		assertEquals(f.getArrival(),_arrive);
+	}
+
+	@Test
+	public final void testGetDeparture() {
+		assertEquals(f.getDeparture(), _depart);
+	}
+
+	@Test
+	public final void testGetFlightPlan() {
+		assertEquals(f.getFlightPlan(),_flightplane);
+	}
+
+}
+

@@ -1,0 +1,63 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import fr.univnantes.cta.*;
+import fr.univnantes.cta.Airport;
+import fr.univnantes.cta.FlightPlan;
+import fr.univnantes.cta.impl.*;
+import fr.univnantes.cta.impl.AirwayImpl;
+import fr.univnantes.cta.impl.FlightPlanImpl;
+
+public class Flight_Test {
+	private Airport _depart, _arrive;
+	private Airplane _avion;
+	private FlightPlan _flightplane;
+	protected Flight f;
+	
+
+	@Before
+	public void setUp() throws Exception {
+		_depart = new AirportImpl("Depart");
+        _arrive = new AirportImpl("Arrivée");
+        _avion = new AirplaneImpl(1.,2,3,4);
+        _flightplane = new FlightPlanImpl();
+
+        f = new FlightImpl(_depart, _arrive, _avion, _flightplane, 42) {
+            @Override
+            public double loadingWeight() {
+                return 0.;
+            }
+
+            @Override
+            public double totalWeight() {
+                return 0.;
+            }
+        };
+	}
+
+
+	@Test
+	public final void testGetAirplane() {
+		assertEquals(f.getAirplane(), _avion);
+	}
+
+	@Test
+	public final void testGetArrival() {
+		assertEquals(f.getArrival(),_arrive);
+	}
+
+	@Test
+	public final void testGetDeparture() {
+		assertEquals(f.getDeparture(), _depart);
+	}
+
+	@Test
+	public final void testGetFlightPlan() {
+		assertEquals(f.getFlightPlan(),_flightplane);
+	}
+
+}

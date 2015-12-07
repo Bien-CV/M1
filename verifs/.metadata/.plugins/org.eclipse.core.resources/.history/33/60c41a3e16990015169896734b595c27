@@ -1,0 +1,54 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class CreateMilitarFlight_test {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testLoadingWeight() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testTotalWeight() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testCreateMilitarFlight() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testFlightImpl() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetAirplane() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetArrival() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetDeparture() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetFlightPlan() {
+		fail("Not yet implemented");
+	}
+
+}

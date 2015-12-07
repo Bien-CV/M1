@@ -1,0 +1,77 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import fr.univnantes.cta.*;
+import fr.univnantes.cta.Airport;
+import fr.univnantes.cta.FlightPlan;
+import fr.univnantes.cta.impl.*;
+import fr.univnantes.cta.impl.AirwayImpl;
+import fr.univnantes.cta.impl.FlightPlanImpl;
+
+public class Flight_Test {
+	private Airport _depart, _arrive;
+	private Airplane _avion;
+	private FlightPlan _flightplane;
+	protected Flight f;
+	
+
+	@Before
+	public void setUp() throws Exception {
+		_depart = new AirportImpl("Depart");
+        _arrive = new AirportImpl("Arrivée");
+        _avion = new AirplaneImpl(1.,2,3,4);
+        _flightplane = new FlightPlanImpl();
+
+        f = new FlightImpl(_depart, _arrive, _avion, _flightplane, 10) {
+            @Override
+            public double loadingWeight() {
+                return 0.0;
+            }
+
+            @Override
+            public double totalWeight() {
+                return 0.0;
+            }
+        };
+	}
+
+	@Test
+	public final void testFlightImpl() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testGetAirplane() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testGetArrival() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testGetDeparture() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testGetFlightPlan() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testLoadingWeight() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testTotalWeight() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

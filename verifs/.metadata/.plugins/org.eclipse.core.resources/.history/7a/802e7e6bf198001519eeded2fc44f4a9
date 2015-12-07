@@ -1,0 +1,55 @@
+package tests;
+
+import static org.junit.Assert.*;
+import static org.mockito.Mockito.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import fr.univnantes.cta.CompassDirection;
+import fr.univnantes.cta.impl.AirwayImpl;
+import fr.univnantes.cta.impl.LatitudeImpl;
+import fr.univnantes.cta.impl.LongitudeImpl;
+import fr.univnantes.cta.impl.PositionImpl;
+import fr.univnantes.cta.impl.TakenAirwayImpl;
+import fr.univnantes.cta.impl.VORImpl;
+
+public class TakenAirway_Test {
+	protected TakenAirwayImpl takena;
+	protected AirwayImpl airw;
+
+	@Before
+	public void setUp() throws Exception {
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(1, 0, 0, CompassDirection.EAST);
+		LongitudeImpl longitude2 = new LongitudeImpl(2, 0, 0, CompassDirection.EAST);
+		PositionImpl pos1 = new PositionImpl(latitude, longitude);
+		PositionImpl pos2 = new PositionImpl(latitude, longitude2);
+		VORImpl start = new VORImpl("str", pos1);
+		VORImpl stop = new VORImpl("other", pos2);
+		
+		airw = new AirwayImpl(start, stop);
+		takena = new TakenAirwayImpl(airw, 42, CompassDirection.SOUTH);
+	}
+
+	@Test
+	public void testDistance() {
+		assertTrue(takena.distance()== airw.getDistance());
+	}
+
+	@Test
+	public void testGetAirway() {
+		assertEquals(takena.getAirway(),airw);
+	}
+
+	@Test
+	public void testGetAltitude() {
+		assertTrue(takena.getAltitude()==42);
+	}
+
+	@Test
+	public void testGetSense() {
+		assertTrue(takena.getSense().equals(CompassDirection.SOUTH));
+	}
+
+}

@@ -1,0 +1,7 @@
+package fr.univnantes.cta;
+public enum CompassDirection {
+    NORTH,
+    SOUTH,
+    EAST,
+    WEST;
+}

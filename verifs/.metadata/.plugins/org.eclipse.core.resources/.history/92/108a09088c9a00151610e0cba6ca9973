@@ -1,0 +1,165 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import java.util.Vector;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import fr.univnantes.cta.Airplane;
+import fr.univnantes.cta.AirplaneOverload;
+import fr.univnantes.cta.Airport;
+import fr.univnantes.cta.Airway;
+import fr.univnantes.cta.CompassDirection;
+import fr.univnantes.cta.Coordinate;
+import fr.univnantes.cta.Flight;
+import fr.univnantes.cta.FlightPlan;
+import fr.univnantes.cta.IncompatibleAirway;
+import fr.univnantes.cta.Position;
+import fr.univnantes.cta.TakenAirway;
+import fr.univnantes.cta.VOR;
+import fr.univnantes.cta.impl.AirplaneImpl;
+import fr.univnantes.cta.impl.AirportImpl;
+import fr.univnantes.cta.impl.AirwayImpl;
+import fr.univnantes.cta.impl.CTAFactoryImpl;
+import fr.univnantes.cta.impl.CoordinateImpl;
+import fr.univnantes.cta.impl.FlightPlanImpl;
+import fr.univnantes.cta.impl.LatitudeImpl;
+import fr.univnantes.cta.impl.LongitudeImpl;
+import fr.univnantes.cta.impl.PositionImpl;
+import fr.univnantes.cta.impl.VORImpl;
+
+public class CtaFactory_Test {
+	private CTAFactoryImpl cta;
+
+	@Before
+	public void setUp() throws Exception {
+		cta = new CTAFactoryImpl();
+	}
+
+	@Test
+	public void testCreateAirplane() {
+		Airplane tmp= cta.createAirplane(1., 2, 3, 4);
+		assertTrue(tmp.weight()==1. && tmp.getLoading()==2 && tmp.getAutonomy()==3*4);
+	}
+
+	@Test
+	public void testCreateAirport() {
+		Airport tmp = cta.createAirport("air");
+		assertEquals(tmp.getName(), "air");
+		
+	}
+
+	@Test
+	public void testCreateAirway() {
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(1, 0, 0, CompassDirection.EAST);
+		LongitudeImpl longitude2 = new LongitudeImpl(2, 0, 0, CompassDirection.EAST);
+		PositionImpl pos1 = new PositionImpl(latitude, longitude);
+		PositionImpl pos2 = new PositionImpl(latitude, longitude2);
+		VORImpl sta = new VORImpl("sta", pos1);
+		VORImpl sto = new VORImpl("sto", pos2);
+		Airway tmp = cta.createAirway(sta, sto);
+		
+		assertTrue(tmp.GetVORArrive().equals("sto")&&tmp.GetVORDepart().equals("sta"));
+	}
+
+	@Test
+	public void testCreateCivilFlight() throws IncompatibleAirway, AirplaneOverload {
+		int _poidspassager = 70;
+		int _poidsbagages= 60;
+		Airport _depart = new AirportImpl("Depart");
+		Airport _arrive = new AirportImpl("Arrivée");
+        Airplane _avion = new AirplaneImpl(1.,20000000,3,4);
+        FlightPlan _flightplane = new FlightPlanImpl();
+		Flight tmp = cta.createCivilFlight(_depart, _arrive, _avion, _flightplane, 42);
+		double test = 42*(_poidspassager+_poidsbagages);
+		assertTrue( tmp.loadingWeight()== test );
+		assertEquals(tmp.getAirplane(), _avion);
+		assertEquals(tmp.getArrival(),_arrive);
+		assertEquals(tmp.getDeparture(), _depart);	
+		assertEquals(tmp.getFlightPlan(),_flightplane);
+
+	}
+
+	@Test
+	public void testCreateFlightPlan() {
+		FlightPlan tmp = cta.createFlightPlan();
+		assertNotNull(tmp);
+	}
+
+	@Test
+	public void testCreateLatitude() {
+		Coordinate tmp = cta.createLatitude(1, 2, 3, CompassDirection.NORTH);
+		assertTrue(tmp.direction()==CompassDirection.NORTH && tmp.degrees()==1+(2+3/60.)/60.);
+				
+	}
+
+	@Test
+	public void testCreateLongitude() {
+		Coordinate tmp = cta.createLongitude(1, 2, 3, CompassDirection.EAST);
+		assertTrue(tmp.direction()==CompassDirection.EAST && tmp.degrees()==1+(2+3/60.)/60.);
+	}
+
+	@Test
+	public void testCreateMilitarFlight() throws IncompatibleAirway, AirplaneOverload {
+		int _poidspassager = 70;
+		int _poidsbagages= 100;
+		Airport _depart = new AirportImpl("Depart");
+		Airport _arrive = new AirportImpl("Arrivée");
+        Airplane _avion = new AirplaneImpl(1.,20000000,3,4);
+        FlightPlan _flightplane = new FlightPlanImpl();
+		Flight tmp = cta.createMilitarFlight(_depart, _arrive, _avion, _flightplane, 42);
+		double test = 42*(_poidspassager+_poidsbagages);
+		assertTrue( tmp.loadingWeight()== test );
+		assertEquals(tmp.getAirplane(), _avion);
+		assertEquals(tmp.getArrival(),_arrive);
+		assertEquals(tmp.getDeparture(), _depart);	
+		assertEquals(tmp.getFlightPlan(),_flightplane);
+	}
+
+	@Test
+	public void testCreatePosition() {
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(1, 0, 0, CompassDirection.EAST);
+		Position tmp = cta.createPosition(latitude, longitude);
+		assertEquals(tmp.getLatitude(), latitude);
+		assertEquals(tmp.getLongitude(), longitude);
+	}
+
+	@Test
+	public void testCreateTakenAirway() {
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(1, 0, 0, CompassDirection.EAST);
+		LongitudeImpl longitude2 = new LongitudeImpl(2, 0, 0, CompassDirection.EAST);
+		PositionImpl pos1 = new PositionImpl(latitude, longitude);
+		PositionImpl pos2 = new PositionImpl(latitude, longitude2);
+		VORImpl sta = new VORImpl("sta", pos1);
+		VORImpl sto = new VORImpl("sto", pos2);
+		Airway airway = new AirwayImpl(sta, sto);
+		TakenAirway tmp = cta.createTakenAirway(airway, 42, CompassDirection.NORTH);
+		assertTrue(tmp.getAltitude()==42 && tmp.getSense()==CompassDirection.NORTH && tmp.distance()==airway.getDistance());
+		
+	}
+
+	@Test
+	public void testCreateVOR() {
+		LatitudeImpl latitude = new LatitudeImpl(1, 0, 0, CompassDirection.NORTH);
+		LongitudeImpl longitude = new LongitudeImpl(1, 0, 0, CompassDirection.EAST);
+		PositionImpl position = new PositionImpl(latitude, longitude);
+		VOR tmp = cta.createVOR("name", position);
+		assertEquals(tmp.getName(),"name");
+		assertEquals(tmp.getPosition(),position);
+	}
+
+	@Test
+	public void testSetAirplanes() {
+		Airplane[] a = null;
+		a[0] = cta.createAirplane(0., 0, 0, 0);
+		
+		
+		cta.setAirplanes(a);
+	}
+
+}
