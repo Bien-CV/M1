@@ -1,0 +1,247 @@
+@prefix erdf: <https://erdf.opendatasoft.com/erdf/>.
+@prefix prod: <https://erdf.opendatasoft.com/typeProductionAnnee/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dbpedia-owl: <http://fr.dbpedia.org/ontology/>.
+@prefix dbpedia-fr: <http://fr.dbpedia.org/page/>.
+@prefix dbpedia: <http://dbpedia.org/page/>.
+@prefix semanco-eu: <http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#>.
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+#partie void
+<https://erdf.opendatasoft.com/typeProductionAnnee> rdf:type void:Dataset ;
+		                                            dcterms:title "historique-parc-racc"^^xsd:string ;
+	                                              	dcterms:description "Historique du parc des installations de production raccordées sur le réseau ERDF"^^xsd:string ;
+		                                            foaf:homepage <https://erdf.opendatasoft.com/explore/dataset/historique-parc-racc/?tab=table>;
+		                                            dcterms:subject <http://dbpedia.org/page/Energy>;
+		                                            dcterms:subject <http://dbpedia.org/page/France>;
+		                                            dcterms:subject <http://fr.dbpedia.org/page/%C3%89lectricit%C3%A9_R%C3%A9seau_Distribution_France>.
+
+
+
+prod:dis2010    rdf:type dbpedia:Fossil-fuel_power_station ;
+                dbpedia-owl:year dbpedia-fr:2010_en_France ;
+                erdf:NbInstallation "78" ;
+	            dbpedia:Megawatt "535" .
+	            
+prod:pho2010 rdf:type semanco-eu:Solar_Energy ;
+	dbpedia-owl:year dbpedia-fr:2010_en_France ;	
+	erdf:NbInstallation "143112" ;
+	dbpedia:Megawatt "808" .
+
+
+prod:eol2011 dbpedia-owl:year dbpedia-fr:2011_en_France ;
+	rdf:type semanco-eu:Wind_Energy ;
+	erdf:NbInstallation "967" ;
+	dbpedia:Megawatt "6063" .
+
+prod:hyd2012 dbpedia-owl:year dbpedia-fr:2012_en_France ;
+	rdf:type semanco-eu:Hydro_Energy ;
+	erdf:NbInstallation "1732" ;
+	dbpedia:Megawatt "1401" .
+
+prod:eol2013 dbpedia-owl:year dbpedia-fr:2013_en_France ;
+	rdf:type semanco-eu:Wind_Energy ;
+	erdf:NbInstallation "1124" ;
+	dbpedia:Megawatt "7362" .
+
+prod:hyd2013 dbpedia-owl:year dbpedia-fr:2013_en_France ;
+	rdf:type semanco-eu:Hydro_Energy ;
+	erdf:NbInstallation "1816" ;
+	dbpedia:Megawatt "1418" .
+
+prod:pho2013 dbpedia-owl:year dbpedia-fr:2013_en_France ;
+	rdf:type semanco-eu:Solar_Energy ;
+	erdf:NbInstallation "294488" ;
+	dbpedia:Megawatt "3731" .
+
+prod:dis2014 dbpedia-owl:year dbpedia-fr:2014_en_France ;
+	rdf:type dbpedia:Fossil-fuel_power_station ;
+	erdf:NbInstallation "105" ;
+	dbpedia:Megawatt "651" .
+
+prod:hyd2014 dbpedia-owl:year dbpedia-fr:2014_en_France ;
+	rdf:type semanco-eu:Hydro_Energy ;
+	erdf:NbInstallation "1910" ;
+	dbpedia:Megawatt "1449" .
+
+prod:biog2011 dbpedia-owl:year dbpedia-fr:2011_en_France ;
+	rdf:type dbpedia:Biogas ;
+	erdf:NbInstallation "146" ;
+	dbpedia:Megawatt "197" .
+
+prod:dech2011 dbpedia-owl:year dbpedia-fr:2011_en_France ;
+	rdf:type dbpedia:Municipal_solid_waste ;
+	erdf:NbInstallation "73" ;
+	dbpedia:Megawatt "457" .
+
+prod:hyd2011 dbpedia-owl:year dbpedia-fr:2011_en_France ;
+	rdf:type semanco-eu:Hydro_Energy ;
+	erdf:NbInstallation "1782" ;
+	dbpedia:Megawatt "1380" .
+
+prod:cog2012 dbpedia-owl:year dbpedia-fr:2012_en_France ;
+	rdf:type semanco-eu:Combined_Heat_And_Power_Generator ;
+	erdf:NbInstallation "527" ;
+	dbpedia:Megawatt "1819" .
+
+prod:biom2014 dbpedia-owl:year dbpedia-fr:2014_en_France ;
+	rdf:type semanco-eu:Biomass ;
+	erdf:NbInstallation "35" ;
+	dbpedia:Megawatt "126" .
+
+prod:cog2014 dbpedia-owl:year dbpedia-fr:2014_en_France ;
+	rdf:type semanco-eu:Combined_Heat_And_Power_Generator ;
+	erdf:NbInstallation "527" ;
+	 dbpedia:Megawatt "1726" .
+
+prod:dech2014 dbpedia-owl:year dbpedia-fr:2014_en_France ;
+	rdf:type dbpedia:Municipal_solid_waste ;
+	erdf:NbInstallation "77" ;
+	 dbpedia:Megawatt "507" .
+
+prod:cog2010 dbpedia-owl:year dbpedia-fr:2010_en_France ;
+	rdf:type semanco-eu:Combined_Heat_And_Power_Generator ;
+	erdf:NbInstallation "618" ;
+	 dbpedia:Megawatt "2087" .
+
+prod:hyd2010 dbpedia-owl:year dbpedia-fr:2010_en_France ;
+	rdf:type semanco-eu:Hydro_Energy ;
+	erdf:NbInstallation "1748" ;
+	 dbpedia:Megawatt "1324" .
+
+prod:cog2011 dbpedia-owl:year dbpedia-fr:2011_en_France ;
+	rdf:type semanco-eu:Combined_Heat_And_Power_Generator ;
+	erdf:NbInstallation "555" ;
+	 dbpedia:Megawatt "1952" .
+
+prod:dis2013 dbpedia-owl:year dbpedia-fr:2013_en_France ;
+	rdf:type dbpedia:Fossil-fuel_power_station ;
+	erdf:NbInstallation "99" ;
+	 dbpedia:Megawatt "649" .
+
+prod:cog2013 rdf:type semanco-eu:Combined_Heat_And_Power_Generator ;
+	dbpedia-owl:year dbpedia-fr:2013_en_France ;
+	erdf:NbInstallation "516" ;
+	dbpedia:Megawatt "1718" .
+
+prod:dech2013 dbpedia-owl:year dbpedia-fr:2013_en_France ;
+	rdf:type dbpedia:Municipal_solid_waste ;
+	erdf:NbInstallation "75" ;
+	 dbpedia:Megawatt "486" .
+
+prod:biog2014 dbpedia-owl:year dbpedia-fr:2014_en_France ;
+	rdf:type dbpedia:Biogas ;
+	erdf:NbInstallation "321" ;
+	 dbpedia:Megawatt "297" .
+
+prod:biom2010 dbpedia-owl:year dbpedia-fr:2010_en_France ;
+	rdf:type semanco-eu:Biomass ;
+	erdf:NbInstallation "13" ;
+	 dbpedia:Megawatt "18" .
+
+prod:dis2011 dbpedia-owl:year dbpedia-fr:2011_en_France ;
+	rdf:type dbpedia:Fossil-fuel_power_station ;
+	erdf:NbInstallation "70" ;
+	 dbpedia:Megawatt "479" .
+
+prod:pho2011 dbpedia-owl:year dbpedia-fr:2011_en_France ;
+	rdf:type semanco-eu:Solar_Energy ;
+	erdf:NbInstallation "229027" ;
+	 dbpedia:Megawatt "2321" .
+
+prod:biog2012 dbpedia-owl:year dbpedia-fr:2012_en_France ;
+	rdf:type dbpedia:Biogas ;
+	erdf:NbInstallation "207" ;
+	 dbpedia:Megawatt "236" .
+
+prod:biom2012 dbpedia-owl:year dbpedia-fr:2012_en_France ;
+	rdf:type semanco-eu:Biomass ;
+	erdf:NbInstallation "28" ;
+	dbpedia:Megawatt "77" .
+
+prod:pho2012 dbpedia-owl:year dbpedia-fr:2012_en_France ;
+	rdf:type semanco-eu:Solar_Energy ;
+	erdf:NbInstallation "262851" ;
+	dbpedia:Megawatt "3126" .
+
+prod:biom2013 dbpedia-owl:year dbpedia-fr:2013_en_France ;
+	rdf:type semanco-eu:Biomass ;
+	erdf:NbInstallation "32" ;
+	 dbpedia:Megawatt "110" .
+
+prod:eol2014 dbpedia-owl:year dbpedia-fr:2014_en_France ;
+	rdf:type semanco-eu:Wind_Energy ;
+	erdf:NbInstallation "1212" ;
+	 dbpedia:Megawatt "8232" .
+
+prod:pho2014 dbpedia-owl:year dbpedia-fr:2014_en_France ;
+	rdf:type semanco-eu:Solar_Energy ;
+	erdf:NbInstallation "321047" ;
+	 dbpedia:Megawatt "4590" .
+
+prod:biog2010 dbpedia-owl:year dbpedia-fr:2010_en_France ;
+	rdf:type dbpedia:Biogas ;
+	erdf:NbInstallation "108" ;
+	 dbpedia:Megawatt "168" .
+
+prod:dech2010 dbpedia-owl:year dbpedia-fr:2010_en_France ;
+	rdf:type dbpedia:Municipal_solid_waste ;
+	erdf:NbInstallation "70" ;
+	 dbpedia:Megawatt "442" .
+
+prod:eol2010 dbpedia-owl:year dbpedia-fr:2010_en_France ;
+	rdf:type semanco-eu:Wind_Energy ;
+	erdf:NbInstallation "845" ;
+	 dbpedia:Megawatt "5294" .
+
+prod:biom2011 dbpedia-owl:year dbpedia-fr:2011_en_France ;
+	rdf:type semanco-eu:Biomass ;
+	erdf:NbInstallation "16" ;
+	 dbpedia:Megawatt "30" .
+
+prod:dis2012 dbpedia-owl:year dbpedia-fr:2012_en_France ;
+	rdf:type dbpedia:Fossil-fuel_power_station ;
+	erdf:NbInstallation "97" ;
+	 dbpedia:Megawatt "644" .
+
+prod:dech2012 dbpedia-owl:year dbpedia-fr:2012_en_France ;
+	rdf:type dbpedia:Municipal_solid_waste ;
+	erdf:NbInstallation "73" ;
+	 dbpedia:Megawatt "468" .
+
+prod:eol2012 dbpedia-owl:year dbpedia-fr:2012_en_France ;
+	rdf:type semanco-eu:Wind_Energy ;
+	erdf:NbInstallation "1059" ;
+	 dbpedia:Megawatt "6820" .
+
+prod:biog2013 dbpedia-owl:year dbpedia-fr:2013_en_France ;
+	rdf:type dbpedia:Biogas ;
+	erdf:NbInstallation "253" ;
+	 dbpedia:Megawatt "259" .
+	 
+semanco-eu:Biomass owl:sameAs dbpedia-fr:Bioénergie.
+
+semanco-eu:Biomass owl:sameAs dbpedia-fr:wind.
+
+
+
+# exemple de données qu'on aurait eu si on pouvait utiliser les requetes fédérées à la fac
+dbpedia-fr:2010_en_France   rdf:type dbpedia-owl:year;
+                            rdfs:label "2010 en France"@fr.
+dbpedia-fr:2011_en_France   rdf:type dbpedia-owl:year;
+                            rdfs:label "2011 en France"@fr.
+dbpedia-fr:2012_en_France   rdf:type dbpedia-owl:year;
+                            rdfs:label "2012 en France"@fr.
+dbpedia-fr:2013_en_France   rdf:type dbpedia-owl:year;
+                            rdfs:label "2013 en France"@fr.
+dbpedia-fr:2014_en_France   rdf:type dbpedia-owl:year;
+                            rdfs:label "2014 en France"@fr.
+
+	 
+	 

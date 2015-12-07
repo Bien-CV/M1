@@ -1,0 +1,18 @@
+# Requête sur le dataset "fa-par-region"
+# Auteurs : Alexis Giraudet & Thomas Minier, M1 ALMA 2015
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbpedia: <http://fr.dbpedia.org/resource/>
+PREFIX erdf: <https://erdf.opendatasoft.com/>
+PREFIX schema: <http://schema.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+# Requête donnant la puissance totale par région
+SELECT ?uri_region (SUM(?power) AS ?puissance_cumulee)
+WHERE {
+	?uri_region rdf:type dbpedia:Region .
+	?uri_production dbpedia:region ?uri_region;
+					dbpedia:Megawatt ?power .
+}
+GROUP BY ?uri_region
+ORDER BY DESC(?puissance_cumulee)

@@ -1,0 +1,104 @@
+# Fichier de mapping du dataset "fa-par-region" pour le projet de Web Sémantique
+# Auteurs : Alexis Giraudet & Thomas Minier, M1 ALMA 2015
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbpedia: <http://fr.dbpedia.org/resource/>
+PREFIX erdf: <https://erdf.opendatasoft.com/>
+PREFIX schema: <http://schema.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX semanco: <http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#>
+
+CONSTRUCT {
+
+	# mapping
+    ?URI_REGION rdf:type dbpedia:Region;
+		owl:sameAs ?URI_REGION_DBPEDIA;
+		owl:sameAs ?URI_REGION_PARC;
+		owl:sameAs ?URI_BILAN_POWER;
+		schema:GeoShape ?GEO_SHAPE;
+		schema:longitude ?LONGITUDE;
+		schema:latitude ?LATITUDE.
+
+	?URI_PRODUCTION	rdf:type ?TYPE_PRODUCTION;
+					dbpedia:region ?URI_REGION;
+					erdf:NbInstallation ?NOMBRE_INSTALLATIONS;
+		 			dbpedia:Megawatt ?PUISSANCE_CUMULEE.
+
+  }
+  FROM <file:fa-par-region.csv#delimiter=%3B;encoding=utf-8>
+  WHERE {
+	# on construit le type pour chaque champ
+	BIND( STRDT(?Geo_Shape, xsd:string) AS ?GEO_SHAPE)
+
+	BIND( STRDT(?Nombre_d_installations, xsd:integer) AS ?NOMBRE_INSTALLATIONS)
+
+	BIND( STRDT(?Puissance_cumulée, xsd:float) AS ?PUISSANCE_CUMULEE)
+
+	# on extrait la latitude et on y associe le bon type
+	BIND( STRDT(STRBEFORE(?Geo_Point, ","), xsd:float) AS ?LATITUDE).
+
+	# on extrait la longitutde et on y associe le bon type
+	BIND( STRDT(SUBSTR(STRAFTER(?Geo_Point, ","), 2), xsd:float) AS ?LONGITUDE).
+
+	# on construit l'URI de la ressource par région
+	BIND(
+		URI(
+				CONCAT("https://erdf.opendatasoft.com/fa-par-region/",
+					REPLACE(?Région_administrative, " ", "_")
+				)
+		) AS ?URI_REGION).
+
+	# on construit l'URI de la ressource par type de production
+	BIND(
+		URI(
+				CONCAT("https://erdf.opendatasoft.com/fa-par-region/",
+					CONCAT(
+							REPLACE(?Région_administrative, " ", "_"),
+							CONCAT("/", ?Type_de_production)
+					)
+				)
+		) AS ?URI_PRODUCTION).
+
+	# on construit l'URI de la région sur DBpedia (avec le cas spécial de la Région Centre)
+	BIND(
+		URI(
+				CONCAT("http://fr.dbpedia.org/resource/",
+					REPLACE(REPLACE(?Région_administrative, " ", "_"), "Centre", "Région_Centre")
+				)
+		) AS ?URI_REGION_DBPEDIA).
+
+	# on construit l'URI du type de production
+	BIND(
+		URI(
+				CONCAT("http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#",
+					REPLACE(
+						REPLACE(
+							REPLACE(
+								REPLACE(?Type_de_production,
+									"Bio énergie", "Biomass"
+								),
+								"Eolien", "Wind_Energy"
+							)
+						,"Photovoltaïque", "Solar_Energy"
+						)
+						, "Hydraulique", "Hydro_Energy")
+					)
+		) AS ?TYPE_PRODUCTION).
+
+	# Liens avec les autres graphes
+	# on construit l'URI de la ressource par région pour le graphe "parc raccorde par region"
+	BIND(
+		URI(
+				CONCAT("https://erdf.opendatasoft.com/parc-raccorde-par-region/",
+					REPLACE(?Région_administrative, " ", "_")
+				)
+		) AS ?URI_REGION_PARC).
+
+	# même chose pour le graphe "bilan électirque par puissance installée"
+	BIND(
+		URI(
+				CONCAT("https://erdf.opendatasoft.com/bilan-electrique-puissance-installee/",
+					REPLACE(?Région_administrative, " ", "_")
+				)
+		) AS ?URI_BILAN_POWER).
+  }

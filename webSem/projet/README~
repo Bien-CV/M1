@@ -1,0 +1,17 @@
+---------------------------------------
+Auteurs: Moreau Benjamin & Grall Arnaud
+---------------------------------------
+- Tout a été compilé à partir de Tarql <https://github.com/tarql/tarql>
+
+- Et a été converti au format rdf gràce à <http://www.l3s.de/~minack/rdf2rdf/>
+
+Commande pour Tarql et le convertisseur d'un coup :
+	->	./tarql construct.sparql > resultat.ttl
+	->  java -jar rdf2rdf-1.0.1-2.3.1.jar resultat.ttl resultat.rdf
+
+- Tout a été testé sur Jena 3.0
+
+----------------------------------------------------------------------------------------------------
+IMPORTANT ! LES RDF/XML SONT ENORMES !!!!
+FAIRE LES TESTS SUR RESULTAT_1000.RDF ne contenant que les 1000 premières instances du resultat.rdf 
+----------------------------------------------------------------------------------------------------

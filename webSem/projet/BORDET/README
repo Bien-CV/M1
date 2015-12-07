@@ -1,0 +1,16 @@
+---------------------------------------
+BORDET Dennis et Joachim
+---------------------------------------
+
+
+---------------------------------------
+Outils utilisés
+---------------------------------------
+DATALIFT pour la conversion de csv vers rdf
+
+EASY RDF CONVERTER pour la conversion de rdf vers turtle et vice versa
+
+ECLIPSE 3.8 avec JENA 3.0 pour executer les requetes sparql sur le fichier rdf
+---------------------------------------
+
+

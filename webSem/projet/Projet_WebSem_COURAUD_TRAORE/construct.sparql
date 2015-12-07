@@ -1,0 +1,38 @@
+PREFIX ex: <http://ex.org/a#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbpedia: <http://dbpedia.org/ontology/>
+PREFIX w3: <http://www.w3.org/ns/org#>
+PREFIX rdfs: <http://www.w3.org/TR/rdf-schema/>
+
+CONSTRUCT{
+	?URI rdfs:comment ?indic_en.
+	?URI w3:unitOf ?unit.
+	?URI dbpedia:country ?geo.
+	?URI ex:value2013 ?value2013.
+	?URI ex:value2012 ?value2012.
+	?URI ex:value2011 ?value2011.
+	?URI ex:value2010 ?value2010.
+	?URI ex:value2009 ?value2009.
+	?URI ex:value2008 ?value2008.
+	?URI ex:value2007 ?value2007.
+	?URI ex:value2006 ?value2006.
+	?URI ex:value2005 ?value2005.
+	?URI ex:value2004 ?value2004.
+}
+
+FROM <file:/comptes/E14D105L/Bureau/Projet_WebSem/dataset.csv> 
+WHERE {
+  BIND (URI(CONCAT('http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/', ?id)) AS ?URI)
+  BIND (xsd:decimal(?2013) AS ?value2013)
+  BIND (xsd:decimal(?2012) AS ?value2012)
+  BIND (xsd:decimal(?2011) AS ?value2011)
+  BIND (xsd:decimal(?2010) AS ?value2010)
+  BIND (xsd:decimal(?2009) AS ?value2009)
+  BIND (xsd:decimal(?2008) AS ?value2008)
+  BIND (xsd:decimal(?2007) AS ?value2007)
+  BIND (xsd:decimal(?2006) AS ?value2006)
+  BIND (xsd:decimal(?2005) AS ?value2005)
+  BIND (xsd:decimal(?2004) AS ?value2004)
+	
+}
+

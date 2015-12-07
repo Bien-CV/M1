@@ -1,0 +1,13 @@
+PREFIX ex: <http://ex.org/a#>
+PREFIX dbpedia: <http://dbpedia.org/ontology/>
+PREFIX rdfs: <http://www.w3.org/TR/rdf-schema/>
+SELECT ?pays ?part2008
+WHERE{
+?x rdfs:comment "part des énergies renouvelables dans la consommation finale brute d'énergie".
+?x ex:value2008 ?part2008.
+?x dbpedia:country ?pays.
+MINUS{
+?x dbpedia:country "EU28".
+}
+}
+ORDER BY(?part2004)

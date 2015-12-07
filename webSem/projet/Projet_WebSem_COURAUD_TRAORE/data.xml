@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://www.w3.org/TR/rdf-schema/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:ns1="http://dbpedia.org/ontology/"
+         xmlns:ns2="http://ex.org/a#">
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_AT">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>AT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.4</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.5</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.5</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.9</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_BE">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>BE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.9</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.2</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.3</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_BG">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>BG</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.0</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.3</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.2</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_CY">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>CY</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.6</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.3</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_CZ">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>CZ</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.4</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.5</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_DE">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>DE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.4</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.9</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.7</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.7</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_DK">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>DK</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.2</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.6</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.0</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.8</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.9</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.6</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_EE">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>EE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.5</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.6</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.9</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.1</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.5</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_EL">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>EL</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.0</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.5</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_ES">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>ES</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.4</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.3</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.8</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.7</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_EU28">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>EU28</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.0</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.3</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.5</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.9</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.7</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_FI">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>FI</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.8</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.5</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.5</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.4</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_FR">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>FR</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.2</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.6</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.2</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.3</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.6</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_HR">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>HR</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.0</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.3</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.1</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.8</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_HU">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>HU</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.8</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.6</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_IE">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>IE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.8</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.3</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.6</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.6</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_IT">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>IT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_LT">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>LT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.0</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.7</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.7</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_LU">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>LU</ns1:country>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_LV">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>LV</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.5</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.8</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.3</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_MT">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>MT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_NL">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>NL</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.3</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_NO">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>NO</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65.5</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65.9</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">64.7</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">61.2</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">64.8</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">61.8</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60.3</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">59.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_PL">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>PL</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.3</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.9</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.3</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.2</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.7</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.7</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.9</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.9</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_PT">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>PT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.0</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.7</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.2</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.4</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.8</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.5</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_RO">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>RO</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.9</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.7</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.3</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.6</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_SE">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>SE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.2</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.2</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44.1</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.5</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_SI">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>SI</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.5</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.2</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.3</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_SK">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>SK</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.8</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.3</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.0</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.7</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.3</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.9</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CFBE_UK">
+    <ns0:comment>part des énergies renouvelables dans la consommation finale brute d'énergie</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>UK</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.3</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.4</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_AT">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>AT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.5</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.7</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.3</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.5</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_BE">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>BE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.3</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_BG">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>BG</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_CY">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>CY</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.9</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_CZ">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>CZ</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.6</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_DE">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>DE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.3</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.9</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.5</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_DK">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>DK</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.3</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_EE">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>EE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_EL">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>EL</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.9</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_ES">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>ES</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.9</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_EU28">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>EU28</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.4</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_FI">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>FI</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.9</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.4</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_FR">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>FR</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.2</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.2</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.8</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.7</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_HR">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>HR</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_HU">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>HU</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.3</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_IE">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>IE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.9</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_IT">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>IT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_LT">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>LT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.7</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_LU">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>LU</ns1:country>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_LV">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>LV</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.3</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.3</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_MT">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>MT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.3</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_NL">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>NL</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_NO">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>NO</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.3</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_PL">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>PL</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.5</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.3</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_PT">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>PT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.3</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.3</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_RO">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>RO</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_SE">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>SE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.9</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.2</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.9</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.7</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_SI">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>SI</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_SK">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>SK</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.3</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/T_UK">
+    <ns0:comment>part des énergies renouvelables dans les transport</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>UK</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_AT">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>AT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">68.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">66.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">66.0</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">67.8</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65.2</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">64.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">62.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">62.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_BE">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>BE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.3</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.3</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.2</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.4</ns2:value2005>
+    <ns2:value2004 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.7</ns2:value2004>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_BG">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>BG</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.9</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.3</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.3</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_CY">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>CY</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_CZ">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>CZ</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.8</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.6</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.6</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.5</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.4</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.2</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_DE">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>DE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.6</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.4</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.8</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_DK">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>DK</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.7</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.9</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.7</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_EE">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>EE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.0</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.3</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_EL">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>EL</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.2</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.8</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.3</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.3</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.9</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_ES">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>ES</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.4</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.6</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.8</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.7</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.7</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.1</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_EU28">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>EU28</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.4</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.7</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.6</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.1</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.3</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_FI">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>FI</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.6</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.5</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.9</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_FR">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>FR</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.9</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_HR">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>HR</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.2</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.6</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.8</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_HU">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>HU</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_IE">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>IE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.9</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.3</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.5</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.4</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.2</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.7</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_IT">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>IT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.3</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.5</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.8</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.9</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.3</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_LT">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>LT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.9</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.0</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.9</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_LU">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>LU</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.3</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.3</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_LV">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>LV</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.8</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44.9</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44.7</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.9</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.7</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_MT">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>MT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_NL">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>NL</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.8</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.3</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_NO">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>NO</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">105.5</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">104.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">105.5</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">97.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">104.7</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">98.5</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_PL">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>PL</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.7</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.6</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.8</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_PT">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>PT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">49.2</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.6</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.6</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.3</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.3</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.7</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_RO">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>RO</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.5</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.6</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.9</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.1</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_SE">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>SE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">61.8</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60.0</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">59.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">56.0</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">58.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.8</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.9</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_SI">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>SI</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.8</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.8</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.8</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.7</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.7</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_SK">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>SK</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.8</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.3</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.8</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.7</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.7</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.5</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/E_UK">
+    <ns0:comment>part des energies renouvelables dans l'electricité</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>UK</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.9</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.8</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.7</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_AT">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>AT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.5</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.7</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.5</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.6</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.8</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.5</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.6</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_BE">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>BE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.7</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.3</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.2</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_BG">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>BG</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.2</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.9</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.7</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.8</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.3</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_CY">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>CY</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.7</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.2</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.1</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_CZ">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>CZ</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.3</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.6</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.8</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.1</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_DE">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>DE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.2</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.4</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.3</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.9</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_DK">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>DK</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.8</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.0</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.5</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.0</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.1</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_EE">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>EE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.3</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.8</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.7</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.7</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_EL">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>EL</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.5</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.4</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.5</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_ES">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>ES</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.9</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.6</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.6</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.7</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.3</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_EU28">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>EU28</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.5</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.1</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.0</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.1</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.7</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.0</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.9</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.3</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_FI">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>FI</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.9</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.5</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.4</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_FR">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>FR</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.3</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.3</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.3</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.2</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.4</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.1</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.4</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_HR">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>HR</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.1</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.3</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.6</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.0</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.6</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.4</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_HU">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>HU</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.5</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.3</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.0</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.5</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_IE">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>IE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_IT">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>IT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.0</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.9</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.7</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.4</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.9</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.8</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_LT">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>LT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.5</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.7</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.2</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.4</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.8</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.8</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.7</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.1</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_LU">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>LU</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_LV">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>LV</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">49.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44.8</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.9</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.9</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.7</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_MT">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>MT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.7</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.4</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_NL">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>NL</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.6</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_NO">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>NO</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.8</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.8</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.6</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.5</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_PL">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>PL</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.9</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.3</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.0</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.6</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.9</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.1</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_PT">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>PT</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.5</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.0</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.9</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.5</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.0</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.1</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_RO">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>RO</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.2</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.7</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.3</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.2</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.4</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.2</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_SE">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>SE</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">67.2</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65.7</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">62.5</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60.9</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">63.5</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60.9</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">58.6</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">56.2</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.8</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_SI">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>SI</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.7</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.2</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.4</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.7</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.0</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.2</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.4</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.6</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.9</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_SK">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>SK</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.5</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.7</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.1</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.1</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.1</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.2</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ns2:value2005>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://open-data.europa.eu/part_des_energies_renouvelables_dans_l_UE/CC_UK">
+    <ns0:comment>part des energies renouvelables dans le chauffage et le climatisation</ns0:comment>
+    <org:unitOf>%</org:unitOf>
+    <ns1:country>UK</ns1:country>
+    <ns2:value2013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.6</ns2:value2013>
+    <ns2:value2012 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.3</ns2:value2012>
+    <ns2:value2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2</ns2:value2011>
+    <ns2:value2010 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</ns2:value2010>
+    <ns2:value2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.6</ns2:value2009>
+    <ns2:value2008 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.3</ns2:value2008>
+    <ns2:value2007 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</ns2:value2007>
+    <ns2:value2006 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</ns2:value2006>
+    <ns2:value2005 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</ns2:value2005>
+  </rdf:Description>
+
+</rdf:RDF>

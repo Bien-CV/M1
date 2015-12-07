@@ -7,8 +7,20 @@
 @prefix dbpedia-fr: <http://fr.dbpedia.org/page/>.
 @prefix dbpedia: <http://dbpedia.org/page/>.
 @prefix semanco-eu: <http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#>.
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
+#partie void
+<https://erdf.opendatasoft.com/typeProductionAnnee> rdf:type void:Dataset ;
+		                                            dcterms:title "historique-parc-racc"^^xsd:string ;
+	                                              	dcterms:description "Historique du parc des installations de production raccordées sur le réseau ERDF"^^xsd:string ;
+		                                            foaf:homepage <https://erdf.opendatasoft.com/explore/dataset/historique-parc-racc/?tab=table>;
+		                                            dcterms:subject <http://dbpedia.org/page/Energy>;
+		                                            dcterms:subject <http://dbpedia.org/page/France>;
+		                                            dcterms:subject <http://fr.dbpedia.org/page/%C3%89lectricit%C3%A9_R%C3%A9seau_Distribution_France>.
 
 
 
@@ -217,6 +229,9 @@ semanco-eu:Biomass owl:sameAs dbpedia-fr:Bioénergie.
 
 semanco-eu:Biomass owl:sameAs dbpedia-fr:wind.
 
+
+
+# exemple de données qu'on aurait eu si on pouvait utiliser les requetes fédérées à la fac
 dbpedia-fr:2010_en_France   rdf:type dbpedia-owl:year;
                             rdfs:label "2010 en France"@fr.
 dbpedia-fr:2011_en_France   rdf:type dbpedia-owl:year;

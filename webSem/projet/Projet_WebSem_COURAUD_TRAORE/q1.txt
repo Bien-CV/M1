@@ -1,0 +1,20 @@
+PREFIX ex: <http://ex.org/a#>
+PREFIX dbpedia: <http://dbpedia.org/ontology/>
+PREFIX rdfs: <http://www.w3.org/TR/rdf-schema/>
+SELECT (SUM(?part2013)/COUNT(?part2013) AS ?part2013_pays_UE) (SUM(?part2013_28UE)/COUNT(?part2013_28UE) AS ?part2013_UE28)
+WHERE{
+?x rdfs:comment "part des énergies renouvelables dans la consommation finale brute d'énergie".
+?x ex:value2013 ?part2013.
+
+?y rdfs:comment "part des énergies renouvelables dans la consommation finale brute d'énergie".
+?y dbpedia:country "EU28".
+?y ex:value2013 ?part2013_28UE.
+
+MINUS{
+?x dbpedia:country "EU28".}
+
+MINUS{
+?x dbpedia:country "NO".
+}
+}
+

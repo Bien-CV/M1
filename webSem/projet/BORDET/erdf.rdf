@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:void="http://rdfs.org/ns/void#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:ns0="http://fr.dbpedia.org/ontology/"
+         xmlns:ns1="https://erdf.opendatasoft.com/erdf/"
+         xmlns:ns2="http://dbpedia.org/page/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <void:Dataset rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee">
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">historique-parc-racc</dc:title>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Historique du parc des installations de production raccordées sur le réseau ERDF</dc:description>
+    <foaf:homepage rdf:resource="https://erdf.opendatasoft.com/explore/dataset/historique-parc-racc/?tab=table"/>
+    <dc:subject rdf:resource="http://dbpedia.org/page/Energy"/>
+    <dc:subject rdf:resource="http://dbpedia.org/page/France"/>
+    <dc:subject rdf:resource="http://fr.dbpedia.org/page/%C3%89lectricit%C3%A9_R%C3%A9seau_Distribution_France"/>
+  </void:Dataset>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/dis2010">
+    <rdf:type rdf:resource="http://dbpedia.org/page/Fossil-fuel_power_station"/>
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2010_en_France"/>
+    <ns1:NbInstallation>78</ns1:NbInstallation>
+    <ns2:Megawatt>535</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/pho2010">
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Solar_Energy"/>
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2010_en_France"/>
+    <ns1:NbInstallation>143112</ns1:NbInstallation>
+    <ns2:Megawatt>808</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/eol2011">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2011_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Wind_Energy"/>
+    <ns1:NbInstallation>967</ns1:NbInstallation>
+    <ns2:Megawatt>6063</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/hyd2012">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2012_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Hydro_Energy"/>
+    <ns1:NbInstallation>1732</ns1:NbInstallation>
+    <ns2:Megawatt>1401</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/eol2013">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2013_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Wind_Energy"/>
+    <ns1:NbInstallation>1124</ns1:NbInstallation>
+    <ns2:Megawatt>7362</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/hyd2013">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2013_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Hydro_Energy"/>
+    <ns1:NbInstallation>1816</ns1:NbInstallation>
+    <ns2:Megawatt>1418</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/pho2013">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2013_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Solar_Energy"/>
+    <ns1:NbInstallation>294488</ns1:NbInstallation>
+    <ns2:Megawatt>3731</ns2:Megawatt>
+  </rdf:Description>
+
+  <ns2:Fossil-fuel_power_station rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/dis2014">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2014_en_France"/>
+    <ns1:NbInstallation>105</ns1:NbInstallation>
+    <ns2:Megawatt>651</ns2:Megawatt>
+  </ns2:Fossil-fuel_power_station>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/hyd2014">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2014_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Hydro_Energy"/>
+    <ns1:NbInstallation>1910</ns1:NbInstallation>
+    <ns2:Megawatt>1449</ns2:Megawatt>
+  </rdf:Description>
+
+  <ns2:Biogas rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/biog2011">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2011_en_France"/>
+    <ns1:NbInstallation>146</ns1:NbInstallation>
+    <ns2:Megawatt>197</ns2:Megawatt>
+  </ns2:Biogas>
+
+  <ns2:Municipal_solid_waste rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/dech2011">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2011_en_France"/>
+    <ns1:NbInstallation>73</ns1:NbInstallation>
+    <ns2:Megawatt>457</ns2:Megawatt>
+  </ns2:Municipal_solid_waste>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/hyd2011">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2011_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Hydro_Energy"/>
+    <ns1:NbInstallation>1782</ns1:NbInstallation>
+    <ns2:Megawatt>1380</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/cog2012">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2012_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Combined_Heat_And_Power_Generator"/>
+    <ns1:NbInstallation>527</ns1:NbInstallation>
+    <ns2:Megawatt>1819</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/biom2014">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2014_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Biomass"/>
+    <ns1:NbInstallation>35</ns1:NbInstallation>
+    <ns2:Megawatt>126</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/cog2014">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2014_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Combined_Heat_And_Power_Generator"/>
+    <ns1:NbInstallation>527</ns1:NbInstallation>
+    <ns2:Megawatt>1726</ns2:Megawatt>
+  </rdf:Description>
+
+  <ns2:Municipal_solid_waste rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/dech2014">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2014_en_France"/>
+    <ns1:NbInstallation>77</ns1:NbInstallation>
+    <ns2:Megawatt>507</ns2:Megawatt>
+  </ns2:Municipal_solid_waste>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/cog2010">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2010_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Combined_Heat_And_Power_Generator"/>
+    <ns1:NbInstallation>618</ns1:NbInstallation>
+    <ns2:Megawatt>2087</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/hyd2010">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2010_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Hydro_Energy"/>
+    <ns1:NbInstallation>1748</ns1:NbInstallation>
+    <ns2:Megawatt>1324</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/cog2011">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2011_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Combined_Heat_And_Power_Generator"/>
+    <ns1:NbInstallation>555</ns1:NbInstallation>
+    <ns2:Megawatt>1952</ns2:Megawatt>
+  </rdf:Description>
+
+  <ns2:Fossil-fuel_power_station rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/dis2013">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2013_en_France"/>
+    <ns1:NbInstallation>99</ns1:NbInstallation>
+    <ns2:Megawatt>649</ns2:Megawatt>
+  </ns2:Fossil-fuel_power_station>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/cog2013">
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Combined_Heat_And_Power_Generator"/>
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2013_en_France"/>
+    <ns1:NbInstallation>516</ns1:NbInstallation>
+    <ns2:Megawatt>1718</ns2:Megawatt>
+  </rdf:Description>
+
+  <ns2:Municipal_solid_waste rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/dech2013">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2013_en_France"/>
+    <ns1:NbInstallation>75</ns1:NbInstallation>
+    <ns2:Megawatt>486</ns2:Megawatt>
+  </ns2:Municipal_solid_waste>
+
+  <ns2:Biogas rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/biog2014">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2014_en_France"/>
+    <ns1:NbInstallation>321</ns1:NbInstallation>
+    <ns2:Megawatt>297</ns2:Megawatt>
+  </ns2:Biogas>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/biom2010">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2010_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Biomass"/>
+    <ns1:NbInstallation>13</ns1:NbInstallation>
+    <ns2:Megawatt>18</ns2:Megawatt>
+  </rdf:Description>
+
+  <ns2:Fossil-fuel_power_station rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/dis2011">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2011_en_France"/>
+    <ns1:NbInstallation>70</ns1:NbInstallation>
+    <ns2:Megawatt>479</ns2:Megawatt>
+  </ns2:Fossil-fuel_power_station>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/pho2011">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2011_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Solar_Energy"/>
+    <ns1:NbInstallation>229027</ns1:NbInstallation>
+    <ns2:Megawatt>2321</ns2:Megawatt>
+  </rdf:Description>
+
+  <ns2:Biogas rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/biog2012">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2012_en_France"/>
+    <ns1:NbInstallation>207</ns1:NbInstallation>
+    <ns2:Megawatt>236</ns2:Megawatt>
+  </ns2:Biogas>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/biom2012">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2012_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Biomass"/>
+    <ns1:NbInstallation>28</ns1:NbInstallation>
+    <ns2:Megawatt>77</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/pho2012">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2012_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Solar_Energy"/>
+    <ns1:NbInstallation>262851</ns1:NbInstallation>
+    <ns2:Megawatt>3126</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/biom2013">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2013_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Biomass"/>
+    <ns1:NbInstallation>32</ns1:NbInstallation>
+    <ns2:Megawatt>110</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/eol2014">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2014_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Wind_Energy"/>
+    <ns1:NbInstallation>1212</ns1:NbInstallation>
+    <ns2:Megawatt>8232</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/pho2014">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2014_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Solar_Energy"/>
+    <ns1:NbInstallation>321047</ns1:NbInstallation>
+    <ns2:Megawatt>4590</ns2:Megawatt>
+  </rdf:Description>
+
+  <ns2:Biogas rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/biog2010">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2010_en_France"/>
+    <ns1:NbInstallation>108</ns1:NbInstallation>
+    <ns2:Megawatt>168</ns2:Megawatt>
+  </ns2:Biogas>
+
+  <ns2:Municipal_solid_waste rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/dech2010">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2010_en_France"/>
+    <ns1:NbInstallation>70</ns1:NbInstallation>
+    <ns2:Megawatt>442</ns2:Megawatt>
+  </ns2:Municipal_solid_waste>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/eol2010">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2010_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Wind_Energy"/>
+    <ns1:NbInstallation>845</ns1:NbInstallation>
+    <ns2:Megawatt>5294</ns2:Megawatt>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/biom2011">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2011_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Biomass"/>
+    <ns1:NbInstallation>16</ns1:NbInstallation>
+    <ns2:Megawatt>30</ns2:Megawatt>
+  </rdf:Description>
+
+  <ns2:Fossil-fuel_power_station rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/dis2012">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2012_en_France"/>
+    <ns1:NbInstallation>97</ns1:NbInstallation>
+    <ns2:Megawatt>644</ns2:Megawatt>
+  </ns2:Fossil-fuel_power_station>
+
+  <ns2:Municipal_solid_waste rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/dech2012">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2012_en_France"/>
+    <ns1:NbInstallation>73</ns1:NbInstallation>
+    <ns2:Megawatt>468</ns2:Megawatt>
+  </ns2:Municipal_solid_waste>
+
+  <rdf:Description rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/eol2012">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2012_en_France"/>
+    <rdf:type rdf:resource="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Wind_Energy"/>
+    <ns1:NbInstallation>1059</ns1:NbInstallation>
+    <ns2:Megawatt>6820</ns2:Megawatt>
+  </rdf:Description>
+
+  <ns2:Biogas rdf:about="https://erdf.opendatasoft.com/typeProductionAnnee/biog2013">
+    <ns0:year rdf:resource="http://fr.dbpedia.org/page/2013_en_France"/>
+    <ns1:NbInstallation>253</ns1:NbInstallation>
+    <ns2:Megawatt>259</ns2:Megawatt>
+  </ns2:Biogas>
+
+  <rdf:Description rdf:about="http://semanco-tools.eu/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Biomass">
+    <owl:sameAs rdf:resource="http://fr.dbpedia.org/page/Bioénergie"/>
+    <owl:sameAs rdf:resource="http://fr.dbpedia.org/page/wind"/>
+  </rdf:Description>
+
+  <ns0:year rdf:about="http://fr.dbpedia.org/page/2010_en_France">
+    <rdfs:label xml:lang="fr">2010 en France</rdfs:label>
+  </ns0:year>
+
+  <ns0:year rdf:about="http://fr.dbpedia.org/page/2011_en_France">
+    <rdfs:label xml:lang="fr">2011 en France</rdfs:label>
+  </ns0:year>
+
+  <ns0:year rdf:about="http://fr.dbpedia.org/page/2012_en_France">
+    <rdfs:label xml:lang="fr">2012 en France</rdfs:label>
+  </ns0:year>
+
+  <ns0:year rdf:about="http://fr.dbpedia.org/page/2013_en_France">
+    <rdfs:label xml:lang="fr">2013 en France</rdfs:label>
+  </ns0:year>
+
+  <ns0:year rdf:about="http://fr.dbpedia.org/page/2014_en_France">
+    <rdfs:label xml:lang="fr">2014 en France</rdfs:label>
+  </ns0:year>
+
+</rdf:RDF>
