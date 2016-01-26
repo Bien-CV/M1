@@ -1,0 +1,16 @@
+import QtQuick 2.0
+
+Rectangle {
+    width: 360
+    height: 360
+
+    Image {
+        id: image1
+        x: 8
+        y: 8
+        width: 100
+        height: 100
+        visible: true
+        source: "qrc:/qtquickplugin/images/template_image.png"
+    }
+}
