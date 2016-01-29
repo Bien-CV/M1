@@ -16,7 +16,7 @@
 
 ----------------SERVEUR--------------------------------
 -il propose les mots
--gère les conflits (envoie de lettres simultanés)
+-gère les conflits (envoie de lettres simultanés) + conflits de noms
 -accepte les connexions des clients
 -retransmet les données à tous les clients, notamment les données envoyé par un 
 client qui vient de jouer
@@ -40,6 +40,6 @@ client qui vient de jouer
 
 ----------------Implementation--------------------------------
 
-fork ? thread ?
-ihm?
+thread
+ihm : 1er tps, terminal, ensuite peaufinage quand ca marche.
 

@@ -92,7 +92,7 @@ int main(int argc, char **argv) {
     }
     
     /* mise en attente du prgramme pour simuler un delai de transmission */
-    sleep(3);
+   //sleep(1);
      
     printf("message envoye au serveur. \n");
                 

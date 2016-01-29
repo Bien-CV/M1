@@ -5,7 +5,7 @@
 #include<cstdint>
 #include<iostream>
 #include<vector>
-#include<thread>
+#include<pthread>
 #include<mutex>
 
 
