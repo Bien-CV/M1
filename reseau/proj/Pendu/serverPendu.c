@@ -21,30 +21,33 @@ void renvoi (int sock) {
 
     char buffer[256];
     int longueur;
-   
-    if ((longueur = read(sock, buffer, sizeof(buffer))) <= 0)
-    
-    	return;
-    
-    printf("message lu : %s \n", buffer);
-    
-    
-    buffer[0] = 'R';
-    buffer[1] = 'E';
-    buffer[longueur] = '#';
-    buffer[longueur+1] ='\0';
-    
-    printf("message apres traitement : %s \n", buffer);
-    
-    printf("renvoi du message traite.\n");
+    int i;
+   for(i=0; i<10;++i){
+		  
+		  
+      if ((longueur = read(sock, buffer, sizeof(buffer))) <= 0){
+         printf("rien du tout \n");
+      	return;
+      }
+      
+      printf("essai %d : %s \n", i+1, buffer);
+      
+      
+      buffer[0] = 'R';
+      buffer[1] = 'E';
+      buffer[longueur] = '#';
+      buffer[longueur+1] ='\0';
+      
+      
+      printf("renvoi du message traite.\n");
 
-    /* mise en attente du prgramme pour simuler un delai de transmission */
-    sleep(3);
-    
-    write(sock,buffer,strlen(buffer)+1);
-    
-    printf("message envoye. \n");
-        
+      /* mise en attente du prgramme pour simuler un delai de transmission */
+      sleep(3);
+      
+      write(sock,buffer,strlen(buffer)+1);
+      
+      printf("message envoye. \n");
+    }   
     return;
     
 }
@@ -80,6 +83,7 @@ main(int argc, char **argv) {
     void *fct_thread(void * p_data){
     int *sock_des = p_data;
 		printf("reception d'un message sur sock %d\n",*sock_des );
+		
 		renvoi(*sock_des);
 		close(*sock_des);
 		(void) p_data;
