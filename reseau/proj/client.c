@@ -92,7 +92,7 @@ int main(int argc, char **argv) {
     }
     
     /* mise en attente du prgramme pour simuler un delai de transmission */
-   //sleep(1);
+   sleep(3);
      
     printf("message envoye au serveur. \n");
                 
@@ -102,7 +102,7 @@ int main(int argc, char **argv) {
 	write(1,buffer,longueur);
     }
     
-    printf("\nfin de la reception.\n");
+    printf("\nfin de la reception. %d\n", socket_descriptor);
     
     close(socket_descriptor);
     
