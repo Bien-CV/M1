@@ -22,13 +22,13 @@ void renvoi (int sock) {
     char buffer[256];
     int longueur;
     int i;
-   for(i=0; i<10;++i){
+   //for(i=0; i<10;++i){
 		  
 		  
       if ((longueur = read(sock, buffer, sizeof(buffer))) <= 0){
          printf("rien du tout \n");
       	return;
-      }
+     // }
       
       printf("essai %d : %s \n", i+1, buffer);
       
@@ -81,14 +81,13 @@ main(int argc, char **argv) {
     gethostname(machine,TAILLE_MAX_NOM);		/* recuperation du nom de la machine */
     
     void *fct_thread(void * p_data){
-    int *sock_des = p_data;
+    	int *sock_des = p_data;
 		printf("reception d'un message sur sock %d\n",*sock_des );
 		
 		renvoi(*sock_des);
 		close(*sock_des);
 		(void) p_data;
-   return NULL;
-		
+   		return NULL;
 	}
     /* recuperation de la structure d'adresse en utilisant le nom */
     if ((ptr_hote = gethostbyname(machine)) == NULL) {
@@ -165,14 +164,13 @@ main(int argc, char **argv) {
             perror("could not create thread");
             return 1;  
         }
-
-		if(i==1){
-		  for( j=0; j<2;++j){
-        pthread_join(thread_id[j],NULL);
-      }
-		  close(socket_descriptor);
-		}
+       
+		
   }
+  for( j=0; j<2;++j){
+  	pthread_join(thread_id[j],NULL);
+  }
+		  close(socket_descriptor);
     
 
 exit(0); 
