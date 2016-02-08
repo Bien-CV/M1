@@ -1,0 +1,41 @@
+PROJET IHM musique
+
+
+//---------------la meuf-----------------
+-MIDI: notation piano roll:
+	-date deb; date fin;
+	-hauteur en midi (ex: 60 do) ou midicent (*1000)
+	- pas de timbre rythme 
+	
+	
+-division du moinocorde : division d'une octave : de do à do -> 12 notes
+-gamme de DO Majeur: piano notes blanches -> manque 5 #
+
+DO- 1 -RE- 1 -MI- 1/2 -FA- 1 -SOL- 1 -LA- 1 -SI- 1/2 -DO
+^gamme avec ecart de ton
+
+
+choisir un cadre : classique/ jazz/ contemporain
+
+-clef de sol, violon, fulte ~voix humaine
+
+-clef de fa, pianoforte
+
+-clef ut entre les 2
+
+
+-tempo, mesure (4,4): 4 noires
+
+
+
+
+//--------------recap---------------------------
+
+- clé de sol do-do (2 octaves)
+- mesure 4/4 noir blanche croches
+- partitions visible + marqueur temporel
+- altérations
+- input piano
+- midi en lecture
+- paperProt
+- storyboard
