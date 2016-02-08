@@ -4,40 +4,17 @@
 #include<vector>
 #include<chrono>
 #include<tbb/blocked_range.h>
-#include<tbb/parallel_for.h>
+#include "tbb/parallel_for.h"
+//#include<tbb>
+
 using namespace std;
 using namespace tbb;
 
-//// g++ −Wall −o para_for para_for.cpp −ltbb
+//g++ -Wall -o para_search search-seq-2cores.cpp -std=c++11 -ltbb
+
 typedef blocked_range<int> range;
 //-----------------class searchSeq-------------------
-class searchSeq{
-public:
-	searchSeq(vector<string>& a), int v): T(a), len(v){}
-	void operator()(const range& r) const{
-		for(string line : dico)
-		{
-			if(line.size()==len){
-				cpt = 0;
-				for(i = 0; i<len;++i){
-					if(  chaine[i]=='.' or line[i] ==chaine[i]){
-						cpt++;
-					}else{
-						break;
-					}
-				}
-				if(cpt==len){
-					cout<<line<<endl;
-				}
-			}
-	  		
-		}
-	}
-private:
-	vector<string>& T;
-	int len;
-	
-};
+
 int main(int argc, char** argv){
 	if(argc!=2){ // argument 0 = nom du prog, argument 1 = premier argument
 		cout << "vous devez passez le mot à trouver en parametre" << endl;
@@ -47,11 +24,41 @@ int main(int argc, char** argv){
 	
 
 
-	int cpt,i;
 	string chaine = (string)argv[1];
-	string line;
+	
 	vector<string> dico;
 	
+	class searchSeq{
+    public:
+	    searchSeq(vector<string>& a, int v, string ch): T(a), len(v), chaine(ch){}
+	    void operator()(const range& r) const{
+	      int cpt,i;
+		    for(string ligne : T)
+		    {
+			    if(ligne.size()==len){
+				    cpt = 0;
+				    for(i = 0; i<len;++i){
+					    if(  chaine[i]=='.' or ligne[i] ==chaine[i]){
+						    cpt++;
+					    }else{
+						    break;
+					    }
+				    }
+				    if(cpt==len){
+					    cout<<ligne<<endl;
+				    }
+			    }
+	      		
+		    }
+	    }
+    private:
+	    vector<string>& T;
+	    int len;
+	    string chaine;
+	
+};
+
+  string line;
 	ifstream sowpods ("sowpods.txt");
 	if(sowpods.is_open()){
 		int indice =0;
@@ -62,15 +69,15 @@ int main(int argc, char** argv){
     sowpods.close();
   	}
   	
-  	const int sz = 267751;
+  	const int sz = 267750;
     
 	//compteur
     auto begin = std::chrono::high_resolution_clock::now();
     	
-	int len= chaine.size();
+	  int len= chaine.size();
 
 	
-   	parallel_for(range(0,sz,26751/2), searchSeq(dico, len));	
+   	parallel_for(range(0,sz,267750/2), searchSeq(dico, len, chaine));	
 	
 	
 	
