@@ -1,0 +1,49 @@
+% Planification de conférence
+include "globals.mzn";
+int: n_sess = 11;
+int: n_cren = 4;
+int: sesByCrenMax = 3;
+array[1..n_sess] of var 1..n_cren: session;
+
+%au plus sesByCrenMax session par creneau
+
+constraint forall(i in 1..n_cren) (sesByCrenMax >= (sum(j in 1..n_sess)(bool2int(session[j]=i))));
+
+
+
+constraint session[4]<session[11];
+constraint session[5]<session[10];
+constraint session[6]<session[11];
+
+constraint session[1]!=session[2];
+constraint session[1]!=session[3];
+constraint session[1]!=session[5];
+constraint session[1]!=session[7];
+constraint session[1]!=session[8];
+constraint session[1]!=session[10];
+
+constraint session[2]!=session[3];
+constraint session[2]!=session[4];
+constraint session[2]!=session[7];
+constraint session[2]!=session[8];
+constraint session[2]!=session[9];
+constraint session[2]!=session[11];
+
+constraint session[3]!=session[5];
+constraint session[3]!=session[6];
+constraint session[3]!=session[8];
+
+constraint session[4]!=session[6];
+constraint session[4]!=session[8];
+constraint session[4]!=session[10];
+
+constraint session[6]!=session[7];
+constraint session[6]!=session[10];
+
+constraint session[7]!=session[8];
+constraint session[7]!=session[9];
+
+constraint session[8]!=session[10];
+
+solve minimize n_cren;
+output ["sess = ", show(session), "\n"];
