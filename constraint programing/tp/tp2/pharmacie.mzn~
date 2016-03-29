@@ -1,0 +1,30 @@
+% Planification du planning de la pharmacie de Boufféré
+%on a deja compte la stagiaire qui travail tous les jours
+%les pharmaciens travaille 1sem/2
+include "globals.mzn";
+int: N_sem;
+int: N_pers;
+int: N_persMin;
+array[1..N_sem,1..N_pers] of var 1..N_pers: jour;
+
+%au plus N_persMin personne par jour (ne travaille pas)
+
+
+constraint forall(i in 1..N_sem) (N_persMin >= (sum(j in 1..N_pers)(bool2int(jour[i]=j))));
+
+
+%chaque personne a au moins 2 jours de pause
+constraint forall(i in 1..N_pers) (2 >= (sum(j in 1..N_sem)(bool2int(jour[j]=i))));
+
+
+%d'un mois à l'autre on ne change pas la semaine pour pouvoir mieux prévoir son planning
+constraint jour[1]=jour[5];
+constraint jour[2]=jour[6];
+constraint jour[3]=jour[7];
+constraint jour[4]=jour[8];
+%constraint forall(i in 1..N_sem) jour[mod(i,4)]=jour[i];
+
+
+
+solve minimize N_pers;
+output ["jour = ", show(jour), "\n"];

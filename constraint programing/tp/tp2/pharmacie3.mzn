@@ -1,0 +1,32 @@
+% Planification du planning de la pharmacie de Boufféré
+%on a deja compte la stagiaire qui travail tous les jours
+%les pharmaciens travaille 1sem/2
+include "globals.mzn";
+int: N_sem;
+int: N_pers;
+int: N_persMin;
+array[1..N_sem,1..N_persMin] of var 1..N_pers: jour;
+%predicate alldifferent(array[1..N_sem,1..N_persMin] of var 1..N_pers: jour);
+
+
+%chaque personne travail pas 2 jours au moins
+constraint forall(k in 1..N_pers) ((sum(i in 1..N_sem,j in 1..N_persMin)(bool2int(jour[i,j]=k)))>=2);
+
+%chaque personne travail pas au plus 1 fois par jour
+constraint forall(i in 1..N_sem, k in 1..N_pers) ((sum(j in 1..N_persMin)(bool2int(jour[i,j]=k)))<=1);
+
+
+%d'un mois à l'autre on ne change pas la semaine pour pouvoir mieux prévoir son planning
+
+constraint forall(k in 1..N_persMin) (jour[1,k]=jour[5,k]);
+constraint forall(k in 1..N_persMin) (jour[2,k]=jour[6,k]);
+constraint forall(k in 1..N_persMin) (jour[3,k]=jour[7,k]);
+constraint forall(k in 1..N_persMin) (jour[4,k]=jour[8,k]);
+%constraint forall(i in 1..N_sem) jour[mod(i,4)]=jour[i];
+
+
+
+solve satisfy;
+output [show(jour[i,j]) ++
+if j == N_persMin then "\n" else " " endif |
+i in 1..N_sem, j in 1..N_persMin];

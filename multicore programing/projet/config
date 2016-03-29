@@ -1,0 +1,4 @@
+# File to put in ~/.ssh
+
+host *
+     port 2222
